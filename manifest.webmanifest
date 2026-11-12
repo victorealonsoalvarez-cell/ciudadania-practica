@@ -1,0 +1,19 @@
+{
+  "name": "Ciudadanía Práctica",
+  "short_name": "Ciudadanía",
+  "description": "Practica las preguntas de ciudadanía de Estados Unidos con apoyo en español.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f5fa",
+  "theme_color": "#173653",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
