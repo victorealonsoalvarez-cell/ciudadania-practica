@@ -1,5 +1,5 @@
-const CACHE='ciudadania-practica-v2-20261112';
-const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg'];
+const CACHE='ciudadania-practica-v3-20261112';
+const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
 });
