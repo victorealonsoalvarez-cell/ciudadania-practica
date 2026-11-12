@@ -176,20 +176,53 @@ $('record').onclick=async()=>{
   status('recordStatus','Escuchando… pulsa Detener cuando acabes.');
  }catch(e){stopStream();status('recordStatus','No se pudo activar el micrófono. Comprueba el permiso del sitio en Chrome.')}
 };
+const PREF_KEY='ciudadania-practica-study-preferences-v1';
 let chosenBank=null;
 let chosenTrack='general';
-document.querySelectorAll('input[name="track"]').forEach(r=>r.addEventListener('change',()=>{chosenTrack=r.value; if(chosenBank)$('assignment').textContent='Examen '+chosenBank+' · '+(chosenTrack==='special'?'65/20':'general')+'. Pulsa Continuar.'}));
-document.querySelectorAll('input[name="filing"]').forEach(r=>r.addEventListener('change',()=>{
- chosenBank=r.value==='2008'?'2008':'2025';
- $('assignment').textContent='Examen '+chosenBank+' · '+(chosenTrack==='special'?'65/20':'general')+'. Pulsa Continuar.';
- $('continue').disabled=false;
-}));
-$('continue').onclick=()=>{
- if(!chosenBank)return;
- $('setup').classList.add('hidden');
- QUESTIONS=chosenTrack==='special'?(chosenBank==='2008'?OLD_SPECIAL_QUESTIONS:NEW_QUESTIONS.filter(q=>q.special)):(chosenBank==='2008'?OLD_QUESTIONS:NEW_QUESTIONS); if(chosenTrack==='special'&&QUESTIONS.length!==20){alert('No se pudo cargar el banco 65/20 completo.');return} index=0;reviewOnly=false;reviewOrder=[];roundFinished=false;loadMarks();restorePracticeOrder(); $('study').classList.remove('hidden'); $('pending').classList.add('hidden');mode='practice';render();if(!orientationSeen)showOrientation();
+function readPreferences(){
+ try{
+  const p=JSON.parse(localStorage.getItem(PREF_KEY)||'null');
+  if(p&&['2008','2025','future'].includes(p.filing)&&['general','special'].includes(p.track))return p;
+ }catch(e){}
+ return null;
+}
+function savePreferences(){
+ const filing=document.querySelector('input[name="filing"]:checked')?.value;
+ if(!filing)return;
+ try{localStorage.setItem(PREF_KEY,JSON.stringify({filing,track:chosenTrack}))}catch(e){}
+}
+function updateSelection(){
+ const filing=document.querySelector('input[name="filing"]:checked')?.value;
+ chosenBank=filing?(filing==='2008'?'2008':'2025'):null;
+ chosenTrack=document.querySelector('input[name="track"]:checked')?.value||'general';
+ $('continue').disabled=!chosenBank;
+ $('assignment').textContent=chosenBank?'Examen '+chosenBank+' · '+(chosenTrack==='special'?'65/20':'general')+'. Pulsa Continuar.':'Selecciona una opción para continuar.';
+}
+document.querySelectorAll('input[name="track"],input[name="filing"]').forEach(r=>r.addEventListener('change',updateSelection));
+function startStudy(showFirstOrientation){
+ if(!chosenBank)return false;
+ const selected=chosenTrack==='special'?(chosenBank==='2008'?OLD_SPECIAL_QUESTIONS:NEW_QUESTIONS.filter(q=>q.special)):(chosenBank==='2008'?OLD_QUESTIONS:NEW_QUESTIONS);
+ if(chosenTrack==='special'&&selected.length!==20){alert('No se pudo cargar el banco 65/20 completo.');return false}
+ QUESTIONS=selected;
+ index=0;reviewOnly=false;reviewOrder=[];roundFinished=false;
+ loadMarks();restorePracticeOrder();
+ $('setup').classList.add('hidden');$('study').classList.remove('hidden');$('pending').classList.add('hidden');
+ mode='practice';render();
+ if(showFirstOrientation&&!orientationSeen)showOrientation();
  window.scrollTo(0,0);
-};
+ return true;
+}
+$('continue').onclick=()=>{updateSelection();if(startStudy(true))savePreferences()};
+const savedPreferences=readPreferences();
+if(savedPreferences){
+ const filingInput=document.querySelector('input[name="filing"][value="'+savedPreferences.filing+'"]');
+ const trackInput=document.querySelector('input[name="track"][value="'+savedPreferences.track+'"]');
+ if(filingInput&&trackInput){
+  filingInput.checked=true;trackInput.checked=true;updateSelection();
+  // Returning students go directly to their saved practice and progress.
+  orientationSeen=true;startStudy(false);
+ }
+}
 function backToSetup(){clearAudio();if('speechSynthesis' in window)speechSynthesis.cancel();cleanRecording();$('study').classList.add('hidden');$('orientation').classList.add('hidden');$('pending').classList.add('hidden');$('setup').classList.remove('hidden');window.scrollTo(0,0)}
 $('backPending').onclick=backToSetup;
 $('backStudy').onclick=backToSetup;
