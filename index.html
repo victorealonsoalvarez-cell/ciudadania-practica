@@ -1,7 +1,7 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ciudadanía — Práctica V1</title>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ciudadanía — Práctica V1</title><link rel="manifest" href="./manifest.webmanifest"><meta name="theme-color" content="#173653"><link rel="icon" type="image/svg+xml" href="./icon.svg">
 <style>
 :root{font-family:system-ui,-apple-system,sans-serif;color:#182536;background:#f2f5fa}*{box-sizing:border-box}body{margin:0}main{max-width:600px;margin:auto;padding:22px 16px 60px}h1{font-size:1.65rem;margin:6px 0}p{line-height:1.5}.muted{color:#52657a;font-size:.92rem}.card{background:white;border-radius:18px;padding:22px;margin:18px 0;box-shadow:0 5px 22px #1d35570d}.tabs{display:flex;gap:8px}.tabs button{flex:1}button{border:0;border-radius:12px;padding:13px 15px;font-weight:650;font-size:1rem;background:#e4ebf4;color:#173653;cursor:pointer}button.primary,.selected{background:#175d9d;color:white}button:disabled{opacity:.48;cursor:not-allowed}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.actions button{flex:1 1 140px}.translation{font-size:.94rem;color:#52657a;line-height:1.45;margin-top:-8px}.question{font-size:1.25rem;font-weight:650;line-height:1.45}.hidden{display:none!important}.recording{background:#b72b37;color:white}.status:not(:empty){min-height:22px}.status{font-size:.92rem;color:#36516b}audio{width:100%;margin-top:12px}.answer{white-space:pre-line;border-left:4px solid #25805b;padding:10px 14px;background:#f1faf5;border-radius:8px}.small{font-size:.85rem}.score{margin-top:12px;font-weight:600}label{display:block;margin-top:12px}.file{font-size:.85rem;max-width:100%}</style></head>
-<body><main><h1>🇺🇸 Ciudadanía</h1><p class="muted">Estudia las preguntas de educación cívica para tu naturalización, a tu ritmo.</p>
+<body><main><h1>🇺🇸 Ciudadanía</h1><p class="muted">Estudia las preguntas de educación cívica para tu naturalización, a tu ritmo.</p><div class="actions"><button id="installApp" type="button">📲 Instalar en mi celular</button></div><p id="installHelp" class="muted small hidden" role="status"></p>
 <div id="orientation" class="card hidden" role="dialog" aria-modal="true" aria-labelledby="infoTitle"><h2 id="infoTitle">Información sobre la entrevista</h2><div id="infoBody"></div><button id="infoClose" class="primary">Entendido · Comenzar</button></div><div class="card" id="setup"><strong>¿Cuándo presentaste tu solicitud de ciudadanía (N-400)?</strong>
 <p class="muted small">Seleccionaremos el banco que corresponde a tu fecha. El banco de 2025 contiene las 128 preguntas oficiales. La versión general de 2008 incluye sus 100 preguntas oficiales.</p>
 <label><input type="radio" name="filing" value="2008"> Antes del 20 de octubre de 2025</label>
@@ -244,5 +244,24 @@ $('reviewQuestions').onclick=()=>{const ids=reviewIndices();if(!ids.length){$('r
 $('previous').onclick=()=>navigatePractice(-1);
 $('newReviewRound').onclick=()=>{const ids=shuffleReview();if(!ids.length){reviewOnly=false;index=practiceOrder[practicePos];render();return}reviewOnly=true;index=ids[0];render()};
 $('clearMarks').onclick=()=>{if(!confirm('¿Borrar todas las marcas de este examen en este navegador?'))return;marks={};saveMarks();reviewOnly=false;reviewOrder=[];roundFinished=false;newPracticeOrder();render()};
+
+// Instalación PWA: Chrome/Android ofrece diálogo; iOS usa menú Compartir.
+let installEvent=null;
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installEvent=event;});
+window.addEventListener('appinstalled',()=>{installEvent=null;$('installApp').classList.add('hidden');$('installHelp').classList.add('hidden')});
+if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone){$('installApp').classList.add('hidden')}
+$('installApp').addEventListener('click',async()=>{
+ if(installEvent){
+  const prompt=installEvent;installEvent=null;
+  try{await prompt.prompt();await prompt.userChoice}catch(e){}
+  return;
+ }
+ const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);
+ $('installHelp').textContent=ios?'En tu navegador, pulsa Compartir y selecciona «Agregar a pantalla de inicio».':'Abre el menú del navegador (⋮) y selecciona «Instalar aplicación» o «Agregar a pantalla de inicio». Si no aparece, actualiza la página e inténtalo de nuevo.';
+ $('installHelp').classList.remove('hidden');
+});
+if('serviceWorker' in navigator){
+ window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+}
 window.addEventListener('pagehide',()=>{cleanRecording();clearAudio()});render();
 </script></body></html>
