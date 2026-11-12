@@ -285,8 +285,7 @@ function showPage(which){
 function openPractice(){
  showPage('practice');
  if(chosenBank){
-  if($('study').classList.contains('hidden')&&$('setup').classList.contains('hidden'))$('study').classList.remove('hidden');
-  if($('setup').classList.contains('hidden')&&$('study').classList.contains('hidden'))startStudy(false);
+  if(!$('setup').classList.contains('hidden'))startStudy(false);
   else if(!$('study').classList.contains('hidden'))render();
  }else{
   $('setup').classList.remove('hidden');$('study').classList.add('hidden');
