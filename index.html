@@ -114,7 +114,28 @@ function assessSpeech(){if(mode!=='interview'||interviewDone||interviewRated)ret
 $('restartInterview').onclick=()=>{mode='interview';beginInterview()};$('restartInterviewTop').onclick=()=>{if(interviewCorrect+interviewWrong>0&&!confirm('¿Comenzar otra entrevista? Se perderá el resultado de esta simulación.'))return;mode='interview';beginInterview()};
 $('about').onclick=showOrientation;$('infoClose').onclick=hideOrientation;
 $('audioFile').onchange=e=>{const f=e.target.files[0];clearAudio();if(!f)return;audioUrl=URL.createObjectURL(f);$('questionAudio').src=audioUrl;status('fileStatus','Grabación cargada para esta pregunta. Pulsa Escuchar pregunta.')};
-function playSpeechQuestion(){if(!('speechSynthesis' in window)){status('audioStatus','Este navegador no dispone de reproducción de voz.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(QUESTIONS[index].q);u.lang='en-US';u.rate=.92;u.pitch=1;const voices=speechSynthesis.getVoices();const us=voices.filter(v=>v.lang.toLowerCase().replace('_','-').startsWith('en-us'));u.voice=us.find(v=>/microsoft mark/i.test(v.name))||us.find(v=>/natural|neural|google/i.test(v.name))||us[0]||null;u.onerror=()=>status('audioStatus','No se pudo reproducir la pregunta.');speechSynthesis.speak(u)};
+function playSpeechQuestion(){
+ if(!('speechSynthesis' in window)){status('audioStatus','Este dispositivo no tiene voz disponible. Para escuchar sin internet, instala una voz en inglés en los ajustes de texto a voz del teléfono.');return}
+ const synth=window.speechSynthesis;
+ synth.cancel();
+ const voices=synth.getVoices();
+ const english=voices.filter(v=>/^en([-_]|$)/i.test(v.lang));
+ const offline=english.filter(v=>v.localService===true);
+ const online=navigator.onLine===false;
+ if(online&&!offline.length){
+  status('audioStatus','Sin conexión no hay una voz inglesa instalada disponible. Descarga una voz en inglés (Estados Unidos) en los ajustes de texto a voz del dispositivo mientras tengas internet.');
+  return;
+ }
+ const preferred=(online?offline:offline.length?offline:english);
+ const voice=preferred.find(v=>/^en[-_]US$/i.test(v.lang))||preferred[0]||null;
+ const u=new SpeechSynthesisUtterance(QUESTIONS[index].q);
+ u.lang='en-US';u.rate=.92;u.pitch=1;
+ if(voice)u.voice=voice;
+ u.onstart=()=>status('audioStatus','Reproduciendo pregunta en inglés.');
+ u.onend=()=>status('audioStatus','');
+ u.onerror=()=>status('audioStatus',navigator.onLine===false?'No se pudo reproducir sin conexión. Instala una voz inglesa sin conexión en los ajustes de texto a voz de tu dispositivo.':'No se pudo reproducir la pregunta. Revisa la configuración de texto a voz.');
+ synth.speak(u);
+}
 $('listen').onclick=async()=>{const sample=chosenBank==='2025'?AUDIO_SAMPLES[QUESTIONS[index].n]:null;if(!audioUrl&&sample){$('questionAudio').src=sample;try{await $('questionAudio').play();status('audioStatus','')}catch(e){status('audioStatus','Usando voz alternativa.');playSpeechQuestion()}return}if(audioUrl){try{await $('questionAudio').play();status('audioStatus','Reproduciendo grabación.')}catch(e){status('audioStatus','No se pudo reproducir este archivo de audio.')}return}playSpeechQuestion()};
 // Keep audio recording and speech recognition independent: on Android the final
 // SpeechRecognition result may arrive after MediaRecorder has stopped.
