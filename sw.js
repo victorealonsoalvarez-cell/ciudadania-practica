@@ -1,4 +1,4 @@
-const CACHE='ciudadania-practica-v1-20261112';
+const CACHE='ciudadania-practica-v2-20261112';
 const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
@@ -11,7 +11,7 @@ self.addEventListener('fetch',event=>{
  if(request.method!=='GET'||new URL(request.url).origin!==self.location.origin)return;
  if(request.mode==='navigate'){
   event.respondWith(fetch(request).then(response=>{
-   if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put('./index.html',copy));}
+   if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(c=>c.put('./index.html',copy)));}
    return response;
   }).catch(()=>caches.match('./index.html')));
   return;
