@@ -98,17 +98,77 @@ $('about').onclick=showOrientation;$('infoClose').onclick=hideOrientation;
 $('audioFile').onchange=e=>{const f=e.target.files[0];clearAudio();if(!f)return;audioUrl=URL.createObjectURL(f);$('questionAudio').src=audioUrl;status('fileStatus','Grabación cargada para esta pregunta. Pulsa Escuchar pregunta.')};
 function playSpeechQuestion(){if(!('speechSynthesis' in window)){status('audioStatus','Este navegador no dispone de reproducción de voz.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(QUESTIONS[index].q);u.lang='en-US';u.rate=.92;const voices=speechSynthesis.getVoices();const us=voices.filter(v=>v.lang.toLowerCase().replace('_','-').startsWith('en-us'));u.voice=us.find(v=>/natural|neural|google/i.test(v.name))||us[0]||null;u.onerror=()=>status('audioStatus','No se pudo reproducir la pregunta.');speechSynthesis.speak(u)};
 $('listen').onclick=async()=>{const sample=chosenBank==='2025'?AUDIO_SAMPLES[QUESTIONS[index].n]:null;if(!audioUrl&&sample){$('questionAudio').src=sample;try{await $('questionAudio').play();status('audioStatus','')}catch(e){status('audioStatus','Usando voz alternativa.');playSpeechQuestion()}return}if(audioUrl){try{await $('questionAudio').play();status('audioStatus','Reproduciendo grabación.')}catch(e){status('audioStatus','No se pudo reproducir este archivo de audio.')}return}playSpeechQuestion()};
+// Keep audio recording and speech recognition independent: on Android the final
+// SpeechRecognition result may arrive after MediaRecorder has stopped.
 $('record').onclick=async()=>{
- if(recording){$('record').disabled=true;if(speechRec){try{speechRec.stop()}catch(e){}}if(mediaRecorder&&mediaRecorder.state==='recording')mediaRecorder.stop();else{recording=false;assessSpeech()}return}
- if(!navigator.mediaDevices?.getUserMedia||!window.isSecureContext){status('recordStatus','El micrófono requiere abrir esta aplicación en un sitio HTTPS (por ejemplo, GitHub Pages).');return}
+ if(recording){
+  $('record').disabled=true;
+  recording=false;
+  const epoch=recEpoch;
+  let finalized=false, recognitionEnded=!speechRec, audioEnded=!mediaRecorder||mediaRecorder.state==='inactive';
+  const finish=()=>{
+   if(finalized||epoch!==recEpoch||!recognitionEnded||!audioEnded)return;
+   finalized=true;
+   $('record').disabled=false;
+   $('record').textContent='🎤 Responder';
+   $('record').classList.remove('recording');
+   assessSpeech();
+  };
+  if(speechRec){
+   speechRec.onend=()=>{if(epoch!==recEpoch)return;recognitionEnded=true;finish()};
+   try{speechRec.stop()}catch(e){recognitionEnded=true}
+  }
+  if(mediaRecorder&&mediaRecorder.state==='recording'){
+   const previousStop=mediaRecorder.onstop;
+   mediaRecorder.onstop=e=>{if(previousStop)previousStop(e);audioEnded=true;finish()};
+   try{mediaRecorder.stop()}catch(e){audioEnded=true}
+  }
+  // Some Android recognition services never fire onend after stop.
+  // Keep the interview usable rather than leaving the button disabled.
+  setTimeout(()=>{if(epoch!==recEpoch||finalized)return;recognitionEnded=true;audioEnded=true;finish()},2500);
+  finish();
+  return;
+ }
+ if(!navigator.mediaDevices?.getUserMedia||!window.isSecureContext){
+  status('recordStatus','El micrófono requiere abrir esta aplicación en un sitio HTTPS (por ejemplo, GitHub Pages).');return;
+ }
  try{
   stream=await navigator.mediaDevices.getUserMedia({audio:true});
   heardText='';const epoch=++recEpoch;
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-  if(SR){speechRec=new SR();speechRec.lang='en-US';speechRec.continuous=true;speechRec.interimResults=true;speechRec.maxAlternatives=1;speechRec.onresult=e=>{if(epoch!==recEpoch)return;let words=[];for(let i=0;i<e.results.length;i++)words.push(e.results[i][0].transcript);heardText=words.join(' ').trim();$('transcript').textContent='Escuchado: '+heardText};speechRec.onerror=e=>{if(epoch===recEpoch)status('recordStatus','Reconocimiento no disponible; al terminar podrás evaluar tu respuesta manualmente.')};try{speechRec.start()}catch(e){speechRec=null}}
-  if(window.MediaRecorder){const preferred=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(t=>MediaRecorder.isTypeSupported(t));mediaRecorder=new MediaRecorder(stream,preferred?{mimeType:preferred}:undefined);chunks=[];mediaRecorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};mediaRecorder.onstop=()=>{if(epoch!==recEpoch)return;const blob=new Blob(chunks,{type:mediaRecorder.mimeType||'audio/webm'});stopStream();recording=false;$('record').disabled=false;$('record').textContent='🎤 Responder';$('record').classList.remove('recording');if(recordUrl)URL.revokeObjectURL(recordUrl);recordUrl=URL.createObjectURL(blob);$('playback').src=recordUrl;$('playback').classList.remove('hidden');assessSpeech()};mediaRecorder.start()}
-  else{status('recordStatus','No hay grabación disponible; se intentará reconocer la voz.');}
-  recording=true;$('record').textContent='■ Terminar';$('record').classList.add('recording');status('recordStatus','Escuchando… pulsa Terminar cuando acabes.');
+  if(SR){
+   speechRec=new SR();speechRec.lang='en-US';
+   // Continuous recognition is unreliable on some mobile Chrome versions.
+   speechRec.continuous=false;speechRec.interimResults=true;speechRec.maxAlternatives=1;
+   speechRec.onresult=e=>{
+    if(epoch!==recEpoch)return;
+    let words=[];for(let i=0;i<e.results.length;i++)if(e.results[i][0]?.transcript)words.push(e.results[i][0].transcript);
+    heardText=words.join(' ').trim();
+    $('transcript').textContent='Escuchado: '+heardText;
+   };
+   speechRec.onerror=e=>{
+    if(epoch!==recEpoch)return;
+    const reason=e.error||'desconocido';
+    status('recordStatus','Reconocimiento de voz: '+reason+'. Puedes evaluar tu respuesta manualmente.');
+   };
+   try{speechRec.start()}catch(e){speechRec=null;status('recordStatus','Reconocimiento no disponible. Puedes evaluar tu respuesta manualmente.')}
+  }else status('recordStatus','Este navegador no ofrece reconocimiento de voz. Puedes evaluar tu respuesta manualmente.');
+  if(window.MediaRecorder){
+   const preferred=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(t=>MediaRecorder.isTypeSupported(t));
+   mediaRecorder=new MediaRecorder(stream,preferred?{mimeType:preferred}:undefined);
+   chunks=[];mediaRecorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+   mediaRecorder.onstop=()=>{
+    if(epoch!==recEpoch)return;
+    const blob=new Blob(chunks,{type:mediaRecorder.mimeType||'audio/webm'});
+    stopStream();
+    if(recordUrl)URL.revokeObjectURL(recordUrl);
+    recordUrl=URL.createObjectURL(blob);
+    $('playback').src=recordUrl;$('playback').classList.remove('hidden');
+   };
+   mediaRecorder.start();
+  }
+  recording=true;$('record').textContent='■ Detener';$('record').classList.add('recording');
+  status('recordStatus','Escuchando… pulsa Detener cuando acabes.');
  }catch(e){stopStream();status('recordStatus','No se pudo activar el micrófono. Comprueba el permiso del sitio en Chrome.')}
 };
 let chosenBank=null;
