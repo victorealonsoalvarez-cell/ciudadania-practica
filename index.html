@@ -320,20 +320,51 @@ $('shareHome').onclick=shareProject;
 $('shareStory').onclick=shareProject;
 showPage('home');
 
-// Instalación PWA: Chrome/Android ofrece diálogo; iOS usa menú Compartir.
+// Instalación PWA: el diálogo depende de Chrome; ofrecer siempre una alternativa visible.
 let installEvent=null;
-window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installEvent=event;});
-window.addEventListener('appinstalled',()=>{installEvent=null;$('installApp').classList.add('hidden');$('installHelp').classList.add('hidden')});
-if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone||!window.matchMedia('(pointer: coarse)').matches){$('installApp').classList.add('hidden')}
-$('installApp').addEventListener('click',async()=>{
- if(installEvent){
-  const prompt=installEvent;installEvent=null;
-  try{await prompt.prompt();await prompt.userChoice}catch(e){}
+const installButton=$('installApp');
+const installHelp=$('installHelp');
+function installInstructions(message){
+ const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);
+ const steps=ios?'En Safari, pulsa Compartir y elige «Agregar a pantalla de inicio».':'En Chrome, abre el menú ⋮ (arriba a la derecha) y selecciona «Instalar aplicación» o «Agregar a pantalla principal».';
+ installHelp.textContent=(message?message+' ':'')+steps;
+ installHelp.classList.remove('hidden');
+}
+window.addEventListener('beforeinstallprompt',event=>{
+ event.preventDefault();
+ installEvent=event;
+ installButton.classList.remove('hidden');
+});
+window.addEventListener('appinstalled',()=>{
+ installEvent=null;
+ installButton.classList.add('hidden');
+ installHelp.classList.add('hidden');
+});
+if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone){
+ installButton.classList.add('hidden');
+}else if(!window.matchMedia('(pointer: coarse)').matches){
+ installButton.classList.add('hidden');
+}
+installButton.addEventListener('click',async()=>{
+ // El botón siempre debe dar una respuesta, incluso si Chrome no habilita el diálogo.
+ if(!installEvent){
+  installInstructions('Chrome no ha habilitado la instalación automática en esta sesión.');
   return;
  }
- const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);
- $('installHelp').textContent=ios?'En tu navegador, pulsa Compartir y selecciona «Agregar a pantalla de inicio».':'Abre el menú del navegador (⋮) y selecciona «Instalar aplicación» o «Agregar a pantalla de inicio». Si no aparece, actualiza la página e inténtalo de nuevo.';
- $('installHelp').classList.remove('hidden');
+ const promptEvent=installEvent;
+ installEvent=null;
+ try{
+  await promptEvent.prompt();
+  const choice=await promptEvent.userChoice;
+  if(choice?.outcome!=='accepted'){
+   installInstructions('No se completó la instalación automática.');
+  }else{
+   installHelp.textContent='Chrome recibió la solicitud de instalación. Revisa la pantalla de inicio de tu celular.';
+   installHelp.classList.remove('hidden');
+  }
+ }catch(error){
+  installInstructions('No se pudo abrir el diálogo de instalación.');
+ }
 });
 if('serviceWorker' in navigator){
  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
