@@ -28,7 +28,7 @@
   }
  });
 })();
-</script><p class="small">Gratis · Sin registro · Desde tu teléfono o computadora</p></div><aside class="welcome-tutorial" aria-label="Tutorial para usar Ciudadanía Práctica"><h2>¿Primera vez aquí?</h2><p>Aprende a utilizar la herramienta en un minuto.</p><video id="tutorialVideo" controls playsinline preload="none" aria-label="Video tutorial de Ciudadanía Práctica" class="hidden"><source src="./Tutorial_Ciudadania_Practica_Voz_Nueva.mp4" type="video/mp4">Tu navegador no admite este video.</video><div id="tutorialPending" class="tutorial-note">Pronto podrás ver aquí el video explicativo. Mientras tanto, presiona «Comenzar a practicar» para empezar.</div></aside></div>
+</script><p class="small">Gratis · Sin registro · Desde tu teléfono o computadora</p></div><aside class="welcome-tutorial" aria-label="Tutorial para usar Ciudadanía Práctica"><h2>¿Primera vez aquí?</h2><p>Aprende a utilizar la herramienta en un minuto.</p><video id="tutorialVideo" controls playsinline preload="metadata" aria-label="Video tutorial de Ciudadanía Práctica"><source src="./Tutorial_Ciudadania_Practica_Voz_Nueva.mp4" type="video/mp4">Tu navegador no admite este video.</video><p id="tutorialVideoError" class="tutorial-note hidden" role="status">No se pudo cargar el video. <a href="./Tutorial_Ciudadania_Practica_Voz_Nueva.mp4" target="_blank" rel="noopener">Abrir el tutorial directamente ↗</a></p></aside></div>
 <div style="text-align:center;padding:65px 22px 5px"><div class="eyebrow">Hecho para aprender</div><h2 style="margin:8px 0 12px">Practica con más confianza</h2><p style="color:#5c6a71">Una experiencia sencilla para estudiar, escuchar y comprender sin complicaciones.</p></div><div class="feature-grid"><div class="card"><h3>Escucha en inglés</h3><p>Familiarízate con la pronunciación de las preguntas mientras practicas.</p></div><div class="card"><h3>Comprende en español</h3><p>Apóyate en las traducciones para entender lo que escuchas.</p></div><div class="card"><h3>Aprende a tu ritmo</h3><p>Repasa las preguntas y continúa practicando cuando tengas tiempo.</p></div></div>
 <section class="card home-panel"><h2>Compartir también es ayudar.</h2><p>¿Conoces a alguien que esté preparándose para su ciudadanía? Comparte Ciudadanía Práctica con familiares, amigos o conocidos. Es gratuita y está disponible desde el celular o la computadora.</p><button type="button" id="shareHome">Compartir herramienta ↗</button><p id="shareStatus" class="muted small" role="status"></p></section>
 <section class="card home-panel"><div class="eyebrow">Un proyecto con propósito</div><h2>Todo comenzó con una pregunta.</h2><p>Ciudadanía Práctica nació para ayudar a una persona de nuestra familia. Hoy queremos que pueda ayudar a muchas otras, de forma gratuita.</p><button type="button" id="aboutHome">¿Deseas apoyar este proyecto? →</button></section></section>
@@ -330,9 +330,8 @@ function openPractice(){
   $('setup').classList.remove('hidden');$('study').classList.add('hidden');
  }
 }
-$('navHome').onclick=()=>// Show the tutorial only if the MP4 has been published, avoiding a broken player.
-fetch('./Tutorial_Ciudadania_Practica_Voz_Nueva.mp4',{method:'HEAD'}).then(r=>{if(r.ok&&r.headers.get('content-type')?.includes('video')){$('tutorialVideo').classList.remove('hidden');$('tutorialPending').classList.add('hidden')}}).catch(()=>{});
-showPage('home');
+$('navHome').onclick=()=>showPage('home');
+$('tutorialVideo').addEventListener('error',()=>{$('tutorialVideoError').classList.remove('hidden')});
 $('navPractice').onclick=()=>showPage('story');
 $('startHome').onclick=openPractice;
 $('aboutHome').onclick=()=>showPage('story');
