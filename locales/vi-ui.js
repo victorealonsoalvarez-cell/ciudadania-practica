@@ -33,7 +33,7 @@
   html(document.querySelector('#home .welcome-copy .lead'),'<strong>Nghe câu hỏi bằng tiếng Anh, hiểu nội dung bằng tiếng Việt</strong> và luyện tập theo tốc độ của bạn, mọi lúc mọi nơi.');
   set('#startHome','Bắt đầu luyện tập →');
   set('#installApp','Cài đặt trên điện thoại');
-  set('#home .welcome-copy > p.small','Miễn phí · Không cần đăng ký · Trên điện thoại hoặc máy tính');
+  set('#home .welcome-copy > p.small:not(#installHelp)','Miễn phí · Không cần đăng ký · Trên điện thoại hoặc máy tính');
   set('#home .welcome-tutorial h2','Lần đầu sử dụng?');
   set('#home .welcome-tutorial > p','Hướng dẫn nhanh để bắt đầu luyện tập.');
   set('.pwa-count-label','Số lượt cài đặt Ciudadanía Práctica được ghi nhận');
@@ -130,7 +130,6 @@
   const beta=$el('languageBetaNote');
   if(beta)beta.classList.toggle('hidden',!isVi());
   updateAssignment();
-  localizeTicker();
  }
  function updateAssignment(){
   const el=$el('assignment');
@@ -218,6 +217,7 @@
  };
  const originalSelection=updateSelection;
  updateSelection=function(){originalSelection();updateAssignment()};
+ document.querySelectorAll('input[name="track"],input[name="filing"]').forEach(e=>e.addEventListener('change',updateAssignment));
  const originalNavigate=navigatePractice;
  navigatePractice=function(delta){
   const wasNotRated=!roundFinished&&marks[index]!=='correct'&&marks[index]!=='wrong';
@@ -272,11 +272,7 @@
  }
  const selector=$el('supportLanguage');
  if(selector){selector.value=window.CP_UI_LANG;selector.addEventListener('change',()=>applyLanguage(selector.value))}
- const originalConfirm=window.confirm;
- $el('clearMarks')?.addEventListener('click',()=>{
-  // No changes to Spanish confirmation or the original score/reset handlers.
- },{passive:true});
- // Quick Vietnamese onboarding instead of falsely presenting a Spanish video as Vietnamese.
+  // Quick Vietnamese onboarding instead of falsely presenting a Spanish video as Vietnamese.
  const vid=$el('tutorialVideo');
  if(vid){
   const guide=document.createElement('div');guide.id='vietnameseTextTutorial';guide.className='vi-beta-note hidden';
