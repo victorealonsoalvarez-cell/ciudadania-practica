@@ -2,7 +2,7 @@
   "project": "Ciudadanía Práctica",
   "locale": "vi",
   "version": "combined-preview-v1",
-  "status": "all-three-packages-drafted-and-wired-to-isolated-preview",
+  "status": "audit-completed-editorial-and-structural-not-published",
   "objective": "Integrar simultáneamente los tres paquetes de estudio tras completar traducciones y QA; sin modificar la lógica de preguntas, audio inglés, progreso, ni modo de repaso.",
   "packages": [
     {
@@ -104,6 +104,39 @@
     },
     "js_syntax": "static-check-passed",
     "user_functional_test": "pending-combined-preview",
-    "independent_vietnamese_review": "pending"
+    "independent_vietnamese_review": "pending",
+    "combined_browser_regression": "pending",
+    "source_linked_editorial_audit": "performed-with-reported-limitations"
+  },
+  "audit": {
+    "date": "2026-11-18",
+    "report": "docs/AUDITORIA_LINGUISTICA_VIETNAMITA_2026-11-18.md",
+    "coverage": {
+      "2008": 100,
+      "2025": 128,
+      "65_20_2008": 20,
+      "65_20_2025": 20
+    },
+    "structural_checks": "passed",
+    "pilot_js_syntax_checks": "passed",
+    "editorial_corrections": [
+      {
+        "exam": "2008",
+        "numbers": [
+          5,
+          58
+        ]
+      },
+      {
+        "exam": "2025",
+        "numbers": [
+          6,
+          68
+        ]
+      }
+    ],
+    "external_vietnamese_review": "not-completed",
+    "combined_browser_regression": "not-completed",
+    "public_release_approved": false
   }
 }
