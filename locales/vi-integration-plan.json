@@ -48,13 +48,27 @@
     "keep_65_20_exam_selection_and_learning_flow_unchanged": true,
     "require_qa_for_every_question_and_ui_text": true,
     "do_not_claim_government_affiliation": true,
-    "ask_for_native_feedback_and_link_existing_report_form": true
+    "ask_for_native_feedback_and_link_existing_report_form": true,
+    "reuse_existing_verified_dynamic_answers": true,
+    "reuse_existing_geographic_answer_sources": true,
+    "do_not_duplicate_dynamic_answer_datasets_per_language": true
   },
   "next_steps": [
     "Completar contenido original de apoyo vietnamita para los 100 ítems generales de 2008.",
     "Completar contenido original de apoyo vietnamita para los 128 ítems generales de 2025.",
-    "Contrastar todas las preguntas/explicaciones con inglés USCIS y fuentes vietnamitas; priorizar las dinámicas y geográficas.",
+    "Reutilizar sin duplicar las fuentes dinámicas/geográficas de la aplicación principal; revisar solamente los textos de presentación vietnamitas.",
     "Unificar el origen de datos (ahora el piloto incorpora una copia en HTML), separar los paquetes por versión y modalidad.",
     "Al estar completos los tres paquetes, habilitar selector e interfaz vietnamita en una sola integración, con pruebas de regresión y nota beta."
-  ]
+  ],
+  "existing_data_reuse": {
+    "canonical_source": "index.html",
+    "verified_parity_on": "2026-11-18",
+    "shared_unchanged": [
+      "CURRENT_OFFICIAL",
+      "OFFICIAL_LINKS",
+      "OLD_SPECIAL_QUESTIONS",
+      "NEW_QUESTIONS"
+    ],
+    "locale_scope": "Only translate user-facing descriptions, link labels and notices; do not create independent lists of officeholders, location-dependent answers or accepted English answers for Vietnamese."
+  }
 }
