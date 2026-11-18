@@ -2,8 +2,8 @@
   "locale": "vi",
   "exam": "2025",
   "track": "general",
-  "status": "partial-draft-64-of-128",
-  "required_review": "question and explanation must be linguistically checked against independent sources before public launch",
+  "status": "draft-complete-pending-independent-review",
+  "required_review": "Vietnamese question and explanation wording must be independently reviewed; official English question and answers are kept canonical in the main app.",
   "items": [
     {
       "n": 1,
@@ -694,8 +694,8 @@
         "Freedom of religion",
         "The right to bear arms"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu ba quyền của mọi người sống tại Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: tự do ngôn luận, tự do tôn giáo và quyền hội họp. Cần nêu ba quyền."
     },
     {
       "n": 66,
@@ -704,8 +704,8 @@
         "The United States",
         "The flag"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khi đọc Lời tuyên thệ trung thành với quốc kỳ, chúng ta thể hiện lòng trung thành với điều gì?",
+      "vietnamese_explanation": "Với Hoa Kỳ hoặc với lá cờ Hoa Kỳ."
     },
     {
       "n": 67,
@@ -718,8 +718,8 @@
         "Serve (help, do important work for) the nation (if needed)",
         "Be loyal to the United States"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai lời hứa mà công dân mới đưa ra trong Lời tuyên thệ trung thành.",
+      "vietnamese_explanation": "Ví dụ: tuân thủ pháp luật Hoa Kỳ và bảo vệ Hiến pháp. Cần nêu hai lời hứa."
     },
     {
       "n": 68,
@@ -729,8 +729,8 @@
         "Naturalize",
         "Derive citizenship (under conditions set by Congress)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Mọi người có thể trở thành công dân Hoa Kỳ bằng những cách nào?",
+      "vietnamese_explanation": "Ví dụ: được sinh ra tại Hoa Kỳ theo điều kiện luật định, được nhập quốc tịch hoặc được hưởng quốc tịch thông qua cha mẹ theo luật."
     },
     {
       "n": 69,
@@ -747,8 +747,8 @@
         "Support or oppose an issue or policy",
         "Write to a newspaper"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai ví dụ về việc tham gia đời sống công dân ở Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: bỏ phiếu và liên hệ với quan chức dân cử. Hãy nêu hai ví dụ."
     },
     {
       "n": 70,
@@ -761,8 +761,8 @@
         "Run for office",
         "Work for local, state, or federal government"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cách người Mỹ có thể phục vụ đất nước.",
+      "vietnamese_explanation": "Ví dụ: tuân thủ pháp luật, thực hiện trách nhiệm công dân hoặc phục vụ trong quân đội."
     },
     {
       "n": 71,
@@ -773,8 +773,8 @@
         "Required by the (U.S.) Constitution (16th Amendment)",
         "Civic duty"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao việc đóng thuế liên bang lại quan trọng?",
+      "vietnamese_explanation": "Thuế liên bang hỗ trợ kinh phí cho các hoạt động và dịch vụ công."
     },
     {
       "n": 72,
@@ -784,8 +784,8 @@
         "Civic duty",
         "Makes the draft fair, if needed"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tất cả nam giới từ 18 đến 25 tuổi cần đăng ký với Selective Service. Hãy nêu một lý do tại sao.",
+      "vietnamese_explanation": "Việc đăng ký Selective Service là trách nhiệm theo luật đối với những người thuộc diện bắt buộc."
     },
     {
       "n": 73,
@@ -797,8 +797,8 @@
         "Economic opportunity",
         "Escape persecution"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Người thuộc địa đến châu Mỹ vì nhiều lý do. Hãy kể một lý do.",
+      "vietnamese_explanation": "Ví dụ: tìm tự do tôn giáo, tự do chính trị hoặc cơ hội kinh tế."
     },
     {
       "n": 74,
@@ -807,8 +807,8 @@
         "American Indians",
         "Native Americans"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai đã sống ở châu Mỹ trước khi người châu Âu đến?",
+      "vietnamese_explanation": "Người bản địa châu Mỹ (người Mỹ bản địa)."
     },
     {
       "n": 75,
@@ -817,8 +817,8 @@
         "Africans",
         "People from Africa"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhóm người nào đã bị đưa đến châu Mỹ và bán làm nô lệ?",
+      "vietnamese_explanation": "Người châu Phi bị bắt và ép làm nô lệ."
     },
     {
       "n": 76,
@@ -828,8 +828,8 @@
         "The (American) Revolutionary War",
         "War for (American) Independence"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Người Mỹ đã chiến đấu trong cuộc chiến nào để giành độc lập từ nước Anh?",
+      "vietnamese_explanation": "Chiến tranh Cách mạng Mỹ (American Revolutionary War)."
     },
     {
       "n": 77,
@@ -846,8 +846,8 @@
         "Townshend Acts",
         "Intolerable (Coercive) Acts"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một lý do người Mỹ tuyên bố độc lập khỏi nước Anh.",
+      "vietnamese_explanation": "Ví dụ: bị đánh thuế mà không có đại diện hoặc không được tự quản."
     },
     {
       "n": 78,
@@ -855,8 +855,8 @@
       "english_official_answers": [
         "(Thomas) Jefferson"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai đã viết Tuyên ngôn Độc lập?",
+      "vietnamese_explanation": "Thomas Jefferson là người soạn thảo chính."
     },
     {
       "n": 79,
@@ -864,8 +864,8 @@
       "english_official_answers": [
         "July 4, 1776"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tuyên ngôn Độc lập được thông qua khi nào?",
+      "vietnamese_explanation": "Ngày 4 tháng 7 năm 1776."
     },
     {
       "n": 80,
@@ -878,8 +878,8 @@
         "Valley Forge (Encampment)",
         "(Battle of) Yorktown (British surrender at Yorktown)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Cuộc Cách mạng Mỹ có nhiều sự kiện quan trọng. Hãy kể một sự kiện.",
+      "vietnamese_explanation": "Ví dụ: một trận chiến hoặc sự kiện trong danh sách được USCIS chấp nhận; đối chiếu các đáp án bằng tiếng Anh."
     },
     {
       "n": 81,
@@ -899,8 +899,8 @@
         "South Carolina",
         "Georgia"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ban đầu có 13 tiểu bang. Hãy kể tên năm tiểu bang.",
+      "vietnamese_explanation": "Ví dụ: New York, Pennsylvania, Delaware, Virginia và Georgia. Câu hỏi yêu cầu năm tiểu bang."
     },
     {
       "n": 82,
@@ -908,8 +908,8 @@
       "english_official_answers": [
         "(U.S.) Constitution"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Văn kiện lập quốc nào được soạn thảo vào năm 1787?",
+      "vietnamese_explanation": "Hiến pháp Hoa Kỳ."
     },
     {
       "n": 83,
@@ -920,8 +920,8 @@
         "(John) Jay",
         "Publius"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Các bài viết Federalist Papers ủng hộ việc thông qua Hiến pháp Hoa Kỳ. Hãy kể tên một tác giả.",
+      "vietnamese_explanation": "James Madison, Alexander Hamilton hoặc John Jay."
     },
     {
       "n": 84,
@@ -930,8 +930,8 @@
         "They helped people understand the (U.S.) Constitution.",
         "They supported passing the (U.S.) Constitution."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao các bài viết Federalist Papers quan trọng?",
+      "vietnamese_explanation": "Các bài viết giải thích và vận động việc phê chuẩn Hiến pháp."
     },
     {
       "n": 85,
@@ -943,8 +943,8 @@
         "Inventor",
         "U.S. diplomat"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Benjamin Franklin nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông hoạt động trong lĩnh vực ngoại giao, góp phần giành độc lập và thúc đẩy giáo dục cộng đồng."
     },
     {
       "n": 86,
@@ -955,8 +955,8 @@
         "General of the Continental Army",
         "President of the Constitutional Convention"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "George Washington nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "George Washington là Tổng thống đầu tiên của Hoa Kỳ, từng chỉ huy Quân đội Lục địa và được biết đến với danh xưng “Cha của đất nước”."
     },
     {
       "n": 87,
@@ -969,8 +969,8 @@
         "Founded the University of Virginia",
         "Writer of the Virginia Statute on Religious Freedom"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thomas Jefferson nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông là người soạn thảo chính Tuyên ngôn Độc lập và là Tổng thống thứ ba."
     },
     {
       "n": 88,
@@ -981,8 +981,8 @@
         "President during the War of 1812",
         "One of the writers of the Federalist Papers"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "James Madison nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông góp phần soạn thảo Hiến pháp và là Tổng thống thứ tư."
     },
     {
       "n": 89,
@@ -994,8 +994,8 @@
         "Aide to General George Washington",
         "Member of the Continental Congress"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Alexander Hamilton nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông là Bộ trưởng Tài chính đầu tiên và có vai trò trong hệ thống tài chính liên bang."
     },
     {
       "n": 90,
@@ -1004,8 +1004,8 @@
         "Louisiana Territory",
         "Louisiana"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hoa Kỳ đã mua vùng lãnh thổ nào từ Pháp vào năm 1803?",
+      "vietnamese_explanation": "Vùng lãnh thổ Louisiana (Louisiana Purchase)."
     },
     {
       "n": 91,
@@ -1016,8 +1016,8 @@
         "Civil War",
         "Spanish-American War"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 19.",
+      "vietnamese_explanation": "Ví dụ: Chiến tranh năm 1812 hoặc Nội chiến Hoa Kỳ."
     },
     {
       "n": 92,
@@ -1025,8 +1025,8 @@
       "english_official_answers": [
         "The Civil War"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tên cuộc chiến giữa miền Bắc và miền Nam Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Nội chiến Hoa Kỳ (Civil War)."
     },
     {
       "n": 93,
@@ -1041,8 +1041,8 @@
         "(Battle of) Antietam/Sharpsburg",
         "Lincoln was assassinated."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nội chiến Hoa Kỳ có nhiều sự kiện quan trọng. Hãy nêu một sự kiện.",
+      "vietnamese_explanation": "Ví dụ: một trận đánh lớn, sự kiện chính trị hoặc sự kiện kết thúc chiến tranh được USCIS chấp nhận."
     },
     {
       "n": 94,
@@ -1054,8 +1054,8 @@
         "16th president of the United States",
         "Delivered the Gettysburg Address"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Abraham Lincoln nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông giải phóng người nô lệ, bảo vệ Liên bang và lãnh đạo Hoa Kỳ trong Nội chiến."
     },
     {
       "n": 95,
@@ -1066,8 +1066,8 @@
         "Freed slaves in the Confederate states",
         "Freed slaves in most Southern states"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tuyên ngôn Giải phóng Nô lệ đã làm gì?",
+      "vietnamese_explanation": "Tuyên bố tự do cho những người bị nô lệ tại các vùng của Liên minh miền Nam đang nổi dậy; không lập tức xóa bỏ chế độ nô lệ trong toàn quốc."
     },
     {
       "n": 96,
@@ -1075,8 +1075,8 @@
       "english_official_answers": [
         "The Civil War"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Cuộc chiến nào của Hoa Kỳ đã dẫn đến việc chấm dứt chế độ nô lệ?",
+      "vietnamese_explanation": "Nội chiến Hoa Kỳ."
     },
     {
       "n": 97,
@@ -1084,8 +1084,8 @@
       "english_official_answers": [
         "14th Amendment"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tu chính án nào quy định những người sinh ra hoặc nhập quốc tịch tại Hoa Kỳ và chịu quyền tài phán của Hoa Kỳ là công dân Hoa Kỳ?",
+      "vietnamese_explanation": "Tu chính án thứ 14 đặt ra nguyên tắc quan trọng về quyền công dân theo nơi sinh hoặc nhập quốc tịch, theo điều kiện luật định."
     },
     {
       "n": 98,
@@ -1096,8 +1096,8 @@
         "(With the) 15th Amendment",
         "1870"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khi nào tất cả nam giới có được quyền bầu cử?",
+      "vietnamese_explanation": "Câu trả lời học tập có thể là năm 1870, Tu chính án thứ 15 hoặc thời kỳ Tái thiết sau Nội chiến. Tu chính án thứ 15 cấm tước quyền bầu cử vì lý do chủng tộc nhưng không chấm dứt mọi rào cản thực tế."
     },
     {
       "n": 99,
@@ -1110,8 +1110,8 @@
         "Lucretia Mott",
         "Lucy Stone"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một lãnh đạo của phong trào quyền phụ nữ trong thế kỷ 19.",
+      "vietnamese_explanation": "Hãy nêu một nhân vật được USCIS chấp nhận trong danh sách những người đấu tranh cho quyền phụ nữ."
     },
     {
       "n": 100,
@@ -1123,8 +1123,8 @@
         "Vietnam War",
         "(Persian) Gulf War"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 20.",
+      "vietnamese_explanation": "Ví dụ: Chiến tranh thế giới thứ nhất, thứ hai, Chiến tranh Triều Tiên hoặc Chiến tranh Việt Nam."
     },
     {
       "n": 101,
@@ -1134,8 +1134,8 @@
         "To support the Allied Powers (England, France, Italy, and Russia)",
         "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Hoa Kỳ tham gia Chiến tranh thế giới thứ nhất?",
+      "vietnamese_explanation": "Một số hành động của Đức và các vấn đề chiến tranh trên biển đã góp phần khiến Hoa Kỳ tham chiến. Hãy học đáp án chính thức bằng tiếng Anh."
     },
     {
       "n": 102,
@@ -1145,8 +1145,8 @@
         "After World War I",
         "(With the) 19th Amendment"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khi nào tất cả phụ nữ có quyền bầu cử?",
+      "vietnamese_explanation": "Tu chính án thứ 19 được phê chuẩn năm 1920, cấm từ chối quyền bầu cử dựa trên giới tính."
     },
     {
       "n": 103,
@@ -1154,8 +1154,8 @@
       "english_official_answers": [
         "Longest economic recession in modern history"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Đại suy thoái (Great Depression) là gì?",
+      "vietnamese_explanation": "Một thời kỳ khủng hoảng kinh tế nghiêm trọng và kéo dài."
     },
     {
       "n": 104,
@@ -1164,8 +1164,8 @@
         "The Great Crash (1929)",
         "Stock market crash of 1929"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Đại suy thoái bắt đầu khi nào?",
+      "vietnamese_explanation": "Năm 1929, sau vụ sụp đổ thị trường chứng khoán."
     },
     {
       "n": 105,
@@ -1173,8 +1173,8 @@
       "english_official_answers": [
         "(Franklin) Roosevelt"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng thống Hoa Kỳ trong thời kỳ Đại suy thoái và Chiến tranh thế giới thứ hai?",
+      "vietnamese_explanation": "Franklin D. Roosevelt."
     },
     {
       "n": 106,
@@ -1185,8 +1185,8 @@
         "To support the Allied Powers (England, France, and Russia)",
         "To oppose the Axis Powers (Germany, Italy, and Japan)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Hoa Kỳ tham gia Chiến tranh thế giới thứ hai?",
+      "vietnamese_explanation": "Sau cuộc tấn công của Nhật Bản vào Trân Châu Cảng (Pearl Harbor)."
     },
     {
       "n": 107,
@@ -1197,8 +1197,8 @@
         "34th president of the United States",
         "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Dwight Eisenhower nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông là tướng trong Chiến tranh thế giới thứ hai và sau đó là Tổng thống Hoa Kỳ."
     },
     {
       "n": 108,
@@ -1208,8 +1208,8 @@
         "USSR",
         "Russia"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Đối thủ chính của Hoa Kỳ trong Chiến tranh Lạnh là quốc gia nào?",
+      "vietnamese_explanation": "Liên Xô (Soviet Union)."
     },
     {
       "n": 109,
@@ -1218,8 +1218,8 @@
         "Communism",
         "Nuclear war"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Trong Chiến tranh Lạnh, hãy nêu một mối lo ngại chính của Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: chủ nghĩa cộng sản hoặc nguy cơ chiến tranh hạt nhân."
     },
     {
       "n": 110,
@@ -1227,8 +1227,8 @@
       "english_official_answers": [
         "To stop the spread of communism"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Hoa Kỳ tham gia Chiến tranh Triều Tiên?",
+      "vietnamese_explanation": "Để ngăn sự lan rộng của chủ nghĩa cộng sản và hỗ trợ Hàn Quốc."
     },
     {
       "n": 111,
@@ -1236,8 +1236,8 @@
       "english_official_answers": [
         "To stop the spread of communism"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Hoa Kỳ tham gia Chiến tranh Việt Nam?",
+      "vietnamese_explanation": "Để ngăn sự lan rộng của chủ nghĩa cộng sản theo chính sách của Hoa Kỳ khi đó."
     },
     {
       "n": 112,
@@ -1245,8 +1245,8 @@
       "english_official_answers": [
         "Fought to end racial discrimination"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Phong trào Dân quyền đã làm gì?",
+      "vietnamese_explanation": "Đấu tranh chống phân biệt chủng tộc và thúc đẩy bình đẳng trong các quyền dân sự."
     },
     {
       "n": 113,
@@ -1256,8 +1256,8 @@
         "Worked for equality for all Americans",
         "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Martin Luther King, Jr. nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+      "vietnamese_explanation": "Ông đấu tranh cho quyền dân sự và sự bình đẳng của người Mỹ."
     },
     {
       "n": 114,
@@ -1265,8 +1265,8 @@
       "english_official_answers": [
         "To force the Iraqi military from Kuwait"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Hoa Kỳ tham gia Chiến tranh vùng Vịnh Ba Tư?",
+      "vietnamese_explanation": "Để giúp đẩy quân đội Iraq ra khỏi Kuwait."
     },
     {
       "n": 115,
@@ -1277,8 +1277,8 @@
         "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia",
         "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Sự kiện lớn nào đã xảy ra tại Hoa Kỳ vào ngày 11 tháng 9 năm 2001?",
+      "vietnamese_explanation": "Những kẻ khủng bố đã tấn công Hoa Kỳ vào ngày 11 tháng 9 năm 2001."
     },
     {
       "n": 116,
@@ -1288,8 +1288,8 @@
         "War in Afghanistan",
         "War in Iraq"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cuộc xung đột quân sự mà Hoa Kỳ tham gia sau các cuộc tấn công ngày 11 tháng 9 năm 2001.",
+      "vietnamese_explanation": "Ví dụ: cuộc chiến ở Afghanistan hoặc Iraq, theo danh sách được USCIS chấp nhận."
     },
     {
       "n": 117,
@@ -1321,8 +1321,8 @@
         "Teton",
         "Tuscarora"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu tên một bộ lạc của người Mỹ bản địa tại Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: Cherokee, Navajo hoặc Apache. Chỉ cần một bộ lạc."
     },
     {
       "n": 118,
@@ -1336,8 +1336,8 @@
         "Landing on the moon",
         "Integrated circuit (IC)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một ví dụ về phát minh hoặc đổi mới sáng tạo của người Mỹ.",
+      "vietnamese_explanation": "Ví dụ: máy bay hoặc mạch tích hợp."
     },
     {
       "n": 119,
@@ -1345,8 +1345,8 @@
       "english_official_answers": [
         "Washington, D.C."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thủ đô của Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Washington, D.C."
     },
     {
       "n": 120,
@@ -1358,8 +1358,8 @@
         "near New York City",
         "on the Hudson (River)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tượng Nữ thần Tự do ở đâu?",
+      "vietnamese_explanation": "Trên đảo Liberty, tại cảng New York. USCIS cũng chấp nhận một số cách mô tả vị trí khác."
     },
     {
       "n": 121,
@@ -1368,8 +1368,8 @@
         "(Because there were) 13 original colonies",
         "(Because the stripes) represent the original colonies"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao lá cờ Hoa Kỳ có 13 sọc?",
+      "vietnamese_explanation": "Mười ba sọc tượng trưng cho 13 thuộc địa ban đầu."
     },
     {
       "n": 122,
@@ -1379,8 +1379,8 @@
         "(Because) each star represents a state",
         "(Because there are) 50 states"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao lá cờ Hoa Kỳ có 50 ngôi sao?",
+      "vietnamese_explanation": "Vì mỗi ngôi sao tượng trưng cho một trong 50 tiểu bang."
     },
     {
       "n": 123,
@@ -1388,8 +1388,8 @@
       "english_official_answers": [
         "The Star-Spangled Banner"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Quốc ca của Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "“The Star-Spangled Banner”."
     },
     {
       "n": 124,
@@ -1398,8 +1398,8 @@
         "Out of many, one",
         "We all become one"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khẩu hiệu đầu tiên của quốc gia là “E Pluribus Unum”. Điều đó có nghĩa là gì?",
+      "vietnamese_explanation": "Nghĩa là “Từ nhiều thành một”, nói lên sự thống nhất giữa những cộng đồng khác nhau."
     },
     {
       "n": 125,
@@ -1408,8 +1408,8 @@
         "A holiday to celebrate U.S. independence (from Britain)",
         "The country’s birthday"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ngày Độc lập là gì?",
+      "vietnamese_explanation": "Là ngày lễ kỷ niệm nền độc lập của Hoa Kỳ khỏi Vương quốc Anh."
     },
     {
       "n": 126,
@@ -1427,8 +1427,8 @@
         "Thanksgiving Day",
         "Christmas Day"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên ba ngày lễ quốc gia của Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: Tết Dương lịch, Ngày Độc lập và Lễ Tạ ơn. Câu hỏi yêu cầu nêu ba ngày lễ."
     },
     {
       "n": 127,
@@ -1436,8 +1436,8 @@
       "english_official_answers": [
         "A holiday to honor soldiers who died in military service"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Memorial Day là ngày gì?",
+      "vietnamese_explanation": "Ngày tưởng niệm những quân nhân đã hy sinh trong khi phục vụ."
     },
     {
       "n": 128,
@@ -1446,8 +1446,9 @@
         "A holiday to honor people in the (U.S.) military",
         "A holiday to honor people who have served (in the U.S. military)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Veterans Day là ngày gì?",
+      "vietnamese_explanation": "Ngày tri ân những người từng phục vụ trong các lực lượng vũ trang Hoa Kỳ."
     }
-  ]
+  ],
+  "translation_reference": "USCIS 2025 English official questions and approved answers; independently authored Vietnamese helper text compared with available Vietnamese civic-study resources."
 }
