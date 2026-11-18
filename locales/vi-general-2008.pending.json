@@ -1,0 +1,709 @@
+{
+  "locale": "vi",
+  "exam": "2008",
+  "track": "general",
+  "status": "untranslated-template",
+  "required_review": "question and explanation must be linguistically checked against independent sources before public launch",
+  "items": [
+    {
+      "n": 1,
+      "english_question": "What is the supreme law of the land?",
+      "english_official_answers": "the Constitution",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 2,
+      "english_question": "What does the Constitution do?",
+      "english_official_answers": "sets up the government; defines the government; protects basic rights of Americans",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 3,
+      "english_question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "english_official_answers": "We the People",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 4,
+      "english_question": "What is an amendment?",
+      "english_official_answers": "a change to the Constitution; an addition to the Constitution",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 5,
+      "english_question": "What do we call the first ten amendments to the Constitution?",
+      "english_official_answers": "the Bill of Rights",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 6,
+      "english_question": "What is one right or freedom from the First Amendment?",
+      "english_official_answers": "speech; religion; assembly; press; petition the government",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 7,
+      "english_question": "How many amendments does the Constitution have?",
+      "english_official_answers": "twenty-seven (27)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 8,
+      "english_question": "What did the Declaration of Independence do?",
+      "english_official_answers": "announced our independence from Great Britain; declared our independence from Great Britain; said that the United States is free from Great Britain",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 9,
+      "english_question": "What are two rights in the Declaration of Independence?",
+      "english_official_answers": "life; liberty; pursuit of happiness",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 10,
+      "english_question": "What is freedom of religion?",
+      "english_official_answers": "You can practice any religion, or not practice a religion.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 11,
+      "english_question": "What is the economic system in the United States?",
+      "english_official_answers": "capitalist economy; market economy",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 12,
+      "english_question": "What is the “rule of law”?",
+      "english_official_answers": "Everyone must follow the law; Leaders must obey the law; Government must obey the law; No one is above the law",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 13,
+      "english_question": "Name one branch or part of the government.",
+      "english_official_answers": "Congress; legislative; President; executive; the courts; judicial",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 14,
+      "english_question": "What stops one branch of government from becoming too powerful?",
+      "english_official_answers": "checks and balances; separation of powers",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 15,
+      "english_question": "Who is in charge of the executive branch?",
+      "english_official_answers": "the President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 16,
+      "english_question": "Who makes federal laws?",
+      "english_official_answers": "Congress; Senate and House of Representatives; U.S. legislature",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 17,
+      "english_question": "What are the two parts of the U.S. Congress?",
+      "english_official_answers": "the Senate and House of Representatives",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 18,
+      "english_question": "How many U.S. Senators are there?",
+      "english_official_answers": "one hundred (100)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 19,
+      "english_question": "We elect a U.S. Senator for how many years?",
+      "english_official_answers": "six (6)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 20,
+      "english_question": "Who is one of your state’s U.S. Senators now?",
+      "english_official_answers": "Answers vary by state. Check the current U.S. Senate list.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 21,
+      "english_question": "The House of Representatives has how many voting members?",
+      "english_official_answers": "four hundred thirty-five (435)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 22,
+      "english_question": "We elect a U.S. Representative for how many years?",
+      "english_official_answers": "two (2)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 23,
+      "english_question": "Name your U.S. Representative.",
+      "english_official_answers": "Answers vary by congressional district. Check the U.S. House of Representatives.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 24,
+      "english_question": "Who does a U.S. Senator represent?",
+      "english_official_answers": "all people of the state",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 25,
+      "english_question": "Why do some states have more Representatives than other states?",
+      "english_official_answers": "because of the state's population; because they have more people; because some states have more people",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 26,
+      "english_question": "We elect a President for how many years?",
+      "english_official_answers": "four (4)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 27,
+      "english_question": "In what month do we vote for President?",
+      "english_official_answers": "November",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 28,
+      "english_question": "What is the name of the President of the United States now?",
+      "english_official_answers": "Donald J. Trump; Donald Trump; Trump",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 29,
+      "english_question": "What is the name of the Vice President of the United States now?",
+      "english_official_answers": "JD Vance; Vance",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 30,
+      "english_question": "If the President can no longer serve, who becomes President?",
+      "english_official_answers": "the Vice President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 31,
+      "english_question": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "english_official_answers": "the Speaker of the House",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 32,
+      "english_question": "Who is the Commander in Chief of the military?",
+      "english_official_answers": "the President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 33,
+      "english_question": "Who signs bills to become laws?",
+      "english_official_answers": "the President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 34,
+      "english_question": "Who vetoes bills?",
+      "english_official_answers": "the President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 35,
+      "english_question": "What does the President’s Cabinet do?",
+      "english_official_answers": "advises the President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 36,
+      "english_question": "What are two Cabinet-level positions?",
+      "english_official_answers": "Secretary of Agriculture; Secretary of Commerce; Secretary of Defense; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Attorney General; Vice President",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 37,
+      "english_question": "What does the judicial branch do?",
+      "english_official_answers": "reviews laws; explains laws; resolves disputes; decides if a law goes against the Constitution",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 38,
+      "english_question": "What is the highest court in the United States?",
+      "english_official_answers": "the Supreme Court",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 39,
+      "english_question": "How many justices are on the Supreme Court?",
+      "english_official_answers": "nine (9)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 40,
+      "english_question": "Who is the Chief Justice of the United States now?",
+      "english_official_answers": "John Roberts; John G. Roberts, Jr.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 41,
+      "english_question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "english_official_answers": "to print money; to declare war; to create an army; to make treaties",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 42,
+      "english_question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "english_official_answers": "provide schooling and education; provide protection (police); provide safety (fire departments); give a driver's license; approve zoning and land use",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 43,
+      "english_question": "Who is the Governor of your state now?",
+      "english_official_answers": "Answers vary by state. Check your state government.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 44,
+      "english_question": "What is the capital of your state?",
+      "english_official_answers": "Answers vary by state. Check your state government.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 45,
+      "english_question": "What are the two major political parties in the United States?",
+      "english_official_answers": "Democratic and Republican",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 46,
+      "english_question": "What is the political party of the President now?",
+      "english_official_answers": "Republican (Party)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 47,
+      "english_question": "What is the name of the Speaker of the House of Representatives now?",
+      "english_official_answers": "Mike Johnson; Johnson; James Michael Johnson",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 48,
+      "english_question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "english_official_answers": "Citizens eighteen (18) and older can vote; You don't have to pay a poll tax to vote; Any citizen can vote (women and men); A male citizen of any race can vote",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 49,
+      "english_question": "What is one responsibility that is only for United States citizens?",
+      "english_official_answers": "serve on a jury; vote in a federal election",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 50,
+      "english_question": "Name one right only for United States citizens.",
+      "english_official_answers": "vote in a federal election; run for federal office",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 51,
+      "english_question": "What are two rights of everyone living in the United States?",
+      "english_official_answers": "freedom of expression; freedom of speech; freedom of assembly; freedom to petition the government; freedom of religion; the right to bear arms",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 52,
+      "english_question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "english_official_answers": "the United States; the flag",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 53,
+      "english_question": "What is one promise you make when you become a United States citizen?",
+      "english_official_answers": "give up loyalty to other countries; defend the Constitution and laws of the United States; obey the laws of the United States; serve in the U.S. military if needed; serve the nation if needed; be loyal to the United States",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 54,
+      "english_question": "How old do citizens have to be to vote for President?",
+      "english_official_answers": "eighteen (18) and older",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 55,
+      "english_question": "What are two ways that Americans can participate in their democracy?",
+      "english_official_answers": "vote; join a political party; help with a campaign; join a civic group; join a community group; give an elected official your opinion; call Senators and Representatives; publicly support or oppose an issue or policy; run for office; write to a newspaper",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 56,
+      "english_question": "When is the last day you can send in federal income tax forms?",
+      "english_official_answers": "April 15",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 57,
+      "english_question": "When must all men register for the Selective Service?",
+      "english_official_answers": "at age eighteen (18); between eighteen (18) and twenty-six (26)",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 58,
+      "english_question": "What is one reason colonists came to America?",
+      "english_official_answers": "freedom; political liberty; religious freedom; economic opportunity; practice their religion; escape persecution",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 59,
+      "english_question": "Who lived in America before the Europeans arrived?",
+      "english_official_answers": "American Indians; Native Americans",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 60,
+      "english_question": "What group of people was taken to America and sold as slaves?",
+      "english_official_answers": "Africans; people from Africa",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 61,
+      "english_question": "Why did the colonists fight the British?",
+      "english_official_answers": "because of high taxes (taxation without representation); because the British army stayed in their houses; because they didn't have self-government",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 62,
+      "english_question": "Who wrote the Declaration of Independence?",
+      "english_official_answers": "Thomas Jefferson",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 63,
+      "english_question": "When was the Declaration of Independence adopted?",
+      "english_official_answers": "July 4, 1776",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 64,
+      "english_question": "There were 13 original states. Name three.",
+      "english_official_answers": "New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 65,
+      "english_question": "What happened at the Constitutional Convention?",
+      "english_official_answers": "The Constitution was written; The Founding Fathers wrote the Constitution",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 66,
+      "english_question": "When was the Constitution written?",
+      "english_official_answers": "1787",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 67,
+      "english_question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "english_official_answers": "James Madison; Alexander Hamilton; John Jay; Publius",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 68,
+      "english_question": "What is one thing Benjamin Franklin is famous for?",
+      "english_official_answers": "U.S. diplomat; oldest member of the Constitutional Convention; first Postmaster General of the United States; writer of Poor Richard's Almanac; started the first free libraries",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 69,
+      "english_question": "Who is the “Father of Our Country”?",
+      "english_official_answers": "George Washington",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 70,
+      "english_question": "Who was the first President?",
+      "english_official_answers": "George Washington",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 71,
+      "english_question": "What territory did the United States buy from France in 1803?",
+      "english_official_answers": "the Louisiana Territory; Louisiana",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 72,
+      "english_question": "Name one war fought by the United States in the 1800s.",
+      "english_official_answers": "War of 1812; Mexican-American War; Civil War; Spanish-American War",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 73,
+      "english_question": "Name the U.S. war between the North and the South.",
+      "english_official_answers": "the Civil War; the War between the States",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 74,
+      "english_question": "Name one problem that led to the Civil War.",
+      "english_official_answers": "slavery; economic reasons; states' rights",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 75,
+      "english_question": "What was one important thing that Abraham Lincoln did?",
+      "english_official_answers": "freed the slaves (Emancipation Proclamation); saved or preserved the Union; led the United States during the Civil War",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 76,
+      "english_question": "What did the Emancipation Proclamation do?",
+      "english_official_answers": "freed the slaves; freed slaves in the Confederacy; freed slaves in the Confederate states; freed slaves in most Southern states",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 77,
+      "english_question": "What did Susan B. Anthony do?",
+      "english_official_answers": "fought for women's rights; fought for civil rights",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 78,
+      "english_question": "Name one war fought by the United States in the 1900s.",
+      "english_official_answers": "World War I; World War II; Korean War; Vietnam War; Persian Gulf War",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 79,
+      "english_question": "Who was President during World War I?",
+      "english_official_answers": "Woodrow Wilson",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 80,
+      "english_question": "Who was President during the Great Depression and World War II?",
+      "english_official_answers": "Franklin Roosevelt",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 81,
+      "english_question": "Who did the United States fight in World War II?",
+      "english_official_answers": "Japan, Germany, and Italy",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 82,
+      "english_question": "Before he was President, Eisenhower was a general. What war was he in?",
+      "english_official_answers": "World War II",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 83,
+      "english_question": "During the Cold War, what was the main concern of the United States?",
+      "english_official_answers": "Communism",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 84,
+      "english_question": "What movement tried to end racial discrimination?",
+      "english_official_answers": "civil rights movement",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 85,
+      "english_question": "What did Martin Luther King, Jr. do?",
+      "english_official_answers": "fought for civil rights; worked for equality for all Americans",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 86,
+      "english_question": "What major event happened on September 11, 2001, in the United States?",
+      "english_official_answers": "Terrorists attacked the United States",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 87,
+      "english_question": "Name one American Indian tribe in the United States.",
+      "english_official_answers": "Cherokee; Navajo; Sioux; Chippewa; Choctaw; Pueblo; Apache; Iroquois; Creek; Blackfeet; Seminole; Cheyenne; Arawak; Shawnee; Mohegan; Huron; Oneida; Lakota; Crow; Teton; Hopi; Inuit",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 88,
+      "english_question": "Name one of the two longest rivers in the United States.",
+      "english_official_answers": "Missouri River; Mississippi River",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 89,
+      "english_question": "What ocean is on the West Coast of the United States?",
+      "english_official_answers": "Pacific Ocean",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 90,
+      "english_question": "What ocean is on the East Coast of the United States?",
+      "english_official_answers": "Atlantic Ocean",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 91,
+      "english_question": "Name one U.S. territory.",
+      "english_official_answers": "Puerto Rico; U.S. Virgin Islands; American Samoa; Northern Mariana Islands; Guam",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 92,
+      "english_question": "Name one state that borders Canada.",
+      "english_official_answers": "Maine; New Hampshire; Vermont; New York; Pennsylvania; Ohio; Michigan; Minnesota; North Dakota; Montana; Idaho; Washington; Alaska",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 93,
+      "english_question": "Name one state that borders Mexico.",
+      "english_official_answers": "California; Arizona; New Mexico; Texas",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 94,
+      "english_question": "What is the capital of the United States?",
+      "english_official_answers": "Washington, D.C.",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 95,
+      "english_question": "Where is the Statue of Liberty?",
+      "english_official_answers": "New York Harbor; Liberty Island; New Jersey; near New York City; Hudson River",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 96,
+      "english_question": "Why does the flag have 13 stripes?",
+      "english_official_answers": "because there were 13 original colonies; because the stripes represent the original colonies",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 97,
+      "english_question": "Why does the flag have 50 stars?",
+      "english_official_answers": "because there is one star for each state; because each star represents a state; because there are 50 states",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 98,
+      "english_question": "What is the name of the national anthem?",
+      "english_official_answers": "The Star-Spangled Banner",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 99,
+      "english_question": "When do we celebrate Independence Day?",
+      "english_official_answers": "July 4",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    },
+    {
+      "n": 100,
+      "english_question": "Name two national U.S. holidays.",
+      "english_official_answers": "New Year's Day; Martin Luther King, Jr. Day; Presidents' Day; Memorial Day; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving; Christmas",
+      "vietnamese_question": null,
+      "vietnamese_explanation": null
+    }
+  ]
+}
