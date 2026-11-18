@@ -1,5 +1,5 @@
-const CACHE='ciudadania-practica-v6-20261112';
-const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
+const CACHE='ciudadania-practica-v7-20261118-vietnamese';
+const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./locales/vi-packs.js','./locales/vi-ui.js'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
 });
