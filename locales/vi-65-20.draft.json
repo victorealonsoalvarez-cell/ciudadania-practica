@@ -1,0 +1,173 @@
+{
+  "locale": "vi",
+  "name": "Tiếng Việt",
+  "scope": "65/20",
+  "status": "draft-needs-independent-language-review",
+  "notes_es": "Borrador de traducciones vietnamitas para la modalidad 65/20. No está activado en la interfaz pública. Las preguntas oficiales y respuestas aceptadas permanecen en inglés en index.html. Revisión lingüística y de terminología pendiente; validar las respuestas sujetas a cambios antes de publicar.",
+  "versions": {
+    "2008": {
+      "6": {
+        "question": "Hãy nêu một quyền hoặc quyền tự do được bảo vệ theo Tu chính án thứ Nhất.",
+        "explanation": "Tự do ngôn luận; tự do tôn giáo; quyền hội họp; tự do báo chí; quyền kiến nghị chính phủ."
+      },
+      "11": {
+        "question": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+        "explanation": "Nền kinh tế tư bản chủ nghĩa; nền kinh tế thị trường."
+      },
+      "13": {
+        "question": "Hãy kể tên một nhánh hoặc một bộ phận của chính phủ.",
+        "explanation": "Quốc hội (nhánh lập pháp); Tổng thống (nhánh hành pháp); các tòa án (nhánh tư pháp)."
+      },
+      "17": {
+        "question": "Quốc hội Hoa Kỳ gồm hai viện nào?",
+        "explanation": "Thượng viện và Hạ viện."
+      },
+      "20": {
+        "question": "Hiện nay, một trong các thượng nghị sĩ Hoa Kỳ đại diện cho tiểu bang của bạn là ai?",
+        "explanation": "Câu trả lời tùy theo tiểu bang nơi bạn cư trú. Hãy kiểm tra danh sách thượng nghị sĩ hiện tại. Washington, D.C. và các lãnh thổ Hoa Kỳ không có thượng nghị sĩ liên bang."
+      },
+      "27": {
+        "question": "Chúng ta bầu Tổng thống vào tháng mấy?",
+        "explanation": "Tháng Mười Một."
+      },
+      "28": {
+        "question": "Hiện nay, Tổng thống Hoa Kỳ tên là gì?",
+        "explanation": "Câu trả lời hiện được ghi trong tài liệu học là Donald Trump. Hãy kiểm tra người đang giữ chức vụ này vào ngày phỏng vấn."
+      },
+      "44": {
+        "question": "Thủ phủ của tiểu bang bạn là gì?",
+        "explanation": "Hãy nêu thủ phủ tiểu bang của bạn. Washington, D.C. không phải là một tiểu bang; nếu sống ở lãnh thổ Hoa Kỳ, hãy nêu thủ phủ lãnh thổ."
+      },
+      "45": {
+        "question": "Hai đảng chính trị lớn ở Hoa Kỳ là những đảng nào?",
+        "explanation": "Đảng Dân chủ và Đảng Cộng hòa."
+      },
+      "49": {
+        "question": "Hãy nêu một trách nhiệm chỉ dành cho công dân Hoa Kỳ.",
+        "explanation": "Tham gia bồi thẩm đoàn hoặc bỏ phiếu trong cuộc bầu cử liên bang."
+      },
+      "54": {
+        "question": "Công dân phải bao nhiêu tuổi mới được bỏ phiếu bầu Tổng thống?",
+        "explanation": "Từ 18 tuổi trở lên."
+      },
+      "56": {
+        "question": "Hạn cuối để nộp tờ khai thuế thu nhập liên bang thường là ngày nào?",
+        "explanation": "Đáp án học tập của câu hỏi này là ngày 15 tháng Tư. Hạn nộp thuế thực tế đôi khi có thể thay đổi."
+      },
+      "70": {
+        "question": "Ai là Tổng thống đầu tiên của Hoa Kỳ?",
+        "explanation": "George Washington."
+      },
+      "75": {
+        "question": "Hãy nêu một việc quan trọng mà Abraham Lincoln đã làm.",
+        "explanation": "Giải phóng người nô lệ; bảo vệ sự thống nhất của Liên bang; lãnh đạo đất nước trong Nội chiến Hoa Kỳ."
+      },
+      "78": {
+        "question": "Hãy nêu một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 20.",
+        "explanation": "Chiến tranh thế giới thứ nhất; Chiến tranh thế giới thứ hai; Chiến tranh Triều Tiên; Chiến tranh Việt Nam; Chiến tranh vùng Vịnh Ba Tư."
+      },
+      "85": {
+        "question": "Martin Luther King, Jr. đã làm gì?",
+        "explanation": "Ông đấu tranh vì quyền dân sự và sự bình đẳng cho mọi người Mỹ."
+      },
+      "94": {
+        "question": "Thủ đô của Hoa Kỳ là gì?",
+        "explanation": "Washington, D.C."
+      },
+      "95": {
+        "question": "Tượng Nữ thần Tự do nằm ở đâu?",
+        "explanation": "Trên đảo Liberty, tại cảng New York. USCIS cũng chấp nhận một số cách mô tả địa điểm khác."
+      },
+      "97": {
+        "question": "Tại sao lá cờ Hoa Kỳ có 50 ngôi sao?",
+        "explanation": "Mỗi ngôi sao đại diện cho một tiểu bang; Hoa Kỳ có 50 tiểu bang."
+      },
+      "99": {
+        "question": "Chúng ta kỷ niệm Ngày Độc lập vào ngày nào?",
+        "explanation": "Ngày 4 tháng Bảy."
+      }
+    },
+    "2025": {
+      "2": {
+        "question": "Luật tối cao của đất nước là gì?",
+        "explanation": "Hiến pháp Hoa Kỳ là luật tối cao và đặt nền tảng cho chính phủ."
+      },
+      "7": {
+        "question": "Hiến pháp Hoa Kỳ có bao nhiêu tu chính án?",
+        "explanation": "Hiến pháp có 27 tu chính án."
+      },
+      "12": {
+        "question": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+        "explanation": "Chủ nghĩa tư bản hay nền kinh tế thị trường tự do cho phép cá nhân và doanh nghiệp tham gia hoạt động kinh tế."
+      },
+      "20": {
+        "question": "Hãy nêu một quyền hạn của Quốc hội Hoa Kỳ.",
+        "explanation": "Quốc hội làm luật, tuyên chiến và lập ngân sách liên bang."
+      },
+      "30": {
+        "question": "Hiện nay, Chủ tịch Hạ viện Hoa Kỳ tên là gì?",
+        "explanation": "Chủ tịch Hạ viện điều hành hoạt động của Hạ viện. Hãy kiểm tra tên người đang giữ chức vụ này trước ngày phỏng vấn."
+      },
+      "36": {
+        "question": "Tổng thống Hoa Kỳ được bầu với nhiệm kỳ bao nhiêu năm?",
+        "explanation": "Bốn năm."
+      },
+      "38": {
+        "question": "Hiện nay, Tổng thống Hoa Kỳ tên là gì?",
+        "explanation": "Tên Tổng thống có thể thay đổi sau bầu cử. Hãy kiểm tra người đang giữ chức vụ này trước ngày phỏng vấn."
+      },
+      "39": {
+        "question": "Hiện nay, Phó Tổng thống Hoa Kỳ tên là gì?",
+        "explanation": "Phó Tổng thống là người giữ chức vụ cao thứ hai trong nhánh hành pháp. Hãy kiểm tra tên người đang giữ chức vụ này trước ngày phỏng vấn."
+      },
+      "44": {
+        "question": "Ai có quyền phủ quyết các dự luật?",
+        "explanation": "Tổng thống Hoa Kỳ. Phủ quyết nghĩa là từ chối phê chuẩn một dự luật."
+      },
+      "52": {
+        "question": "Tòa án cao nhất ở Hoa Kỳ là tòa án nào?",
+        "explanation": "Tòa án Tối cao Hoa Kỳ."
+      },
+      "61": {
+        "question": "Hiện nay, Thống đốc tiểu bang của bạn là ai?",
+        "explanation": "Đáp án tùy theo tiểu bang nơi bạn cư trú. Washington, D.C. không có thống đốc."
+      },
+      "66": {
+        "question": "Khi đọc Lời tuyên thệ trung thành với quốc kỳ, chúng ta thể hiện lòng trung thành với điều gì?",
+        "explanation": "Với Hoa Kỳ hoặc với lá cờ Hoa Kỳ."
+      },
+      "74": {
+        "question": "Ai đã sống ở châu Mỹ trước khi người châu Âu đến?",
+        "explanation": "Người bản địa châu Mỹ (người Mỹ bản địa)."
+      },
+      "78": {
+        "question": "Ai đã viết Tuyên ngôn Độc lập?",
+        "explanation": "Thomas Jefferson là người soạn thảo chính."
+      },
+      "86": {
+        "question": "George Washington nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+        "explanation": "Ông là Tổng thống đầu tiên của Hoa Kỳ, tổng tư lệnh Quân đội Lục địa và được gọi là 'Cha già của đất nước'."
+      },
+      "94": {
+        "question": "Abraham Lincoln nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+        "explanation": "Ông giải phóng người nô lệ, bảo vệ Liên bang và lãnh đạo Hoa Kỳ trong Nội chiến."
+      },
+      "113": {
+        "question": "Martin Luther King, Jr. nổi tiếng vì nhiều điều. Hãy nêu một điều.",
+        "explanation": "Ông đấu tranh cho quyền dân sự và sự bình đẳng của người Mỹ."
+      },
+      "115": {
+        "question": "Sự kiện lớn nào đã xảy ra tại Hoa Kỳ vào ngày 11 tháng 9 năm 2001?",
+        "explanation": "Những kẻ khủng bố đã tấn công Hoa Kỳ vào ngày 11 tháng 9 năm 2001."
+      },
+      "121": {
+        "question": "Tại sao lá cờ Hoa Kỳ có 13 sọc?",
+        "explanation": "Mười ba sọc tượng trưng cho 13 thuộc địa ban đầu."
+      },
+      "126": {
+        "question": "Hãy kể tên ba ngày lễ quốc gia của Hoa Kỳ.",
+        "explanation": "Ví dụ: Tết Dương lịch, Ngày Độc lập và Lễ Tạ ơn. Câu hỏi yêu cầu nêu ba ngày lễ."
+      }
+    }
+  }
+}
