@@ -54,7 +54,7 @@
 <label><input type="radio" name="filing" value="2025"> El 20 de octubre de 2025 o después</label>
 <label><input type="radio" name="filing" value="future"> Todavía no he presentado mi solicitud</label>
 <fieldset style="border:1px solid #d7e1ed;border-radius:12px;padding:12px;margin:18px 0"><legend><strong>Modalidad de estudio</strong></legend><label><input type="radio" name="track" value="general" checked> General</label><label><input type="radio" name="track" value="special"> Consideración especial 65/20</label><p class="muted small">65 años o más y al menos 20 años como residente permanente legal al presentar el N-400. Estudia 20 preguntas oficiales; en el examen se hacen 10 y se aprueba con 6 correctas. Puedes realizar la prueba de educación cívica en el idioma que elijas.</p></fieldset><p id="assignment" class="status" aria-live="polite">Selecciona una opción para continuar.</p><button id="continue" class="primary" disabled>Continuar →</button>
-</div><div id="pending" class="card hidden"><h2>Examen de 2025</h2><p>Tu selección corresponde al examen de 2025. Las 128 preguntas oficiales están disponibles en el modo de práctica.</p><button id="backPending">← Cambiar versión de examen</button></div><div id="study" class="hidden"><div class="actions"><button id="backStudy">← Cambiar versión de examen</button><button id="about">ⓘ Información del examen</button></div><div class="tabs hidden" aria-hidden="true"><button id="practice" class="selected" tabindex="-1">📖 Práctica</button><button id="interview" class="hidden" disabled aria-hidden="true">🎙️ Entrevista (próximamente)</button></div>
+</div><div id="pending" class="card hidden"><h2>Examen de 2025</h2><p>Tu selección corresponde al examen de 2025. Las 128 preguntas oficiales están disponibles en el modo de práctica.</p><button id="backPending">← Cambiar versión de examen</button></div><div id="study" class="hidden"><div id="milestone65" role="status" aria-live="polite" class="hidden" style="padding:19px 20px;margin:0 0 18px;border:2px solid #7ab68b;border-radius:16px;background:#eaf8ed;color:#205b34;font-size:1.07rem;font-weight:700"></div><div class="actions"><button id="backStudy">← Cambiar versión de examen</button><button id="about">ⓘ Información del examen</button></div><div class="tabs hidden" aria-hidden="true"><button id="practice" class="selected" tabindex="-1">📖 Práctica</button><button id="interview" class="hidden" disabled aria-hidden="true">🎙️ Entrevista (próximamente)</button></div>
 <div id="interviewTools" class="card hidden"><strong>Simulación de entrevista</strong><p class="muted small" id="interviewGuide">Escucha la pregunta, responde en voz alta y compara con la respuesta oficial. Tú calificas cada respuesta.</p><div class="actions"><button id="restartInterviewTop">↻ Nueva entrevista</button></div><p class="muted small" id="interviewProgress" aria-live="polite"></p></div><div id="practiceTools" class="card"><strong>Mi práctica</strong><div class="actions"><button id="allQuestions" class="selected">Todas las preguntas</button><button id="reviewQuestions">Practicar mis incorrectas (<span id="reviewCount">0</span>)</button></div><p id="reviewEmpty" class="muted small hidden">¡Todas las incorrectas corregidas! Puedes comenzar otra práctica completa cuando quieras.</p><div class="actions"><button id="previous">← Anterior</button><button id="clearMarks">Reiniciar progreso</button></div><details class="muted small"><summary>Respuestas que pueden cambiar</summary><p>Algunos nombres de funcionarios cambian. Datos revisados el 11 de noviembre de 2026. Consulta <a href="https://www.uscis.gov/citizenship/testupdates" target="_blank" rel="noopener">USCIS</a> antes de tu entrevista.</p></details></div><div class="card"><div id="roundEnd" class="hidden" role="status" aria-live="polite"><p id="roundMessage" class="status"></p><button id="newReviewRound" class="primary">Nueva ronda aleatoria de incorrectas</button></div><div id="questionContent"><div class="muted" id="counter"></div><p id="prompt" class="question"></p><p id="promptEs" class="translation"></p><p id="instruction" class="muted hidden"></p>
 <div class="actions"><button id="listen" class="primary">🔊 Escuchar pregunta</button><button id="showq" class="hidden">Ver pregunta escrita</button></div>
 <p class="status" id="audioStatus" aria-live="polite"></p>
@@ -103,7 +103,9 @@ function activeIndices(){return reviewOnly?reviewOrder:practiceOrder}
 function styleCompletion(){const success=reviewIndices().length===0;$('roundEnd').classList.toggle('completion-success',success);$('roundEnd').style.background=success?'#e5f5e8':'#fff5e7';$('roundEnd').style.borderColor=success?'#6dab7b':'#dfb56f';$('roundMessage').style.color=success?'#205b34':'#754b17';}
 function endReviewRound(){roundFinished=true;styleCompletion();$('questionContent').classList.add('hidden');$('roundEnd').classList.remove('hidden');const n=reviewIndices().length;$('roundMessage').textContent=n?`Ronda terminada. Quedan ${n} incorrectas. Puedes iniciar otra ronda en un orden diferente.`:`🎉 ¡Excelente trabajo! ¡Superaste todas las preguntas de refuerzo! Usa «Reiniciar progreso» para seguir practicando.`;$('newReviewRound').classList.toggle('hidden',n===0);$('next').classList.add('hidden');$('reveal').classList.add('hidden');$('answerArea').classList.add('hidden')}
 function updatePracticeTools(){const ids=reviewIndices();$('reviewCount').textContent=ids.length;$('reviewQuestions').disabled=!practiceComplete()&&!reviewOnly;$('reviewQuestions').title=practiceComplete()?'Repasar preguntas incorrectas':'Primero califica todas las preguntas';$('reviewEmpty').classList.toggle('hidden',!(reviewOnly&&ids.length===0));$('reviewQuestions').classList.toggle('selected',reviewOnly);$('allQuestions').classList.toggle('selected',!reviewOnly);$('practiceTools').classList.toggle('hidden',mode!=='practice');$('interviewTools').classList.toggle('hidden',mode!=='interview');$('previous').disabled=reviewOnly?(roundFinished||reviewPos===0):activeIndices().length<2;}
-function finishPracticeRound(){roundFinished=true;styleCompletion();$('questionContent').classList.add('hidden');$('roundEnd').classList.remove('hidden');const n=reviewIndices().length;$('roundMessage').textContent=n?`¡Completaste las ${QUESTIONS.length} preguntas! Tienes ${n} por reforzar. Pulsa «Repasar incorrectas» para continuar estudiando.`:`¡Completaste las ${QUESTIONS.length} preguntas! No tienes respuestas incorrectas pendientes. Puedes repetir la práctica cuando quieras.`;$('newReviewRound').classList.add('hidden');$('next').classList.add('hidden');$('reveal').classList.add('hidden');$('answerArea').classList.add('hidden');updatePracticeTools();}
+function finishPracticeRound(){roundFinished=true;styleCompletion();$('questionContent').classList.add('hidden');$('roundEnd').classList.remove('hidden');const n=reviewIndices().length;const scored=QUESTIONS.filter((_,i)=>marks[i]==='correct').length;$('roundMessage').textContent=previewLang==='vi'
+ ?'Hoàn thành '+QUESTIONS.length+' câu luyện tập! Trả lời đúng '+scored+'/'+QUESTIONS.length+' câu. '+(n?'Còn '+n+' câu cần ôn lại.':'Không còn câu trả lời sai cần ôn.')+' Đây là bài luyện tập, không phải kết quả thi chính thức.'
+ :(n?`¡Completaste las ${QUESTIONS.length} preguntas! Tienes ${n} por reforzar. Pulsa «Repasar incorrectas» para continuar estudiando.`:`¡Completaste las ${QUESTIONS.length} preguntas! No tienes respuestas incorrectas pendientes. Puedes repetir la práctica cuando quieras.`);$('newReviewRound').classList.add('hidden');$('next').classList.add('hidden');$('reveal').classList.add('hidden');$('answerArea').classList.add('hidden');updatePracticeTools();}
 function navigatePractice(delta){if(roundFinished)return;if(marks[index]!=='correct'&&marks[index]!=='wrong'){ $('summary').textContent='Primero califica esta respuesta como correcta o incorrecta para continuar.';return;}if(reviewOnly){const nextPos=reviewPos+delta;if(nextPos<0)return;if(nextPos>=reviewOrder.length){endReviewRound();return}reviewPos=nextPos;roundRated=false;index=reviewOrder[reviewPos];render();return}const ids=activeIndices();let pos=ids.indexOf(index);if(delta>0&&pos===ids.length-1){finishPracticeRound();return}pos=(pos+delta+ids.length)%ids.length;practicePos=pos;index=ids[pos];savePracticeOrder();render()}
 // Las respuestas nacionales cambian con nombramientos y elecciones.
 // Comprobar trimestralmente y después de cambios de cargo. Fecha de referencia:
@@ -138,7 +140,32 @@ function gradeInterview(m){
  const stop=chosenBank==='2025'?(interviewCorrect>=12||interviewWrong>=9||interviewPosition+1>=interviewOrder.length):(interviewPosition+1>=interviewOrder.length);
  advanceTimer=setTimeout(()=>{advanceTimer=null;if(stop){finishInterview();return}interviewPosition++;interviewRated=false;index=interviewOrder[interviewPosition];render();$('listen').click()},1650);
 }
-document.querySelectorAll('[data-mark]').forEach(b=>b.onclick=()=>{if(mode==='interview')gradeInterview(b.dataset.mark);else{marks[index]=b.dataset.mark;saveMarks();if(reviewOnly){roundRated=true;$('next').disabled=false;document.querySelectorAll('[data-mark]').forEach(x=>x.disabled=true);$('next').textContent='Continuar →'}updatePracticeTools();if(!reviewOnly)$('next').disabled=false;$('summary').textContent=`Progreso: ${QUESTIONS.filter((_,i)=>marks[i]==='correct'||marks[i]==='wrong').length}/${QUESTIONS.length} · ${reviewIndices().length} incorrectas pendientes`}});
+// Practice milestone only: USCIS 65/20 asks 10 questions and requires 6 correct.
+// The first 10 in this 20-question study round are an informal practice sample.
+function checkMilestone65(){
+ if(chosenTrack!=='special'||reviewOnly||window.milestone65Shown||!Array.isArray(practiceOrder)||practiceOrder.length!==20)return;
+ const firstTen=practiceOrder.slice(0,10);
+ const correct=firstTen.filter(i=>marks[i]==='correct').length;
+ const rated=firstTen.filter(i=>marks[i]==='correct'||marks[i]==='wrong').length;
+ const el=$('milestone65');
+ if(correct>=6){
+  window.milestone65Shown=true;
+  el.classList.remove('hidden');
+  el.textContent=previewLang==='vi'
+   ?'🎉 Chúc mừng! Bạn đã trả lời đúng ít nhất 6 trong 10 câu hỏi luyện tập đầu tiên — đạt mốc tương đương yêu cầu của diện 65/20. Đây chỉ là bài luyện tập, không phải kết quả thi chính thức. Hãy tiếp tục ôn tập!'
+   :'🎉 ¡Felicidades! Acertaste al menos 6 de las primeras 10 preguntas de práctica: alcanzaste la meta de referencia 65/20. Esto no es un resultado oficial. ¡Sigue estudiando!';
+ }else if(rated===10){
+  window.milestone65Shown=true;
+  el.classList.remove('hidden');
+  el.style.background='#fff5e7';
+  el.style.borderColor='#dfb56f';
+  el.style.color='#754b17';
+  el.textContent=previewLang==='vi'
+   ?'Bạn đã hoàn thành 10 câu đầu với '+correct+'/10 câu đúng. Mốc luyện tập 65/20 là 6/10. Hãy tiếp tục học và ôn lại các câu khó.'
+   :'Completaste las primeras 10 preguntas con '+correct+'/10 correctas. La referencia 65/20 es 6/10. Sigue practicando.';
+ }
+}
+document.querySelectorAll('[data-mark]').forEach(b=>b.onclick=()=>{if(mode==='interview')gradeInterview(b.dataset.mark);else{marks[index]=b.dataset.mark;saveMarks();checkMilestone65();if(reviewOnly){roundRated=true;$('next').disabled=false;document.querySelectorAll('[data-mark]').forEach(x=>x.disabled=true);$('next').textContent='Continuar →'}updatePracticeTools();if(!reviewOnly)$('next').disabled=false;$('summary').textContent=`Progreso: ${QUESTIONS.filter((_,i)=>marks[i]==='correct'||marks[i]==='wrong').length}/${QUESTIONS.length} · ${reviewIndices().length} incorrectas pendientes`}});
 function normalizeSpoken(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(u\.?s\.?|united states of america)\b/g,'united states').replace(/[^a-z0-9 ]/g,' ').replace(/\b(the|a|an)\b/g,' ').replace(/\s+/g,' ').trim()}
 function answerMatches(spoken){
  const x=QUESTIONS[index],n=x.n;
@@ -292,6 +319,8 @@ function startStudy(showFirstOrientation){
  if(chosenTrack==='special'&&selected.length!==20){alert('No se pudo cargar el banco 65/20 completo.');return false}
  QUESTIONS=previewLang==='vi'?selected.map(x=>{const v=VI_PREVIEW[chosenBank]?.[x.n];return v?{...x,q_es:v.question,es:v.explanation}:x}):selected;
  index=0;reviewOnly=false;reviewOrder=[];roundFinished=false;
+ window.milestone65Shown=false;
+ $('milestone65').classList.add('hidden');
  loadMarks();restorePracticeOrder();
  $('setup').classList.add('hidden');$('study').classList.remove('hidden');$('pending').classList.add('hidden');
  mode='practice';render();
@@ -312,7 +341,7 @@ if(savedPreferences){
   orientationSeen=true;
  }
 }
-function backToSetup(){clearAudio();if('speechSynthesis' in window)speechSynthesis.cancel();cleanRecording();$('study').classList.add('hidden');$('orientation').classList.add('hidden');$('pending').classList.add('hidden');$('setup').classList.remove('hidden');window.scrollTo(0,0)}
+function backToSetup(){$('milestone65').classList.add('hidden');clearAudio();if('speechSynthesis' in window)speechSynthesis.cancel();cleanRecording();$('study').classList.add('hidden');$('orientation').classList.add('hidden');$('pending').classList.add('hidden');$('setup').classList.remove('hidden');window.scrollTo(0,0)}
 $('backPending').onclick=backToSetup;
 $('backStudy').onclick=backToSetup;
 $('allQuestions').onclick=()=>{reviewOnly=false;roundFinished=false;index=practiceOrder[practicePos];render()};
