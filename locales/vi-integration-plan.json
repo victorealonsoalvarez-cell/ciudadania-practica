@@ -1,8 +1,8 @@
 {
   "project": "Ciudadanía Práctica",
   "locale": "vi",
-  "version": "pilot-preparation-v1",
-  "status": "staged-not-production",
+  "version": "combined-preview-v1",
+  "status": "all-three-packages-drafted-and-wired-to-isolated-preview",
   "objective": "Integrar simultáneamente los tres paquetes de estudio tras completar traducciones y QA; sin modificar la lógica de preguntas, audio inglés, progreso, ni modo de repaso.",
   "packages": [
     {
@@ -10,20 +10,22 @@
       "exam": "2008",
       "track": "general",
       "questions_required": 100,
-      "translations_ready": 0,
-      "status": "not-ready",
+      "translations_ready": 100,
+      "status": "complete-draft-pending-independent-language-review",
       "source_bank": "OLD_QUESTIONS",
-      "note": "Deben prepararse las 100 traducciones y comprobar correspondencia, terminología, instrucciones."
+      "note": "Deben prepararse las 100 traducciones y comprobar correspondencia, terminología, instrucciones.",
+      "translations_path": "locales/vi-general-2008.pending.json"
     },
     {
       "id": "general-2025",
       "exam": "2025",
       "track": "general",
       "questions_required": 128,
-      "translations_ready": 0,
-      "status": "not-ready",
+      "translations_ready": 128,
+      "status": "complete-draft-pending-independent-language-review",
       "source_bank": "NEW_QUESTIONS",
-      "note": "Deben prepararse las 128 traducciones y comprobar correspondencia, terminología, instrucciones."
+      "note": "Deben prepararse las 128 traducciones y comprobar correspondencia, terminología, instrucciones.",
+      "translations_path": "locales/vi-general-2025.pending.json"
     },
     {
       "id": "special-65-20",
@@ -31,7 +33,7 @@
       "track": "special",
       "questions_required": 40,
       "translations_ready": 40,
-      "status": "pilot-reviewed-not-certified",
+      "status": "complete-draft-pending-independent-language-review",
       "source_bank": "OLD_SPECIAL_QUESTIONS + NEW_QUESTIONS.filter(q=>q.special)",
       "translations_path": "locales/vi-65-20.draft.json",
       "qa_path": "locales/vi-65-20.qa.json",
@@ -54,11 +56,10 @@
     "do_not_duplicate_dynamic_answer_datasets_per_language": true
   },
   "next_steps": [
-    "Completar contenido original de apoyo vietnamita para los 100 ítems generales de 2008.",
-    "Completar contenido original de apoyo vietnamita para los 128 ítems generales de 2025.",
-    "Reutilizar sin duplicar las fuentes dinámicas/geográficas de la aplicación principal; revisar solamente los textos de presentación vietnamitas.",
-    "Unificar el origen de datos (ahora el piloto incorpora una copia en HTML), separar los paquetes por versión y modalidad.",
-    "Al estar completos los tres paquetes, habilitar selector e interfaz vietnamita en una sola integración, con pruebas de regresión y nota beta."
+    "Comprobar en el navegador el selector, modalidad general, banco 2008 de 100, banco 2025 de 128 y 65/20 de 20 por versión.",
+    "Auditar terminología y claridad vietnamita con una revisión externa cuando esté disponible; registrar feedback de usuarios.",
+    "Verificar que los textos dinámicos, la ayuda de ubicación y los mensajes del sistema mantengan el idioma seleccionado.",
+    "Antes de publicación: confirmar que no existan regresiones en el español y que los mensajes/titulares públicos estén traducidos; integrar el idioma con los tres paquetes en una sola publicación."
   ],
   "existing_data_reuse": {
     "canonical_source": "index.html",
@@ -70,5 +71,39 @@
       "NEW_QUESTIONS"
     ],
     "locale_scope": "Only translate user-facing descriptions, link labels and notices; do not create independent lists of officeholders, location-dependent answers or accepted English answers for Vietnamese."
+  },
+  "preview": {
+    "url": "https://victorealonsoalvarez-cell.github.io/ciudadania-practica/prueba-vietnamita-completa.html",
+    "html": "prueba-vietnamita-completa.html",
+    "language_bundle": "locales/vi-packs.preview.js",
+    "public_selector_enabled": false,
+    "pwa_install_telemetry": false,
+    "web_analytics": false,
+    "google_indexing": "noindex,nofollow"
+  },
+  "checks": {
+    "2008_general": {
+      "source": 100,
+      "translations": 100,
+      "missing": 0
+    },
+    "2025_general": {
+      "source": 128,
+      "translations": 128,
+      "missing": 0
+    },
+    "65_20_2008": {
+      "source": 20,
+      "translations": 20,
+      "missing": 0
+    },
+    "65_20_2025": {
+      "source": 20,
+      "translations": 20,
+      "missing": 0
+    },
+    "js_syntax": "static-check-passed",
+    "user_functional_test": "pending-combined-preview",
+    "independent_vietnamese_review": "pending"
   }
 }
