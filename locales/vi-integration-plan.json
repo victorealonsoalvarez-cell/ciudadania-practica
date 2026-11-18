@@ -1,8 +1,8 @@
 {
   "project": "Ciudadanía Práctica",
   "locale": "vi",
-  "version": "combined-preview-v1",
-  "status": "audit-completed-editorial-and-structural-not-published",
+  "version": "vietnamese-beta-release-2026-11-18",
+  "status": "public-beta-committed-to-github-pages",
   "objective": "Integrar simultáneamente los tres paquetes de estudio tras completar traducciones y QA; sin modificar la lógica de preguntas, audio inglés, progreso, ni modo de repaso.",
   "packages": [
     {
@@ -104,9 +104,11 @@
     },
     "js_syntax": "static-check-passed",
     "user_functional_test": "pending-combined-preview",
-    "independent_vietnamese_review": "pending",
+    "independent_vietnamese_review": "pending; marked beta",
     "combined_browser_regression": "pending",
-    "source_linked_editorial_audit": "performed-with-reported-limitations"
+    "source_linked_editorial_audit": "performed-with-reported-limitations",
+    "ownerFunctionalTest": "combined preview tested by project owner",
+    "publicProductionSmokeTest": "pending user confirmation"
   },
   "audit": {
     "date": "2026-11-18",
@@ -138,5 +140,20 @@
     "external_vietnamese_review": "not-completed",
     "combined_browser_regression": "not-completed",
     "public_release_approved": false
+  },
+  "release": {
+    "date": "2026-11-18",
+    "visibility": "public beta",
+    "mainPage": "index.html",
+    "languageSelector": "supportLanguage",
+    "packs": "locales/vi-packs.js",
+    "ui": "locales/vi-ui.js",
+    "pwaCache": "ciudadania-practica-v8-20261118-vietnamese-release",
+    "sourceCommit": "141fcbdf0fb69fdc400c0a6606d54286125b8e9a",
+    "releaseAnnouncementCommit": "d649feb62b0118417c31712bfbc82de53c099a80",
+    "repositoryIntegrationConfirmed": true,
+    "githubPagesLiveBrowserConfirmed": false,
+    "nativeVietnameseProofread": false,
+    "notes": "Release is explicitly beta. Keep existing Spanish progress keys, PWA metrics, analytics and official English answers unchanged."
   }
 }
