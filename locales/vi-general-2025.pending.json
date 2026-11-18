@@ -2,7 +2,7 @@
   "locale": "vi",
   "exam": "2025",
   "track": "general",
-  "status": "untranslated-template",
+  "status": "partial-draft-64-of-128",
   "required_review": "question and explanation must be linguistically checked against independent sources before public launch",
   "items": [
     {
@@ -13,8 +13,8 @@
         "Constitution-based federal republic",
         "Representative democracy"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hoa Kỳ có hình thức chính phủ nào?",
+      "vietnamese_explanation": "Hoa Kỳ là một nước cộng hòa; người dân bầu ra đại diện để điều hành đất nước."
     },
     {
       "n": 2,
@@ -22,8 +22,8 @@
       "english_official_answers": [
         "(U.S.) Constitution"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Luật tối cao của đất nước là gì?",
+      "vietnamese_explanation": "Hiến pháp Hoa Kỳ là luật tối cao và đặt nền tảng cho chính phủ."
     },
     {
       "n": 3,
@@ -34,8 +34,8 @@
         "Defines the parts of government",
         "Protects the rights of the people"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một chức năng của Hiến pháp Hoa Kỳ.",
+      "vietnamese_explanation": "Hiến pháp tổ chức chính phủ, xác định các quyền hạn và bảo vệ quyền của người dân."
     },
     {
       "n": 4,
@@ -47,8 +47,8 @@
         "People should govern themselves",
         "(Example of) social contract"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp Hoa Kỳ bắt đầu bằng cụm từ “We the People”. Cụm từ này có nghĩa là gì?",
+      "vietnamese_explanation": "Nghĩa là “Chúng tôi, nhân dân”; quyền lực chính phủ bắt nguồn từ sự đồng thuận của người dân."
     },
     {
       "n": 5,
@@ -57,8 +57,8 @@
         "Amendments",
         "The amendment process"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp Hoa Kỳ được sửa đổi bằng cách nào?",
+      "vietnamese_explanation": "Bằng các tu chính án theo thủ tục được Hiến pháp quy định."
     },
     {
       "n": 6,
@@ -67,8 +67,8 @@
         "(The basic) rights of Americans",
         "(The basic) rights of people living in the United States"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Bộ luật Nhân quyền (Bill of Rights) bảo vệ điều gì?",
+      "vietnamese_explanation": "Bảo vệ những quyền và tự do cơ bản của người dân."
     },
     {
       "n": 7,
@@ -76,8 +76,8 @@
       "english_official_answers": [
         "Twenty-seven (27)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp Hoa Kỳ có bao nhiêu tu chính án?",
+      "vietnamese_explanation": "Hiến pháp có 27 tu chính án."
     },
     {
       "n": 8,
@@ -88,8 +88,8 @@
         "It identifies inherent rights.",
         "It identifies individual freedoms."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Tuyên ngôn Độc lập quan trọng?",
+      "vietnamese_explanation": "Văn kiện này tuyên bố nền độc lập của các thuộc địa và khẳng định những quyền cơ bản."
     },
     {
       "n": 9,
@@ -97,8 +97,8 @@
       "english_official_answers": [
         "Declaration of Independence"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Văn kiện lập quốc nào tuyên bố các thuộc địa Mỹ độc lập với nước Anh?",
+      "vietnamese_explanation": "Tuyên ngôn Độc lập."
     },
     {
       "n": 10,
@@ -111,8 +111,8 @@
         "Limited government",
         "Self-government"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai tư tưởng quan trọng trong Tuyên ngôn Độc lập và Hiến pháp Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: sự bình đẳng và quyền tự do. Hãy chọn hai tư tưởng được chấp nhận trong danh sách chính thức."
     },
     {
       "n": 11,
@@ -120,8 +120,8 @@
       "english_official_answers": [
         "Declaration of Independence"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Cụm từ “Life, Liberty, and the pursuit of Happiness” nằm trong văn kiện lập quốc nào?",
+      "vietnamese_explanation": "Tuyên ngôn Độc lập (Declaration of Independence)."
     },
     {
       "n": 12,
@@ -130,8 +130,8 @@
         "Capitalism",
         "Free market economy"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Chủ nghĩa tư bản hay nền kinh tế thị trường tự do cho phép cá nhân và doanh nghiệp tham gia hoạt động kinh tế."
     },
     {
       "n": 13,
@@ -142,8 +142,8 @@
         "Government must obey the law.",
         "No one is above the law."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nguyên tắc pháp quyền (rule of law) là gì?",
+      "vietnamese_explanation": "Mọi người, kể cả chính phủ, đều phải tuân theo pháp luật; không ai đứng trên pháp luật."
     },
     {
       "n": 14,
@@ -158,8 +158,8 @@
         "Mayflower Compact",
         "Iroquois Great Law of Peace"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Có nhiều văn kiện đã ảnh hưởng đến Hiến pháp Hoa Kỳ. Hãy kể tên một văn kiện.",
+      "vietnamese_explanation": "Ví dụ: Tuyên ngôn Độc lập hoặc Hiến pháp của các tiểu bang; hãy đối chiếu danh sách đáp án chính thức."
     },
     {
       "n": 15,
@@ -169,8 +169,8 @@
         "Checks and balances",
         "Separation of powers"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao chính phủ có ba nhánh?",
+      "vietnamese_explanation": "Để phân chia quyền lực và ngăn một nhánh trở nên quá mạnh."
     },
     {
       "n": 16,
@@ -179,8 +179,8 @@
         "Legislative, executive, and judicial",
         "Congress, president, and the courts"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên ba nhánh của chính phủ.",
+      "vietnamese_explanation": "Nhánh lập pháp, nhánh hành pháp và nhánh tư pháp."
     },
     {
       "n": 17,
@@ -188,8 +188,8 @@
       "english_official_answers": [
         "Executive branch"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tổng thống Hoa Kỳ phụ trách nhánh nào của chính phủ?",
+      "vietnamese_explanation": "Nhánh hành pháp."
     },
     {
       "n": 18,
@@ -199,8 +199,8 @@
         "(U.S. or national) legislature",
         "Legislative branch"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Bộ phận nào của chính phủ liên bang làm ra luật?",
+      "vietnamese_explanation": "Quốc hội Hoa Kỳ (nhánh lập pháp)."
     },
     {
       "n": 19,
@@ -208,8 +208,8 @@
       "english_official_answers": [
         "Senate and House (of Representatives)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Quốc hội Hoa Kỳ gồm hai viện nào?",
+      "vietnamese_explanation": "Thượng viện và Hạ viện."
     },
     {
       "n": 20,
@@ -219,8 +219,8 @@
         "Declares war",
         "Makes the federal budget"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền hạn của Quốc hội Hoa Kỳ.",
+      "vietnamese_explanation": "Quốc hội làm luật, tuyên chiến và lập ngân sách liên bang."
     },
     {
       "n": 21,
@@ -228,8 +228,8 @@
       "english_official_answers": [
         "One hundred (100)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Có bao nhiêu thượng nghị sĩ Hoa Kỳ?",
+      "vietnamese_explanation": "100 thượng nghị sĩ: hai người cho mỗi tiểu bang."
     },
     {
       "n": 22,
@@ -237,8 +237,8 @@
       "english_official_answers": [
         "Six (6) years"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhiệm kỳ của một thượng nghị sĩ Hoa Kỳ kéo dài bao lâu?",
+      "vietnamese_explanation": "Sáu năm."
     },
     {
       "n": 23,
@@ -246,8 +246,8 @@
       "english_official_answers": [
         "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. senators.]"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, hãy nêu tên một thượng nghị sĩ Hoa Kỳ của tiểu bang bạn.",
+      "vietnamese_explanation": "Hãy tra cứu thượng nghị sĩ đang đại diện cho tiểu bang nơi bạn cư trú; đáp án thay đổi theo tiểu bang và thời điểm."
     },
     {
       "n": 24,
@@ -255,8 +255,8 @@
       "english_official_answers": [
         "Four hundred thirty-five (435)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hạ viện Hoa Kỳ có bao nhiêu thành viên có quyền biểu quyết?",
+      "vietnamese_explanation": "435 thành viên có quyền biểu quyết."
     },
     {
       "n": 25,
@@ -264,8 +264,8 @@
       "english_official_answers": [
         "Two (2) years"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhiệm kỳ của một thành viên Hạ viện kéo dài bao lâu?",
+      "vietnamese_explanation": "Hai năm."
     },
     {
       "n": 26,
@@ -273,8 +273,8 @@
       "english_official_answers": [
         "To more closely follow public opinion"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao dân biểu Hạ viện có nhiệm kỳ ngắn hơn thượng nghị sĩ?",
+      "vietnamese_explanation": "Để các đại diện đáp ứng nhanh hơn ý kiến của cử tri."
     },
     {
       "n": 27,
@@ -282,8 +282,8 @@
       "english_official_answers": [
         "Two (2)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Mỗi tiểu bang có bao nhiêu thượng nghị sĩ?",
+      "vietnamese_explanation": "Hai thượng nghị sĩ, bất kể dân số của tiểu bang."
     },
     {
       "n": 28,
@@ -292,8 +292,8 @@
         "Equal representation (for small states)",
         "The Great Compromise (Connecticut Compromise)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao mỗi tiểu bang có hai thượng nghị sĩ?",
+      "vietnamese_explanation": "Để các tiểu bang lớn và nhỏ có sự đại diện ngang nhau trong Thượng viện."
     },
     {
       "n": 29,
@@ -301,8 +301,8 @@
       "english_official_answers": [
         "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) representatives in Congress.]"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu tên dân biểu Hạ viện Hoa Kỳ đại diện cho bạn.",
+      "vietnamese_explanation": "Đáp án phụ thuộc vào khu vực bầu cử nơi bạn sống. Hãy tra cứu người đại diện hiện tại."
     },
     {
       "n": 30,
@@ -312,8 +312,8 @@
         "Johnson",
         "James Michael Johnson"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Chủ tịch Hạ viện Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Chủ tịch Hạ viện điều hành hoạt động của Hạ viện. Hãy kiểm tra tên người đang giữ chức vụ này trước ngày phỏng vấn."
     },
     {
       "n": 31,
@@ -322,8 +322,8 @@
         "Citizens of their state",
         "People of their state"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Một thượng nghị sĩ Hoa Kỳ đại diện cho ai?",
+      "vietnamese_explanation": "Cho tất cả người dân trong tiểu bang mà họ đại diện."
     },
     {
       "n": 32,
@@ -331,8 +331,8 @@
       "english_official_answers": [
         "Citizens from their state"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai bầu thượng nghị sĩ Hoa Kỳ?",
+      "vietnamese_explanation": "Cử tri của mỗi tiểu bang."
     },
     {
       "n": 33,
@@ -343,8 +343,8 @@
         "People from their (congressional) district",
         "People in their district"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Một dân biểu Hạ viện Hoa Kỳ đại diện cho ai?",
+      "vietnamese_explanation": "Cho người dân trong khu vực bầu cử của mình."
     },
     {
       "n": 34,
@@ -352,8 +352,8 @@
       "english_official_answers": [
         "Citizens from their (congressional) district"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai bầu các thành viên Hạ viện Hoa Kỳ?",
+      "vietnamese_explanation": "Cử tri trong khu vực bầu cử tương ứng."
     },
     {
       "n": 35,
@@ -363,8 +363,8 @@
         "(Because) they have more people",
         "(Because) some states have more people"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao một số tiểu bang có nhiều dân biểu hơn những tiểu bang khác?",
+      "vietnamese_explanation": "Vì số dân của các tiểu bang khác nhau."
     },
     {
       "n": 36,
@@ -372,8 +372,8 @@
       "english_official_answers": [
         "Four (4) years"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tổng thống Hoa Kỳ được bầu với nhiệm kỳ bao nhiêu năm?",
+      "vietnamese_explanation": "Bốn năm."
     },
     {
       "n": 37,
@@ -382,8 +382,8 @@
         "(Because of) the 22nd Amendment",
         "To keep the president from becoming too powerful"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tổng thống Hoa Kỳ chỉ có thể phục vụ hai nhiệm kỳ. Tại sao?",
+      "vietnamese_explanation": "Tu chính án thứ 22 giới hạn số nhiệm kỳ Tổng thống."
     },
     {
       "n": 38,
@@ -393,8 +393,8 @@
         "Donald Trump",
         "Trump"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Tổng thống Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Tên Tổng thống có thể thay đổi sau bầu cử. Hãy kiểm tra người đang giữ chức vụ này trước ngày phỏng vấn."
     },
     {
       "n": 39,
@@ -403,8 +403,8 @@
         "JD Vance",
         "Vance"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Phó Tổng thống Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Phó Tổng thống là người giữ chức vụ cao thứ hai trong nhánh hành pháp. Hãy kiểm tra tên người đang giữ chức vụ này trước ngày phỏng vấn."
     },
     {
       "n": 40,
@@ -412,8 +412,8 @@
       "english_official_answers": [
         "The Vice President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nếu Tổng thống không thể tiếp tục đảm nhiệm chức vụ, ai trở thành Tổng thống?",
+      "vietnamese_explanation": "Phó Tổng thống sẽ kế nhiệm."
     },
     {
       "n": 41,
@@ -426,8 +426,8 @@
         "Chief diplomat",
         "Appoints federal judges"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền hạn của Tổng thống.",
+      "vietnamese_explanation": "Ví dụ: ký hoặc phủ quyết dự luật, đứng đầu nhánh hành pháp, hoặc chỉ huy quân đội."
     },
     {
       "n": 42,
@@ -435,8 +435,8 @@
       "english_official_answers": [
         "The President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng tư lệnh quân đội Hoa Kỳ?",
+      "vietnamese_explanation": "Tổng thống Hoa Kỳ."
     },
     {
       "n": 43,
@@ -444,8 +444,8 @@
       "english_official_answers": [
         "The President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai ký dự luật để dự luật trở thành luật?",
+      "vietnamese_explanation": "Tổng thống Hoa Kỳ."
     },
     {
       "n": 44,
@@ -453,8 +453,8 @@
       "english_official_answers": [
         "The President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai có quyền phủ quyết các dự luật?",
+      "vietnamese_explanation": "Tổng thống Hoa Kỳ. Phủ quyết nghĩa là từ chối phê chuẩn một dự luật."
     },
     {
       "n": 45,
@@ -462,8 +462,8 @@
       "english_official_answers": [
         "The President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai bổ nhiệm các thẩm phán liên bang?",
+      "vietnamese_explanation": "Tổng thống đề cử và bổ nhiệm theo quy trình hiến định."
     },
     {
       "n": 46,
@@ -473,8 +473,8 @@
         "Cabinet",
         "Federal departments and agencies"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhánh hành pháp có nhiều bộ phận. Hãy kể tên một bộ phận.",
+      "vietnamese_explanation": "Ví dụ: Tổng thống, Nội các hoặc các cơ quan liên bang."
     },
     {
       "n": 47,
@@ -482,8 +482,8 @@
       "english_official_answers": [
         "Advises the President (of the United States)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nội các của Tổng thống làm gì?",
+      "vietnamese_explanation": "Cố vấn cho Tổng thống về các vấn đề điều hành chính phủ."
     },
     {
       "n": 48,
@@ -512,8 +512,8 @@
         "Director of National Intelligence",
         "United States Trade Representative"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai chức vụ cấp Nội các.",
+      "vietnamese_explanation": "Ví dụ: Bộ trưởng Ngoại giao và Bộ trưởng Tài chính. Câu hỏi yêu cầu nêu hai chức vụ."
     },
     {
       "n": 49,
@@ -522,8 +522,8 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao Đại cử tri đoàn quan trọng?",
+      "vietnamese_explanation": "Đại cử tri đoàn đóng vai trò chính thức trong việc bầu Tổng thống."
     },
     {
       "n": 50,
@@ -532,8 +532,8 @@
         "Supreme Court",
         "Federal Courts"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một bộ phận của nhánh tư pháp.",
+      "vietnamese_explanation": "Ví dụ: Tòa án Tối cao hoặc các tòa án liên bang."
     },
     {
       "n": 51,
@@ -544,8 +544,8 @@
         "Resolves disputes (disagreements) about the law",
         "Decides if a law goes against the (U.S.) Constitution"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhánh tư pháp làm gì?",
+      "vietnamese_explanation": "Giải thích pháp luật, giải quyết tranh chấp và xem xét các vấn đề hiến pháp."
     },
     {
       "n": 52,
@@ -553,8 +553,8 @@
       "english_official_answers": [
         "Supreme Court"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tòa án cao nhất ở Hoa Kỳ là tòa án nào?",
+      "vietnamese_explanation": "Tòa án Tối cao Hoa Kỳ."
     },
     {
       "n": 53,
@@ -562,8 +562,8 @@
       "english_official_answers": [
         "Nine (9)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tòa án Tối cao Hoa Kỳ có bao nhiêu ghế thẩm phán?",
+      "vietnamese_explanation": "Theo tài liệu hiện nay có chín ghế; hãy kiểm tra thông tin cập nhật nếu luật thay đổi."
     },
     {
       "n": 54,
@@ -571,8 +571,8 @@
       "english_official_answers": [
         "Five (5)"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thông thường cần bao nhiêu thẩm phán Tòa án Tối cao đồng ý để quyết định một vụ án?",
+      "vietnamese_explanation": "Thông thường cần năm phiếu để có quyết định đa số của toàn bộ chín thẩm phán."
     },
     {
       "n": 55,
@@ -582,8 +582,8 @@
         "Lifetime appointment",
         "(Until) retirement"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Các thẩm phán Tòa án Tối cao phục vụ trong bao lâu?",
+      "vietnamese_explanation": "Thẩm phán có thể giữ chức vụ suốt đời, trừ khi từ chức, nghỉ hưu hoặc bị bãi nhiệm theo luật."
     },
     {
       "n": 56,
@@ -592,8 +592,8 @@
         "To be independent (of politics)",
         "To limit outside (political) influence"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao các thẩm phán Tòa án Tối cao phục vụ suốt đời?",
+      "vietnamese_explanation": "Để giúp bảo vệ sự độc lập của ngành tư pháp khỏi áp lực chính trị."
     },
     {
       "n": 57,
@@ -603,8 +603,8 @@
         "John G. Roberts, Jr.",
         "Roberts"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Chánh án Tòa án Tối cao Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Hãy kiểm tra tên người đang giữ chức Chánh án trước buổi phỏng vấn."
     },
     {
       "n": 58,
@@ -617,8 +617,8 @@
         "Make treaties",
         "Set foreign policy"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền hạn chỉ thuộc chính phủ liên bang.",
+      "vietnamese_explanation": "Ví dụ: tuyên chiến, in tiền hoặc ký kết hiệp ước."
     },
     {
       "n": 59,
@@ -630,8 +630,8 @@
         "Give a driver’s license",
         "Approve zoning and land use"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền hạn chỉ thuộc các tiểu bang.",
+      "vietnamese_explanation": "Ví dụ: quản lý trường học, cảnh sát hoặc giấy phép lái xe."
     },
     {
       "n": 60,
@@ -639,8 +639,8 @@
       "english_official_answers": [
         "(It states that the) powers not given to the federal government belong to the states or to the people."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Mục đích của Tu chính án thứ 10 là gì?",
+      "vietnamese_explanation": "Dành các quyền hạn không giao cho chính phủ liên bang và không bị cấm đối với các tiểu bang hoặc người dân."
     },
     {
       "n": 61,
@@ -648,8 +648,8 @@
       "english_official_answers": [
         "Answers will vary. [District of Columbia residents should answer that D.C. does not have a governor.]"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Thống đốc tiểu bang của bạn là ai?",
+      "vietnamese_explanation": "Đáp án tùy theo tiểu bang nơi bạn cư trú. Washington, D.C. không có thống đốc."
     },
     {
       "n": 62,
@@ -657,8 +657,8 @@
       "english_official_answers": [
         "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thủ phủ của tiểu bang nơi bạn sống là gì?",
+      "vietnamese_explanation": "Hãy nêu thủ phủ phù hợp với tiểu bang của bạn; Washington, D.C. không phải tiểu bang và không có thủ phủ tiểu bang."
     },
     {
       "n": 63,
@@ -669,8 +669,8 @@
         "Any citizen can vote. (Women and men can vote.)",
         "A male citizen of any race (can vote)."
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Có bốn tu chính án của Hiến pháp Hoa Kỳ liên quan đến quyền bầu cử. Hãy mô tả một tu chính án.",
+      "vietnamese_explanation": "Ví dụ: công dân từ 18 tuổi trở lên được quyền bầu cử; không được tước quyền bầu cử chỉ vì giới tính hoặc chủng tộc."
     },
     {
       "n": 64,
@@ -680,8 +680,8 @@
         "Citizens of the United States",
         "U.S. citizens"
       ],
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai có thể bỏ phiếu trong bầu cử liên bang, ứng cử chức vụ liên bang và tham gia bồi thẩm đoàn tại Hoa Kỳ?",
+      "vietnamese_explanation": "Công dân Hoa Kỳ có thể thực hiện những quyền và trách nhiệm này theo quy định."
     },
     {
       "n": 65,
