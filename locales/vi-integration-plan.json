@@ -1,0 +1,60 @@
+{
+  "project": "Ciudadanía Práctica",
+  "locale": "vi",
+  "version": "pilot-preparation-v1",
+  "status": "staged-not-production",
+  "objective": "Integrar simultáneamente los tres paquetes de estudio tras completar traducciones y QA; sin modificar la lógica de preguntas, audio inglés, progreso, ni modo de repaso.",
+  "packages": [
+    {
+      "id": "general-2008",
+      "exam": "2008",
+      "track": "general",
+      "questions_required": 100,
+      "translations_ready": 0,
+      "status": "not-ready",
+      "source_bank": "OLD_QUESTIONS",
+      "note": "Deben prepararse las 100 traducciones y comprobar correspondencia, terminología, instrucciones."
+    },
+    {
+      "id": "general-2025",
+      "exam": "2025",
+      "track": "general",
+      "questions_required": 128,
+      "translations_ready": 0,
+      "status": "not-ready",
+      "source_bank": "NEW_QUESTIONS",
+      "note": "Deben prepararse las 128 traducciones y comprobar correspondencia, terminología, instrucciones."
+    },
+    {
+      "id": "special-65-20",
+      "exam": "2008+2025",
+      "track": "special",
+      "questions_required": 40,
+      "translations_ready": 40,
+      "status": "pilot-reviewed-not-certified",
+      "source_bank": "OLD_SPECIAL_QUESTIONS + NEW_QUESTIONS.filter(q=>q.special)",
+      "translations_path": "locales/vi-65-20.draft.json",
+      "qa_path": "locales/vi-65-20.qa.json",
+      "note": "20 preguntas por versión. Cifras no deben contarse como 40 preguntas en una sola prueba."
+    }
+  ],
+  "integration_guardrails": {
+    "enable_public_language_selector_only_when_all_three_packages_complete": true,
+    "no_partial_fallback_to_spanish_for_vietnamese": true,
+    "keep_original_english_questions_and_accepted_answers": true,
+    "preserve_existing_2008_2025_filing_date_rules": true,
+    "preserve_existing_marks_and_order": true,
+    "avoid_progress_collision_between_locales": true,
+    "keep_65_20_exam_selection_and_learning_flow_unchanged": true,
+    "require_qa_for_every_question_and_ui_text": true,
+    "do_not_claim_government_affiliation": true,
+    "ask_for_native_feedback_and_link_existing_report_form": true
+  },
+  "next_steps": [
+    "Completar contenido original de apoyo vietnamita para los 100 ítems generales de 2008.",
+    "Completar contenido original de apoyo vietnamita para los 128 ítems generales de 2025.",
+    "Contrastar todas las preguntas/explicaciones con inglés USCIS y fuentes vietnamitas; priorizar las dinámicas y geográficas.",
+    "Unificar el origen de datos (ahora el piloto incorpora una copia en HTML), separar los paquetes por versión y modalidad.",
+    "Al estar completos los tres paquetes, habilitar selector e interfaz vietnamita en una sola integración, con pruebas de regresión y nota beta."
+  ]
+}
