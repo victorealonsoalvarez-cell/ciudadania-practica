@@ -1,0 +1,369 @@
+{
+  "locale": "vi",
+  "audited_at": "2026-11-18",
+  "scope": "65/20",
+  "status": "preliminary-source-comparison-not-language-certified",
+  "source_of_truth": "locales/vi-65-20.draft.json",
+  "references": [
+    {
+      "purpose": "reglas oficiales, selección de preguntas, respuestas inglesas y actualizaciones",
+      "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test"
+    },
+    {
+      "purpose": "preguntas y respuestas 65/20 vietnamitas de 2008, comparación de terminología",
+      "url": "https://usahello.org/wp-content/uploads/2022/04/English-Vietnamese-65_20.pdf"
+    },
+    {
+      "purpose": "preguntas y respuestas vietnamitas de 2025, comparación de terminología",
+      "url": "https://usahello.org/wp-content/uploads/2026/07/128_Civics_Questions_and_Answers_-_Vietnamese_FINAL.pdf"
+    },
+    {
+      "purpose": "preguntas y respuestas oficiales del examen 2025 en inglés",
+      "url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf"
+    }
+  ],
+  "checks": {
+    "count_2008": 20,
+    "count_2025": 20,
+    "source_qid_mapping": "40/40 correct",
+    "translations_nonempty": "40/40",
+    "official_english_questions_unchanged": true,
+    "official_english_answers_unchanged": true,
+    "app_is_publicly_enabled": false,
+    "independent_native_review": false
+  },
+  "items": {
+    "2008": [
+      {
+        "number": 6,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 11,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 13,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 17,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 20,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 27,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 28,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 44,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 45,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 49,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 54,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 56,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 70,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 75,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 78,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 85,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 94,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 95,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 97,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 99,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      }
+    ],
+    "2025": [
+      {
+        "number": 2,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 7,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 12,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 20,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 30,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 36,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 38,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 39,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 44,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 52,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 61,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 66,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 74,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 78,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 86,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 94,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 113,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 115,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 121,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "standard",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      },
+      {
+        "number": 126,
+        "translation_present": true,
+        "explanation_present": true,
+        "question_aligned_to_english_id": true,
+        "priority": "high",
+        "review_status": "automated-and-editorial-precheck; independent-language-review-pending"
+      }
+    ]
+  },
+  "risks": [
+    "No hay revisión independiente de un hablante competente en vietnamita; no afirmar certificación de traducción.",
+    "Las respuestas dependientes del estado y de cargos en funciones deben consultarse en USCIS antes de la entrevista.",
+    "Algunas fuentes de terceros tienen opciones de respuestas o detalles no idénticos a la publicación USCIS actual; el texto inglés de USCIS prevalece.",
+    "Una de las fuentes vietnamitas de USAHello del examen 2025 puede omitir Juneteenth de las alternativas históricas mostradas en la pregunta 126; verificar siempre el listado inglés vigente.",
+    "El hito de seis aciertos entre las primeras diez preguntas en la versión piloto es una referencia de práctica, no una simulación oficial.",
+    "Permisos de reutilización de traducciones de terceros no fueron establecidos; usar solo para comparación y producir contenido propio."
+  ]
+}
