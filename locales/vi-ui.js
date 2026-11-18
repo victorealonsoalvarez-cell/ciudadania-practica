@@ -130,6 +130,7 @@
   const beta=$el('languageBetaNote');
   if(beta)beta.classList.toggle('hidden',!isVi());
   updateAssignment();
+  localizeTicker();
  }
  function updateAssignment(){
   const el=$el('assignment');
@@ -137,10 +138,23 @@
   el.textContent=chosenBank?'Đã chọn đề '+chosenBank+' · '+(chosenTrack==='special'?'65/20':'Thông thường')+'. Nhấn Tiếp tục.':'Chọn một tùy chọn để tiếp tục.';
  }
  function localizeTicker(){
-  const copy=isVi()?
-    {label:'ĐÃ CÓ SẴN',message:'Hiện đã hỗ trợ tiếng Việt 🇻🇳 · Góp ý hoặc báo lỗi dịch thuật để cùng cải thiện',region:'Cập nhật dự án'}:
-    {label:'YA DISPONIBLE',message:'Ahora disponible en vietnamita 🇻🇳 · Comparte tus sugerencias o reporta problemas',region:'Actualización del proyecto'};
-  for(const [id,value] of [['projectUpdateLabel',copy.label],['projectUpdateMessage',copy.message],['projectUpdateRepeat',copy.message]]){const node=$el(id);if(node)node.textContent=value}
+  let language='es';
+  if(isVi())language='vi';
+  else{
+   let explicit;
+   try{explicit=localStorage.getItem(localeKey)==='es'}catch(e){explicit=false}
+   const browser=String(navigator.languages?.[0]||navigator.language||'').toLowerCase();
+   if(!explicit&&browser.startsWith('en'))language='en';
+  }
+  const available={
+   es:{label:'ACTUALIZACIÓN',message:'Ahora disponible en vietnamita 🇻🇳 · Ayúdanos a mejorar con tus aportaciones y reportes de problemas',link:'Enviar sugerencias o reportar problemas ↗',region:'Actualización del proyecto'},
+   en:{label:'UPDATE',message:'Now available in Vietnamese 🇻🇳 · Help improve the tool with feedback or issue reports',link:'Send feedback or report an issue ↗',region:'Project update'},
+   vi:{label:'CẬP NHẬT',message:'Đã có phiên bản tiếng Việt 🇻🇳 · Hãy góp ý hoặc báo lỗi để giúp chúng tôi cải thiện',link:'Gửi góp ý hoặc báo lỗi ↗',region:'Cập nhật dự án'}
+  };
+  const copy=available[language];
+  for(const [id,value] of [['projectUpdateLabel',copy.label],['projectUpdateMessage',copy.message],['projectUpdateRepeat',copy.message],['projectUpdateFeedback',copy.link]]){
+   const el=$el(id);if(el)el.textContent=value;
+  }
   const update=$el('projectUpdate');if(update)update.setAttribute('aria-label',copy.region);
  }
  const statusMessages={
