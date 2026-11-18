@@ -2,708 +2,709 @@
   "locale": "vi",
   "exam": "2008",
   "track": "general",
-  "status": "untranslated-template",
-  "required_review": "question and explanation must be linguistically checked against independent sources before public launch",
+  "status": "draft-complete-pending-independent-review",
+  "required_review": "Vietnamese question and explanation wording must be independently reviewed; all official English answers remain canonical in the main app.",
   "items": [
     {
       "n": 1,
       "english_question": "What is the supreme law of the land?",
       "english_official_answers": "the Constitution",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Luật tối cao của đất nước là gì?",
+      "vietnamese_explanation": "Hiến pháp là luật tối cao của Hoa Kỳ."
     },
     {
       "n": 2,
       "english_question": "What does the Constitution do?",
       "english_official_answers": "sets up the government; defines the government; protects basic rights of Americans",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp có chức năng gì?",
+      "vietnamese_explanation": "Hiến pháp thành lập chính phủ, xác định quyền hạn của chính phủ và bảo vệ các quyền cơ bản của người dân Mỹ."
     },
     {
       "n": 3,
       "english_question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
       "english_official_answers": "We the People",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ý tưởng về quyền tự quản được thể hiện trong ba từ đầu tiên của Hiến pháp. Đó là những từ nào?",
+      "vietnamese_explanation": "“We the People” nghĩa là “Chúng tôi, nhân dân”; quyền lực của chính phủ bắt nguồn từ nhân dân."
     },
     {
       "n": 4,
       "english_question": "What is an amendment?",
       "english_official_answers": "a change to the Constitution; an addition to the Constitution",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tu chính án là gì?",
+      "vietnamese_explanation": "Tu chính án là sự sửa đổi hoặc bổ sung vào Hiến pháp."
     },
     {
       "n": 5,
       "english_question": "What do we call the first ten amendments to the Constitution?",
       "english_official_answers": "the Bill of Rights",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Mười tu chính án đầu tiên của Hiến pháp được gọi là gì?",
+      "vietnamese_explanation": "Mười tu chính án đầu tiên được gọi là Bộ luật Nhân quyền (Bill of Rights)."
     },
     {
       "n": 6,
       "english_question": "What is one right or freedom from the First Amendment?",
       "english_official_answers": "speech; religion; assembly; press; petition the government",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền hoặc quyền tự do được bảo vệ theo Tu chính án thứ Nhất.",
+      "vietnamese_explanation": "Tự do ngôn luận; tự do tôn giáo; quyền hội họp; tự do báo chí; quyền kiến nghị chính phủ."
     },
     {
       "n": 7,
       "english_question": "How many amendments does the Constitution have?",
       "english_official_answers": "twenty-seven (27)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp có bao nhiêu tu chính án?",
+      "vietnamese_explanation": "Hiến pháp Hoa Kỳ có 27 tu chính án đã được phê chuẩn."
     },
     {
       "n": 8,
       "english_question": "What did the Declaration of Independence do?",
       "english_official_answers": "announced our independence from Great Britain; declared our independence from Great Britain; said that the United States is free from Great Britain",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tuyên ngôn Độc lập đã làm gì?",
+      "vietnamese_explanation": "Tuyên ngôn Độc lập tuyên bố các thuộc địa tách khỏi Vương quốc Anh."
     },
     {
       "n": 9,
       "english_question": "What are two rights in the Declaration of Independence?",
       "english_official_answers": "life; liberty; pursuit of happiness",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai quyền trong Tuyên ngôn Độc lập.",
+      "vietnamese_explanation": "Tuyên ngôn Độc lập nhắc đến quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc. Hãy nêu hai quyền."
     },
     {
       "n": 10,
       "english_question": "What is freedom of religion?",
       "english_official_answers": "You can practice any religion, or not practice a religion.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tự do tôn giáo là gì?",
+      "vietnamese_explanation": "Mọi người có quyền theo bất kỳ tôn giáo nào hoặc không theo tôn giáo nào."
     },
     {
       "n": 11,
       "english_question": "What is the economic system in the United States?",
       "english_official_answers": "capitalist economy; market economy",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Nền kinh tế tư bản chủ nghĩa; nền kinh tế thị trường."
     },
     {
       "n": 12,
       "english_question": "What is the “rule of law”?",
       "english_official_answers": "Everyone must follow the law; Leaders must obey the law; Government must obey the law; No one is above the law",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "“Pháp quyền” (rule of law) là gì?",
+      "vietnamese_explanation": "Mọi người, kể cả các nhà lãnh đạo và chính phủ, đều phải tuân thủ pháp luật; không ai đứng trên pháp luật."
     },
     {
       "n": 13,
       "english_question": "Name one branch or part of the government.",
       "english_official_answers": "Congress; legislative; President; executive; the courts; judicial",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên một nhánh hoặc một bộ phận của chính phủ.",
+      "vietnamese_explanation": "Quốc hội (nhánh lập pháp); Tổng thống (nhánh hành pháp); các tòa án (nhánh tư pháp)."
     },
     {
       "n": 14,
       "english_question": "What stops one branch of government from becoming too powerful?",
       "english_official_answers": "checks and balances; separation of powers",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Điều gì ngăn một nhánh chính phủ trở nên quá quyền lực?",
+      "vietnamese_explanation": "Sự phân chia quyền lực và cơ chế kiểm soát, đối trọng giữa các nhánh chính phủ."
     },
     {
       "n": 15,
       "english_question": "Who is in charge of the executive branch?",
       "english_official_answers": "the President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai đứng đầu nhánh hành pháp?",
+      "vietnamese_explanation": "Tổng thống đứng đầu nhánh hành pháp của chính phủ liên bang."
     },
     {
       "n": 16,
       "english_question": "Who makes federal laws?",
       "english_official_answers": "Congress; Senate and House of Representatives; U.S. legislature",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai làm ra luật liên bang?",
+      "vietnamese_explanation": "Quốc hội Hoa Kỳ, bao gồm Thượng viện và Hạ viện, ban hành luật liên bang."
     },
     {
       "n": 17,
       "english_question": "What are the two parts of the U.S. Congress?",
       "english_official_answers": "the Senate and House of Representatives",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Quốc hội Hoa Kỳ gồm hai viện nào?",
+      "vietnamese_explanation": "Thượng viện và Hạ viện."
     },
     {
       "n": 18,
       "english_question": "How many U.S. Senators are there?",
       "english_official_answers": "one hundred (100)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hoa Kỳ có bao nhiêu thượng nghị sĩ liên bang?",
+      "vietnamese_explanation": "Có 100 thượng nghị sĩ, mỗi tiểu bang có hai người."
     },
     {
       "n": 19,
       "english_question": "We elect a U.S. Senator for how many years?",
       "english_official_answers": "six (6)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Chúng ta bầu thượng nghị sĩ Hoa Kỳ với nhiệm kỳ bao nhiêu năm?",
+      "vietnamese_explanation": "Nhiệm kỳ của một thượng nghị sĩ liên bang là sáu năm."
     },
     {
       "n": 20,
       "english_question": "Who is one of your state’s U.S. Senators now?",
       "english_official_answers": "Answers vary by state. Check the current U.S. Senate list.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, một trong các thượng nghị sĩ Hoa Kỳ đại diện cho tiểu bang của bạn là ai?",
+      "vietnamese_explanation": "Câu trả lời tùy theo tiểu bang nơi bạn cư trú. Hãy kiểm tra danh sách thượng nghị sĩ hiện tại. Washington, D.C. và các lãnh thổ Hoa Kỳ không có thượng nghị sĩ liên bang."
     },
     {
       "n": 21,
       "english_question": "The House of Representatives has how many voting members?",
       "english_official_answers": "four hundred thirty-five (435)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hạ viện Hoa Kỳ có bao nhiêu thành viên có quyền biểu quyết?",
+      "vietnamese_explanation": "Hạ viện có 435 thành viên có quyền biểu quyết."
     },
     {
       "n": 22,
       "english_question": "We elect a U.S. Representative for how many years?",
       "english_official_answers": "two (2)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Chúng ta bầu dân biểu Hạ viện Hoa Kỳ với nhiệm kỳ bao nhiêu năm?",
+      "vietnamese_explanation": "Nhiệm kỳ của một dân biểu liên bang là hai năm."
     },
     {
       "n": 23,
       "english_question": "Name your U.S. Representative.",
       "english_official_answers": "Answers vary by congressional district. Check the U.S. House of Representatives.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu tên dân biểu Hạ viện Hoa Kỳ đại diện cho bạn.",
+      "vietnamese_explanation": "Đáp án phụ thuộc vào khu vực bầu cử nơi bạn cư trú. Hãy tra cứu người đại diện hiện tại của khu vực bạn."
     },
     {
       "n": 24,
       "english_question": "Who does a U.S. Senator represent?",
       "english_official_answers": "all people of the state",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Một thượng nghị sĩ Hoa Kỳ đại diện cho ai?",
+      "vietnamese_explanation": "Một thượng nghị sĩ đại diện cho toàn thể người dân trong tiểu bang của mình."
     },
     {
       "n": 25,
       "english_question": "Why do some states have more Representatives than other states?",
       "english_official_answers": "because of the state's population; because they have more people; because some states have more people",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao một số tiểu bang có nhiều dân biểu hơn các tiểu bang khác?",
+      "vietnamese_explanation": "Số dân biểu của mỗi tiểu bang chủ yếu phụ thuộc vào dân số của tiểu bang đó."
     },
     {
       "n": 26,
       "english_question": "We elect a President for how many years?",
       "english_official_answers": "four (4)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Chúng ta bầu Tổng thống với nhiệm kỳ bao nhiêu năm?",
+      "vietnamese_explanation": "Nhiệm kỳ Tổng thống Hoa Kỳ là bốn năm."
     },
     {
       "n": 27,
       "english_question": "In what month do we vote for President?",
       "english_official_answers": "November",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Chúng ta bầu Tổng thống vào tháng mấy?",
+      "vietnamese_explanation": "Tháng Mười Một."
     },
     {
       "n": 28,
       "english_question": "What is the name of the President of the United States now?",
       "english_official_answers": "Donald J. Trump; Donald Trump; Trump",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Tổng thống Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Tên Tổng thống Hoa Kỳ có thể thay đổi sau bầu cử. Hãy kiểm tra người đang giữ chức vụ này tại USCIS trước ngày phỏng vấn."
     },
     {
       "n": 29,
       "english_question": "What is the name of the Vice President of the United States now?",
       "english_official_answers": "JD Vance; Vance",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Phó Tổng thống Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "Hãy kiểm tra tên Phó Tổng thống đang tại chức trước buổi phỏng vấn."
     },
     {
       "n": 30,
       "english_question": "If the President can no longer serve, who becomes President?",
       "english_official_answers": "the Vice President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nếu Tổng thống không thể tiếp tục đảm nhiệm chức vụ thì ai trở thành Tổng thống?",
+      "vietnamese_explanation": "Phó Tổng thống sẽ kế nhiệm."
     },
     {
       "n": 31,
       "english_question": "If both the President and the Vice President can no longer serve, who becomes President?",
       "english_official_answers": "the Speaker of the House",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nếu cả Tổng thống và Phó Tổng thống đều không thể tiếp tục đảm nhiệm chức vụ thì ai trở thành Tổng thống?",
+      "vietnamese_explanation": "Chủ tịch Hạ viện là người tiếp theo trong thứ tự kế nhiệm."
     },
     {
       "n": 32,
       "english_question": "Who is the Commander in Chief of the military?",
       "english_official_answers": "the President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng tư lệnh quân đội Hoa Kỳ?",
+      "vietnamese_explanation": "Tổng thống Hoa Kỳ là Tổng tư lệnh các lực lượng vũ trang."
     },
     {
       "n": 33,
       "english_question": "Who signs bills to become laws?",
       "english_official_answers": "the President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai ký dự luật để dự luật trở thành luật?",
+      "vietnamese_explanation": "Tổng thống ký dự luật đã được thông qua để ban hành thành luật."
     },
     {
       "n": 34,
       "english_question": "Who vetoes bills?",
       "english_official_answers": "the President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai phủ quyết dự luật?",
+      "vietnamese_explanation": "Tổng thống có quyền phủ quyết, tức là từ chối phê chuẩn dự luật."
     },
     {
       "n": 35,
       "english_question": "What does the President’s Cabinet do?",
       "english_official_answers": "advises the President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nội các của Tổng thống có nhiệm vụ gì?",
+      "vietnamese_explanation": "Nội các gồm những quan chức cấp cao có nhiệm vụ cố vấn cho Tổng thống."
     },
     {
       "n": 36,
       "english_question": "What are two Cabinet-level positions?",
       "english_official_answers": "Secretary of Agriculture; Secretary of Commerce; Secretary of Defense; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Attorney General; Vice President",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai chức vụ cấp Nội các.",
+      "vietnamese_explanation": "Ví dụ: Bộ trưởng Ngoại giao và Bộ trưởng Tài chính. Câu hỏi yêu cầu nêu hai chức vụ."
     },
     {
       "n": 37,
       "english_question": "What does the judicial branch do?",
       "english_official_answers": "reviews laws; explains laws; resolves disputes; decides if a law goes against the Constitution",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhánh tư pháp có chức năng gì?",
+      "vietnamese_explanation": "Các tòa án giải thích pháp luật, giải quyết tranh chấp và xem xét luật có phù hợp với Hiến pháp hay không."
     },
     {
       "n": 38,
       "english_question": "What is the highest court in the United States?",
       "english_official_answers": "the Supreme Court",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tòa án cao nhất của Hoa Kỳ là tòa án nào?",
+      "vietnamese_explanation": "Tòa án Tối cao Hoa Kỳ là tòa án liên bang có thẩm quyền cao nhất."
     },
     {
       "n": 39,
       "english_question": "How many justices are on the Supreme Court?",
       "english_official_answers": "nine (9)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Có bao nhiêu thẩm phán tại Tòa án Tối cao?",
+      "vietnamese_explanation": "Đáp án trong tài liệu học là chín thẩm phán. Hãy kiểm tra lại nếu số lượng thay đổi."
     },
     {
       "n": 40,
       "english_question": "Who is the Chief Justice of the United States now?",
       "english_official_answers": "John Roberts; John G. Roberts, Jr.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Chánh án Tòa án Tối cao Hoa Kỳ là ai?",
+      "vietnamese_explanation": "Hãy kiểm tra người đang giữ chức Chánh án trước ngày phỏng vấn."
     },
     {
       "n": 41,
       "english_question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
       "english_official_answers": "to print money; to declare war; to create an army; to make treaties",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Theo Hiến pháp, một số quyền hạn thuộc chính phủ liên bang. Hãy nêu một quyền hạn của chính phủ liên bang.",
+      "vietnamese_explanation": "Ví dụ: tuyên chiến, in hoặc đúc tiền, ký kết hiệp ước."
     },
     {
       "n": 42,
       "english_question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
       "english_official_answers": "provide schooling and education; provide protection (police); provide safety (fire departments); give a driver's license; approve zoning and land use",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Theo Hiến pháp, một số quyền hạn thuộc các tiểu bang. Hãy nêu một quyền hạn của tiểu bang.",
+      "vietnamese_explanation": "Ví dụ: quản lý trường học, cảnh sát hoặc cấp giấy phép lái xe."
     },
     {
       "n": 43,
       "english_question": "Who is the Governor of your state now?",
       "english_official_answers": "Answers vary by state. Check your state government.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Thống đốc tiểu bang của bạn là ai?",
+      "vietnamese_explanation": "Đáp án phụ thuộc vào tiểu bang nơi bạn sống. Washington, D.C. không có thống đốc."
     },
     {
       "n": 44,
       "english_question": "What is the capital of your state?",
       "english_official_answers": "Answers vary by state. Check your state government.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thủ phủ của tiểu bang bạn là gì?",
+      "vietnamese_explanation": "Hãy nêu thủ phủ tiểu bang của bạn. Washington, D.C. không phải là một tiểu bang; nếu sống ở lãnh thổ Hoa Kỳ, hãy nêu thủ phủ lãnh thổ."
     },
     {
       "n": 45,
       "english_question": "What are the two major political parties in the United States?",
       "english_official_answers": "Democratic and Republican",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hai đảng chính trị lớn ở Hoa Kỳ là những đảng nào?",
+      "vietnamese_explanation": "Đảng Dân chủ và Đảng Cộng hòa."
     },
     {
       "n": 46,
       "english_question": "What is the political party of the President now?",
       "english_official_answers": "Republican (Party)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Tổng thống thuộc đảng chính trị nào?",
+      "vietnamese_explanation": "Đảng của Tổng thống có thể thay đổi. Hãy kiểm tra trước buổi phỏng vấn."
     },
     {
       "n": 47,
       "english_question": "What is the name of the Speaker of the House of Representatives now?",
       "english_official_answers": "Mike Johnson; Johnson; James Michael Johnson",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiện nay, Chủ tịch Hạ viện Hoa Kỳ là ai?",
+      "vietnamese_explanation": "Hãy kiểm tra tên Chủ tịch Hạ viện đang tại chức trước buổi phỏng vấn."
     },
     {
       "n": 48,
       "english_question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
       "english_official_answers": "Citizens eighteen (18) and older can vote; You don't have to pay a poll tax to vote; Any citizen can vote (women and men); A male citizen of any race can vote",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Có bốn tu chính án của Hiến pháp liên quan đến quyền bầu cử. Hãy mô tả một tu chính án.",
+      "vietnamese_explanation": "Ví dụ: công dân từ 18 tuổi trở lên được bỏ phiếu; quyền bầu cử không được phân biệt theo giới tính hoặc chủng tộc."
     },
     {
       "n": 49,
       "english_question": "What is one responsibility that is only for United States citizens?",
       "english_official_answers": "serve on a jury; vote in a federal election",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một trách nhiệm chỉ dành cho công dân Hoa Kỳ.",
+      "vietnamese_explanation": "Tham gia bồi thẩm đoàn hoặc bỏ phiếu trong cuộc bầu cử liên bang."
     },
     {
       "n": 50,
       "english_question": "Name one right only for United States citizens.",
       "english_official_answers": "vote in a federal election; run for federal office",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một quyền chỉ dành cho công dân Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: quyền bỏ phiếu trong các cuộc bầu cử liên bang hoặc quyền tranh cử một số chức vụ liên bang."
     },
     {
       "n": 51,
       "english_question": "What are two rights of everyone living in the United States?",
       "english_official_answers": "freedom of expression; freedom of speech; freedom of assembly; freedom to petition the government; freedom of religion; the right to bear arms",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai quyền của tất cả mọi người sống ở Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: tự do ngôn luận và tự do tôn giáo. Cần nêu hai quyền."
     },
     {
       "n": 52,
       "english_question": "What do we show loyalty to when we say the Pledge of Allegiance?",
       "english_official_answers": "the United States; the flag",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khi đọc Lời tuyên thệ trung thành với quốc kỳ, chúng ta thể hiện lòng trung thành với điều gì?",
+      "vietnamese_explanation": "Với Hoa Kỳ hoặc với lá cờ Hoa Kỳ."
     },
     {
       "n": 53,
       "english_question": "What is one promise you make when you become a United States citizen?",
       "english_official_answers": "give up loyalty to other countries; defend the Constitution and laws of the United States; obey the laws of the United States; serve in the U.S. military if needed; serve the nation if needed; be loyal to the United States",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một lời hứa khi bạn trở thành công dân Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: tuân thủ pháp luật Hoa Kỳ hoặc bảo vệ Hiến pháp Hoa Kỳ."
     },
     {
       "n": 54,
       "english_question": "How old do citizens have to be to vote for President?",
       "english_official_answers": "eighteen (18) and older",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Công dân phải bao nhiêu tuổi mới được bỏ phiếu bầu Tổng thống?",
+      "vietnamese_explanation": "Từ 18 tuổi trở lên."
     },
     {
       "n": 55,
       "english_question": "What are two ways that Americans can participate in their democracy?",
       "english_official_answers": "vote; join a political party; help with a campaign; join a civic group; join a community group; give an elected official your opinion; call Senators and Representatives; publicly support or oppose an issue or policy; run for office; write to a newspaper",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu hai cách người Mỹ có thể tham gia vào nền dân chủ.",
+      "vietnamese_explanation": "Ví dụ: bỏ phiếu và liên hệ với đại diện dân cử để bày tỏ ý kiến. Cần nêu hai cách."
     },
     {
       "n": 56,
       "english_question": "When is the last day you can send in federal income tax forms?",
       "english_official_answers": "April 15",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hạn cuối để nộp tờ khai thuế thu nhập liên bang thường là ngày nào?",
+      "vietnamese_explanation": "Đáp án học tập của câu hỏi này là ngày 15 tháng Tư. Hạn nộp thuế thực tế đôi khi có thể thay đổi."
     },
     {
       "n": 57,
       "english_question": "When must all men register for the Selective Service?",
       "english_official_answers": "at age eighteen (18); between eighteen (18) and twenty-six (26)",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Khi nào tất cả nam giới phải đăng ký với Cơ quan Tuyển quân (Selective Service)?",
+      "vietnamese_explanation": "Đáp án học tập được chấp nhận gồm: khi 18 tuổi; hoặc từ 18 đến 26 tuổi. Hãy tham khảo quy định hiện hành."
     },
     {
       "n": 58,
       "english_question": "What is one reason colonists came to America?",
       "english_official_answers": "freedom; political liberty; religious freedom; economic opportunity; practice their religion; escape persecution",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một lý do người định cư từ châu Âu đến châu Mỹ.",
+      "vietnamese_explanation": "Ví dụ: tìm kiếm tự do tôn giáo, tự do chính trị, cơ hội kinh tế hoặc tránh bị đàn áp."
     },
     {
       "n": 59,
       "english_question": "Who lived in America before the Europeans arrived?",
       "english_official_answers": "American Indians; Native Americans",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai đã sống ở châu Mỹ trước khi người châu Âu đến?",
+      "vietnamese_explanation": "Người bản địa châu Mỹ đã sống tại đây từ rất lâu trước khi người châu Âu đến."
     },
     {
       "n": 60,
       "english_question": "What group of people was taken to America and sold as slaves?",
       "english_official_answers": "Africans; people from Africa",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Nhóm người nào bị đưa đến châu Mỹ và bán làm nô lệ?",
+      "vietnamese_explanation": "Người châu Phi bị cưỡng ép đưa đến châu Mỹ và bị bắt làm nô lệ."
     },
     {
       "n": 61,
       "english_question": "Why did the colonists fight the British?",
       "english_official_answers": "because of high taxes (taxation without representation); because the British army stayed in their houses; because they didn't have self-government",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao những người thuộc địa chống lại người Anh?",
+      "vietnamese_explanation": "Ví dụ: bị đánh thuế nhưng không có đại diện trong chính quyền; muốn có quyền tự quản."
     },
     {
       "n": 62,
       "english_question": "Who wrote the Declaration of Independence?",
       "english_official_answers": "Thomas Jefferson",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai đã viết Tuyên ngôn Độc lập?",
+      "vietnamese_explanation": "Thomas Jefferson là người soạn thảo chính của Tuyên ngôn Độc lập."
     },
     {
       "n": 63,
       "english_question": "When was the Declaration of Independence adopted?",
       "english_official_answers": "July 4, 1776",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tuyên ngôn Độc lập được thông qua vào ngày nào?",
+      "vietnamese_explanation": "Ngày 4 tháng 7 năm 1776."
     },
     {
       "n": 64,
       "english_question": "There were 13 original states. Name three.",
       "english_official_answers": "New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ban đầu có 13 tiểu bang. Hãy kể tên ba tiểu bang.",
+      "vietnamese_explanation": "Ví dụ: New York, Pennsylvania và Georgia. Bạn có thể nêu bất kỳ ba tiểu bang nào trong số 13 tiểu bang ban đầu."
     },
     {
       "n": 65,
       "english_question": "What happened at the Constitutional Convention?",
       "english_official_answers": "The Constitution was written; The Founding Fathers wrote the Constitution",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Điều gì đã diễn ra tại Hội nghị Lập hiến?",
+      "vietnamese_explanation": "Hiến pháp Hoa Kỳ được soạn thảo tại Hội nghị Lập hiến."
     },
     {
       "n": 66,
       "english_question": "When was the Constitution written?",
       "english_official_answers": "1787",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hiến pháp được soạn thảo vào năm nào?",
+      "vietnamese_explanation": "Năm 1787."
     },
     {
       "n": 67,
       "english_question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
       "english_official_answers": "James Madison; Alexander Hamilton; John Jay; Publius",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Các bài viết Federalist Papers ủng hộ việc thông qua Hiến pháp Hoa Kỳ. Hãy kể tên một tác giả.",
+      "vietnamese_explanation": "James Madison, Alexander Hamilton và John Jay là các tác giả được chấp nhận."
     },
     {
       "n": 68,
       "english_question": "What is one thing Benjamin Franklin is famous for?",
       "english_official_answers": "U.S. diplomat; oldest member of the Constitutional Convention; first Postmaster General of the United States; writer of Poor Richard's Almanac; started the first free libraries",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một điều khiến Benjamin Franklin nổi tiếng.",
+      "vietnamese_explanation": "Ông là nhà ngoại giao, tác giả và người thúc đẩy việc thành lập thư viện công cộng."
     },
     {
       "n": 69,
       "english_question": "Who is the “Father of Our Country”?",
       "english_official_answers": "George Washington",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai được gọi là “Cha của đất nước chúng ta”?",
+      "vietnamese_explanation": "George Washington được gọi là “Cha của đất nước” vì vai trò của ông trong việc thành lập Hoa Kỳ."
     },
     {
       "n": 70,
       "english_question": "Who was the first President?",
       "english_official_answers": "George Washington",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng thống đầu tiên của Hoa Kỳ?",
+      "vietnamese_explanation": "George Washington."
     },
     {
       "n": 71,
       "english_question": "What territory did the United States buy from France in 1803?",
       "english_official_answers": "the Louisiana Territory; Louisiana",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hoa Kỳ đã mua vùng lãnh thổ nào từ Pháp vào năm 1803?",
+      "vietnamese_explanation": "Vùng lãnh thổ Louisiana."
     },
     {
       "n": 72,
       "english_question": "Name one war fought by the United States in the 1800s.",
       "english_official_answers": "War of 1812; Mexican-American War; Civil War; Spanish-American War",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cuộc chiến mà Hoa Kỳ tham gia trong thế kỷ 19.",
+      "vietnamese_explanation": "Ví dụ: Chiến tranh năm 1812 hoặc Nội chiến Hoa Kỳ."
     },
     {
       "n": 73,
       "english_question": "Name the U.S. war between the North and the South.",
       "english_official_answers": "the Civil War; the War between the States",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tên cuộc chiến giữa miền Bắc và miền Nam Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Nội chiến Hoa Kỳ."
     },
     {
       "n": 74,
       "english_question": "Name one problem that led to the Civil War.",
       "english_official_answers": "slavery; economic reasons; states' rights",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một vấn đề dẫn đến Nội chiến Hoa Kỳ.",
+      "vietnamese_explanation": "Chế độ nô lệ là một nguyên nhân quan trọng. Các đáp án được chấp nhận khác bao gồm quyền của các tiểu bang và các lý do kinh tế."
     },
     {
       "n": 75,
       "english_question": "What was one important thing that Abraham Lincoln did?",
       "english_official_answers": "freed the slaves (Emancipation Proclamation); saved or preserved the Union; led the United States during the Civil War",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một việc quan trọng mà Abraham Lincoln đã làm.",
+      "vietnamese_explanation": "Giải phóng người nô lệ; bảo vệ sự thống nhất của Liên bang; lãnh đạo đất nước trong Nội chiến Hoa Kỳ."
     },
     {
       "n": 76,
       "english_question": "What did the Emancipation Proclamation do?",
       "english_official_answers": "freed the slaves; freed slaves in the Confederacy; freed slaves in the Confederate states; freed slaves in most Southern states",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tuyên ngôn Giải phóng Nô lệ đã làm gì?",
+      "vietnamese_explanation": "Tuyên bố những người bị nô lệ ở các vùng thuộc Liên minh miền Nam đang nổi dậy được tự do; văn bản này không lập tức xóa bỏ chế độ nô lệ ở toàn Hoa Kỳ."
     },
     {
       "n": 77,
       "english_question": "What did Susan B. Anthony do?",
       "english_official_answers": "fought for women's rights; fought for civil rights",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Susan B. Anthony đã làm gì?",
+      "vietnamese_explanation": "Bà đấu tranh cho quyền của phụ nữ, đặc biệt là quyền bầu cử."
     },
     {
       "n": 78,
       "english_question": "Name one war fought by the United States in the 1900s.",
       "english_official_answers": "World War I; World War II; Korean War; Vietnam War; Persian Gulf War",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 20.",
+      "vietnamese_explanation": "Chiến tranh thế giới thứ nhất; Chiến tranh thế giới thứ hai; Chiến tranh Triều Tiên; Chiến tranh Việt Nam; Chiến tranh vùng Vịnh Ba Tư."
     },
     {
       "n": 79,
       "english_question": "Who was President during World War I?",
       "english_official_answers": "Woodrow Wilson",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng thống Hoa Kỳ trong Chiến tranh thế giới thứ nhất?",
+      "vietnamese_explanation": "Woodrow Wilson."
     },
     {
       "n": 80,
       "english_question": "Who was President during the Great Depression and World War II?",
       "english_official_answers": "Franklin Roosevelt",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Ai là Tổng thống trong thời kỳ Đại suy thoái và Chiến tranh thế giới thứ hai?",
+      "vietnamese_explanation": "Franklin D. Roosevelt."
     },
     {
       "n": 81,
       "english_question": "Who did the United States fight in World War II?",
       "english_official_answers": "Japan, Germany, and Italy",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hoa Kỳ đã chiến đấu chống lại những nước nào trong Chiến tranh thế giới thứ hai?",
+      "vietnamese_explanation": "Nhật Bản, Đức và Ý."
     },
     {
       "n": 82,
       "english_question": "Before he was President, Eisenhower was a general. What war was he in?",
       "english_official_answers": "World War II",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Trước khi làm Tổng thống, Eisenhower là một vị tướng. Ông đã tham gia cuộc chiến nào?",
+      "vietnamese_explanation": "Chiến tranh thế giới thứ hai."
     },
     {
       "n": 83,
       "english_question": "During the Cold War, what was the main concern of the United States?",
       "english_official_answers": "Communism",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Trong Chiến tranh Lạnh, mối lo ngại chính của Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Chủ nghĩa cộng sản."
     },
     {
       "n": 84,
       "english_question": "What movement tried to end racial discrimination?",
       "english_official_answers": "civil rights movement",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Phong trào nào tìm cách chấm dứt sự phân biệt đối xử theo chủng tộc?",
+      "vietnamese_explanation": "Phong trào Dân quyền."
     },
     {
       "n": 85,
       "english_question": "What did Martin Luther King, Jr. do?",
       "english_official_answers": "fought for civil rights; worked for equality for all Americans",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Martin Luther King, Jr. đã làm gì?",
+      "vietnamese_explanation": "Ông đấu tranh vì quyền dân sự và sự bình đẳng cho mọi người Mỹ."
     },
     {
       "n": 86,
       "english_question": "What major event happened on September 11, 2001, in the United States?",
       "english_official_answers": "Terrorists attacked the United States",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Sự kiện lớn nào xảy ra ở Hoa Kỳ ngày 11 tháng 9 năm 2001?",
+      "vietnamese_explanation": "Các cuộc tấn công khủng bố xảy ra tại Hoa Kỳ vào ngày 11 tháng 9 năm 2001."
     },
     {
       "n": 87,
       "english_question": "Name one American Indian tribe in the United States.",
       "english_official_answers": "Cherokee; Navajo; Sioux; Chippewa; Choctaw; Pueblo; Apache; Iroquois; Creek; Blackfeet; Seminole; Cheyenne; Arawak; Shawnee; Mohegan; Huron; Oneida; Lakota; Crow; Teton; Hopi; Inuit",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên một bộ lạc của người Mỹ bản địa tại Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: Cherokee hoặc Navajo. Cần kể tên một bộ lạc."
     },
     {
       "n": 88,
       "english_question": "Name one of the two longest rivers in the United States.",
       "english_official_answers": "Missouri River; Mississippi River",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy nêu tên một trong hai con sông dài nhất ở Hoa Kỳ.",
+      "vietnamese_explanation": "Sông Mississippi hoặc sông Missouri."
     },
     {
       "n": 89,
       "english_question": "What ocean is on the West Coast of the United States?",
       "english_official_answers": "Pacific Ocean",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Đại dương nào nằm ở bờ Tây Hoa Kỳ?",
+      "vietnamese_explanation": "Thái Bình Dương."
     },
     {
       "n": 90,
       "english_question": "What ocean is on the East Coast of the United States?",
       "english_official_answers": "Atlantic Ocean",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Đại dương nào nằm ở bờ Đông Hoa Kỳ?",
+      "vietnamese_explanation": "Đại Tây Dương."
     },
     {
       "n": 91,
       "english_question": "Name one U.S. territory.",
       "english_official_answers": "Puerto Rico; U.S. Virgin Islands; American Samoa; Northern Mariana Islands; Guam",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên một lãnh thổ của Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: Puerto Rico, Guam hoặc Quần đảo Virgin thuộc Hoa Kỳ."
     },
     {
       "n": 92,
       "english_question": "Name one state that borders Canada.",
       "english_official_answers": "Maine; New Hampshire; Vermont; New York; Pennsylvania; Ohio; Michigan; Minnesota; North Dakota; Montana; Idaho; Washington; Alaska",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên một tiểu bang giáp Canada.",
+      "vietnamese_explanation": "Ví dụ: New York, Michigan hoặc Alaska."
     },
     {
       "n": 93,
       "english_question": "Name one state that borders Mexico.",
       "english_official_answers": "California; Arizona; New Mexico; Texas",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên một tiểu bang giáp Mexico.",
+      "vietnamese_explanation": "California, Arizona, New Mexico hoặc Texas."
     },
     {
       "n": 94,
       "english_question": "What is the capital of the United States?",
       "english_official_answers": "Washington, D.C.",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Thủ đô của Hoa Kỳ là gì?",
+      "vietnamese_explanation": "Washington, D.C."
     },
     {
       "n": 95,
       "english_question": "Where is the Statue of Liberty?",
       "english_official_answers": "New York Harbor; Liberty Island; New Jersey; near New York City; Hudson River",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tượng Nữ thần Tự do nằm ở đâu?",
+      "vietnamese_explanation": "Trên đảo Liberty, tại cảng New York. USCIS cũng chấp nhận một số cách mô tả địa điểm khác."
     },
     {
       "n": 96,
       "english_question": "Why does the flag have 13 stripes?",
       "english_official_answers": "because there were 13 original colonies; because the stripes represent the original colonies",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao lá cờ Hoa Kỳ có 13 sọc?",
+      "vietnamese_explanation": "Mười ba sọc tượng trưng cho 13 thuộc địa ban đầu."
     },
     {
       "n": 97,
       "english_question": "Why does the flag have 50 stars?",
       "english_official_answers": "because there is one star for each state; because each star represents a state; because there are 50 states",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Tại sao lá cờ Hoa Kỳ có 50 ngôi sao?",
+      "vietnamese_explanation": "Mỗi ngôi sao đại diện cho một tiểu bang; Hoa Kỳ có 50 tiểu bang."
     },
     {
       "n": 98,
       "english_question": "What is the name of the national anthem?",
       "english_official_answers": "The Star-Spangled Banner",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Quốc ca Hoa Kỳ tên là gì?",
+      "vietnamese_explanation": "“The Star-Spangled Banner” là quốc ca của Hoa Kỳ."
     },
     {
       "n": 99,
       "english_question": "When do we celebrate Independence Day?",
       "english_official_answers": "July 4",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Chúng ta kỷ niệm Ngày Độc lập vào ngày nào?",
+      "vietnamese_explanation": "Ngày 4 tháng Bảy."
     },
     {
       "n": 100,
       "english_question": "Name two national U.S. holidays.",
       "english_official_answers": "New Year's Day; Martin Luther King, Jr. Day; Presidents' Day; Memorial Day; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving; Christmas",
-      "vietnamese_question": null,
-      "vietnamese_explanation": null
+      "vietnamese_question": "Hãy kể tên hai ngày lễ quốc gia của Hoa Kỳ.",
+      "vietnamese_explanation": "Ví dụ: Tết Dương lịch (New Year's Day) và Ngày Độc lập (Independence Day). Cần nêu hai ngày lễ được chấp nhận."
     }
-  ]
+  ],
+  "translation_reference": "USCIS 2008 English official questions and approved answers; independently authored Vietnamese helper text compared with available Vietnamese civic-study resources."
 }
