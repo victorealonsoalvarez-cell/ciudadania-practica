@@ -3,12 +3,12 @@
   "language": "Українська",
   "exam": "2025",
   "track": "general",
-  "status": "partial-draft-68-of-128",
+  "status": "complete-draft-not-reviewed-by-native-speaker",
   "references": [
     "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
     "https://usahello.org/wp-content/uploads/2025/10/128-Civics-Questions-and-Answers-Ukrainian.pdf"
   ],
-  "notes_es": "Primera mitad de traducciones auxiliares propias al ucraniano. Aún incompleto; no publicar. Las respuestas oficiales están solamente en inglés en index.html.",
+  "notes_es": "Borrador de apoyo lingüístico completo 128/128. Requiere auditoría lingüística, comprobación frente a fuentes confiables y pruebas funcionales. Respuestas oficiales se mantienen en inglés desde index.html.",
   "items": [
     {
       "n": 1,
@@ -752,8 +752,8 @@
         "Support or oppose an issue or policy",
         "Write to a newspaper"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть два приклади громадянської участі у Сполучених Штатах.",
+      "ukrainian_explanation": "Наприклад, голосування та звернення до обраних посадовців."
     },
     {
       "n": 70,
@@ -766,8 +766,8 @@
         "Run for office",
         "Work for local, state, or federal government"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть один спосіб, яким американці можуть служити своїй країні.",
+      "ukrainian_explanation": "Наприклад, дотримуватися законів, виконувати громадянські обов’язки або проходити військову службу."
     },
     {
       "n": 71,
@@ -778,8 +778,8 @@
         "Required by the (U.S.) Constitution (16th Amendment)",
         "Civic duty"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому важливо сплачувати федеральні податки?",
+      "ukrainian_explanation": "Вони фінансують державні послуги й роботу федерального уряду."
     },
     {
       "n": 72,
@@ -789,8 +789,8 @@
         "Civic duty",
         "Makes the draft fair, if needed"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Для чоловіків віком від 18 до 25 років важлива реєстрація в Selective Service. Назвіть одну причину.",
+      "ukrainian_explanation": "Для осіб, на яких поширюється вимога, це обов’язок, установлений законом."
     },
     {
       "n": 73,
@@ -802,8 +802,8 @@
         "Economic opportunity",
         "Escape persecution"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Колоністи прибували до Америки з різних причин. Назвіть одну.",
+      "ukrainian_explanation": "Наприклад, релігійна свобода, політична свобода або економічні можливості."
     },
     {
       "n": 74,
@@ -812,8 +812,8 @@
         "American Indians",
         "Native Americans"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Хто жив в Америці до прибуття європейців?",
+      "ukrainian_explanation": "Корінні народи Америки."
     },
     {
       "n": 75,
@@ -822,8 +822,8 @@
         "Africans",
         "People from Africa"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яку групу людей примусово привозили й продавали в рабство?",
+      "ukrainian_explanation": "Африканців."
     },
     {
       "n": 76,
@@ -833,8 +833,8 @@
         "The (American) Revolutionary War",
         "War for (American) Independence"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "У якій війні американці боролися за незалежність від Британії?",
+      "ukrainian_explanation": "У Війні за незалежність США (Американській революції)."
     },
     {
       "n": 77,
@@ -851,8 +851,8 @@
         "Townshend Acts",
         "Intolerable (Coercive) Acts"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одну причину, чому американці проголосили незалежність від Британії.",
+      "ukrainian_explanation": "Наприклад, податки без представництва або відсутність самоврядування."
     },
     {
       "n": 78,
@@ -860,8 +860,8 @@
       "english_official_answers": [
         "(Thomas) Jefferson"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Хто написав Декларацію незалежності?",
+      "ukrainian_explanation": "Томас Джефферсон."
     },
     {
       "n": 79,
@@ -869,8 +869,8 @@
       "english_official_answers": [
         "July 4, 1776"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Коли було ухвалено Декларацію незалежності?",
+      "ukrainian_explanation": "4 липня 1776 року."
     },
     {
       "n": 80,
@@ -883,8 +883,8 @@
         "Valley Forge (Encampment)",
         "(Battle of) Yorktown (British surrender at Yorktown)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Під час Американської революції відбулося багато важливих подій. Назвіть одну.",
+      "ukrainian_explanation": "Наприклад, битва при Саратозі, битва при Йорктауні або ухвалення Декларації незалежності."
     },
     {
       "n": 81,
@@ -904,8 +904,8 @@
         "South Carolina",
         "Georgia"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Спочатку було 13 штатів. Назвіть п’ять із них.",
+      "ukrainian_explanation": "Наприклад, Нью-Йорк, Пенсильванія, Делавер, Вірджинія та Джорджія."
     },
     {
       "n": 82,
@@ -913,8 +913,8 @@
       "english_official_answers": [
         "(U.S.) Constitution"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Який установчий документ написали у 1787 році?",
+      "ukrainian_explanation": "Конституцію США."
     },
     {
       "n": 83,
@@ -925,8 +925,8 @@
         "(John) Jay",
         "Publius"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "«Федералістські статті» підтримували прийняття Конституції США. Назвіть одного з авторів.",
+      "ukrainian_explanation": "Джеймс Медісон, Александр Гамільтон або Джон Джей."
     },
     {
       "n": 84,
@@ -935,8 +935,8 @@
         "They helped people understand the (U.S.) Constitution.",
         "They supported passing the (U.S.) Constitution."
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому «Федералістські статті» були важливими?",
+      "ukrainian_explanation": "Вони пояснювали Конституцію та закликали до її ратифікації."
     },
     {
       "n": 85,
@@ -948,8 +948,8 @@
         "Inventor",
         "U.S. diplomat"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Бенджамін Франклін відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Наприклад, дипломатичною діяльністю, підтримкою незалежності або розвитком громадських бібліотек."
     },
     {
       "n": 86,
@@ -960,8 +960,8 @@
         "General of the Continental Army",
         "President of the Constitutional Convention"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Джордж Вашингтон відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він очолював Континентальну армію і став першим Президентом США."
     },
     {
       "n": 87,
@@ -974,8 +974,8 @@
         "Founded the University of Virginia",
         "Writer of the Virginia Statute on Religious Freedom"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Томас Джефферсон відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він був головним автором Декларації незалежності й третім Президентом США."
     },
     {
       "n": 88,
@@ -986,8 +986,8 @@
         "President during the War of 1812",
         "One of the writers of the Federalist Papers"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Джеймс Медісон відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він допомагав розробити Конституцію та був четвертим Президентом США."
     },
     {
       "n": 89,
@@ -999,8 +999,8 @@
         "Aide to General George Washington",
         "Member of the Continental Congress"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Александр Гамільтон відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він став першим Міністром фінансів США та допоміг створити фінансову систему країни."
     },
     {
       "n": 90,
@@ -1009,8 +1009,8 @@
         "Louisiana Territory",
         "Louisiana"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яку територію США придбали у Франції в 1803 році?",
+      "ukrainian_explanation": "Луїзіанську територію."
     },
     {
       "n": 91,
@@ -1021,8 +1021,8 @@
         "Civil War",
         "Spanish-American War"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одну війну, у якій США брали участь у XIX столітті.",
+      "ukrainian_explanation": "Наприклад, війну 1812 року або Громадянську війну."
     },
     {
       "n": 92,
@@ -1030,8 +1030,8 @@
       "english_official_answers": [
         "The Civil War"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Як називається війна у США між Північчю та Півднем?",
+      "ukrainian_explanation": "Громадянська війна в США."
     },
     {
       "n": 93,
@@ -1046,8 +1046,8 @@
         "(Battle of) Antietam/Sharpsburg",
         "Lincoln was assassinated."
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Під час Громадянської війни відбулося багато важливих подій. Назвіть одну.",
+      "ukrainian_explanation": "Наприклад, битва при Геттісберзі, Прокламація про звільнення рабів або капітуляція при Аппоматтоксі."
     },
     {
       "n": 94,
@@ -1059,8 +1059,8 @@
         "16th president of the United States",
         "Delivered the Gettysburg Address"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Авраам Лінкольн відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він керував країною під час Громадянської війни, допоміг зберегти Союз і виступив проти рабства."
     },
     {
       "n": 95,
@@ -1071,8 +1071,8 @@
         "Freed slaves in the Confederate states",
         "Freed slaves in most Southern states"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що проголосила Прокламація про звільнення рабів?",
+      "ukrainian_explanation": "Вона оголосила свободу поневоленим людям у районах Конфедерації, що повстали; це не скасувало рабство в усіх штатах одразу."
     },
     {
       "n": 96,
@@ -1080,8 +1080,8 @@
       "english_official_answers": [
         "The Civil War"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яка війна у США призвела до скасування рабства?",
+      "ukrainian_explanation": "Громадянська війна."
     },
     {
       "n": 97,
@@ -1089,8 +1089,8 @@
       "english_official_answers": [
         "14th Amendment"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яка поправка встановлює, що люди, народжені або натуралізовані у США та підпорядковані їхній юрисдикції, є громадянами США?",
+      "ukrainian_explanation": "14-та поправка до Конституції."
     },
     {
       "n": 98,
@@ -1101,8 +1101,8 @@
         "(With the) 15th Amendment",
         "1870"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Коли всі чоловіки отримали право голосу?",
+      "ukrainian_explanation": "У навчальних відповідях USCIS: 1870 рік; 15-та поправка; період Реконструкції або після Громадянської війни. Насправді багато перешкод голосуванню залишалися."
     },
     {
       "n": 99,
@@ -1115,8 +1115,8 @@
         "Lucretia Mott",
         "Lucy Stone"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одну лідерку або одного лідера руху за права жінок у XIX столітті.",
+      "ukrainian_explanation": "Наприклад, Сьюзен Б. Ентоні, Елізабет Кеді Стентон або Соджорнер Трут."
     },
     {
       "n": 100,
@@ -1128,8 +1128,8 @@
         "Vietnam War",
         "(Persian) Gulf War"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одну війну, у якій США брали участь у XX столітті.",
+      "ukrainian_explanation": "Наприклад, Першу світову, Другу світову або Корейську війну."
     },
     {
       "n": 101,
@@ -1139,8 +1139,8 @@
         "To support the Allied Powers (England, France, Italy, and Russia)",
         "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому Сполучені Штати вступили в Першу світову війну?",
+      "ukrainian_explanation": "Серед причин були атаки Німеччини на судна та підтримка союзників."
     },
     {
       "n": 102,
@@ -1150,8 +1150,8 @@
         "After World War I",
         "(With the) 19th Amendment"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Коли всі жінки отримали виборче право?",
+      "ukrainian_explanation": "19-ту поправку ратифікували у 1920 році; вона забороняє обмежувати виборче право за ознакою статі."
     },
     {
       "n": 103,
@@ -1159,8 +1159,8 @@
       "english_official_answers": [
         "Longest economic recession in modern history"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що таке Велика депресія?",
+      "ukrainian_explanation": "Тривала й серйозна економічна криза."
     },
     {
       "n": 104,
@@ -1169,8 +1169,8 @@
         "The Great Crash (1929)",
         "Stock market crash of 1929"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Коли почалася Велика депресія?",
+      "ukrainian_explanation": "У 1929 році після обвалу фондового ринку."
     },
     {
       "n": 105,
@@ -1178,8 +1178,8 @@
       "english_official_answers": [
         "(Franklin) Roosevelt"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Хто був Президентом під час Великої депресії та Другої світової війни?",
+      "ukrainian_explanation": "Франклін Д. Рузвельт."
     },
     {
       "n": 106,
@@ -1190,8 +1190,8 @@
         "To support the Allied Powers (England, France, and Russia)",
         "To oppose the Axis Powers (Germany, Italy, and Japan)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому США вступили в Другу світову війну?",
+      "ukrainian_explanation": "Після нападу Японії на Перл-Гарбор."
     },
     {
       "n": 107,
@@ -1202,8 +1202,8 @@
         "34th president of the United States",
         "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Дуайт Ейзенхауер відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Він був генералом під час Другої світової війни, а пізніше Президентом США."
     },
     {
       "n": 108,
@@ -1213,8 +1213,8 @@
         "USSR",
         "Russia"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Хто був головним суперником США під час Холодної війни?",
+      "ukrainian_explanation": "Радянський Союз."
     },
     {
       "n": 109,
@@ -1223,8 +1223,8 @@
         "Communism",
         "Nuclear war"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одну основну загрозу, яка хвилювала США під час Холодної війни.",
+      "ukrainian_explanation": "Наприклад, поширення комунізму або ядерна війна."
     },
     {
       "n": 110,
@@ -1232,8 +1232,8 @@
       "english_official_answers": [
         "To stop the spread of communism"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому США вступили в Корейську війну?",
+      "ukrainian_explanation": "Для стримування поширення комунізму та підтримки Південної Кореї."
     },
     {
       "n": 111,
@@ -1241,8 +1241,8 @@
       "english_official_answers": [
         "To stop the spread of communism"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому США вступили у В’єтнамську війну?",
+      "ukrainian_explanation": "Для стримування поширення комунізму згідно з політикою США того часу."
     },
     {
       "n": 112,
@@ -1250,8 +1250,8 @@
       "english_official_answers": [
         "Fought to end racial discrimination"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що робив рух за громадянські права?",
+      "ukrainian_explanation": "Боровся проти расової дискримінації та за рівні права."
     },
     {
       "n": 113,
@@ -1261,8 +1261,8 @@
         "Worked for equality for all Americans",
         "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Мартін Лютер Кінг-молодший відомий багатьма справами. Назвіть одну.",
+      "ukrainian_explanation": "Боротьбою за громадянські права й рівність."
     },
     {
       "n": 114,
@@ -1270,8 +1270,8 @@
       "english_official_answers": [
         "To force the Iraqi military from Kuwait"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому США вступили у війну в Перській затоці?",
+      "ukrainian_explanation": "Щоб допомогти витіснити іракські війська з Кувейту."
     },
     {
       "n": 115,
@@ -1282,8 +1282,8 @@
         "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia",
         "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яка важлива подія сталася у Сполучених Штатах 11 вересня 2001 року?",
+      "ukrainian_explanation": "Терористичні напади на США."
     },
     {
       "n": 116,
@@ -1293,8 +1293,8 @@
         "War in Afghanistan",
         "War in Iraq"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть один військовий конфлікт США після нападів 11 вересня 2001 року.",
+      "ukrainian_explanation": "Наприклад, війну в Афганістані або війну в Іраку."
     },
     {
       "n": 117,
@@ -1326,8 +1326,8 @@
         "Teton",
         "Tuscarora"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть одне плем’я корінних американців у США.",
+      "ukrainian_explanation": "Наприклад, черокі, навахо або апачі."
     },
     {
       "n": 118,
@@ -1341,8 +1341,8 @@
         "Landing on the moon",
         "Integrated circuit (IC)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть один приклад американського винаходу або інновації.",
+      "ukrainian_explanation": "Наприклад, літак, електрична лампочка або інтегральна мікросхема."
     },
     {
       "n": 119,
@@ -1350,8 +1350,8 @@
       "english_official_answers": [
         "Washington, D.C."
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Яка столиця Сполучених Штатів?",
+      "ukrainian_explanation": "Вашингтон, округ Колумбія."
     },
     {
       "n": 120,
@@ -1363,8 +1363,8 @@
         "near New York City",
         "on the Hudson (River)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Де розташована Статуя Свободи?",
+      "ukrainian_explanation": "На острові Свободи в Нью-Йоркській гавані. USCIS приймає також певні інші описи розташування."
     },
     {
       "n": 121,
@@ -1373,8 +1373,8 @@
         "(Because there were) 13 original colonies",
         "(Because the stripes) represent the original colonies"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому на прапорі США 13 смуг?",
+      "ukrainian_explanation": "Вони символізують початкові 13 колоній."
     },
     {
       "n": 122,
@@ -1384,8 +1384,8 @@
         "(Because) each star represents a state",
         "(Because there are) 50 states"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Чому на прапорі США 50 зірок?",
+      "ukrainian_explanation": "Кожна зірка представляє один із 50 штатів."
     },
     {
       "n": 123,
@@ -1393,8 +1393,8 @@
       "english_official_answers": [
         "The Star-Spangled Banner"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Як називається державний гімн США?",
+      "ukrainian_explanation": "«The Star-Spangled Banner»."
     },
     {
       "n": 124,
@@ -1403,8 +1403,8 @@
         "Out of many, one",
         "We all become one"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Першим девізом країни був «E Pluribus Unum». Що це означає?",
+      "ukrainian_explanation": "«З багатьох — єдине» — єдність різних людей і штатів."
     },
     {
       "n": 125,
@@ -1413,8 +1413,8 @@
         "A holiday to celebrate U.S. independence (from Britain)",
         "The country’s birthday"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що таке День незалежності?",
+      "ukrainian_explanation": "Свято на честь проголошення незалежності США від Великої Британії."
     },
     {
       "n": 126,
@@ -1432,8 +1432,8 @@
         "Thanksgiving Day",
         "Christmas Day"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Назвіть три федеральні свята США.",
+      "ukrainian_explanation": "Наприклад, Новий рік, День незалежності та День подяки. Потрібно назвати три свята з офіційного переліку."
     },
     {
       "n": 127,
@@ -1441,8 +1441,8 @@
       "english_official_answers": [
         "A holiday to honor soldiers who died in military service"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що таке Memorial Day (День пам’яті)?",
+      "ukrainian_explanation": "День ушанування військовослужбовців, які загинули під час служби."
     },
     {
       "n": 128,
@@ -1451,8 +1451,8 @@
         "A holiday to honor people in the (U.S.) military",
         "A holiday to honor people who have served (in the U.S. military)"
       ],
-      "ukrainian_question": null,
-      "ukrainian_explanation": null
+      "ukrainian_question": "Що таке Veterans Day (День ветеранів)?",
+      "ukrainian_explanation": "День ушанування людей, які служили у Збройних силах США."
     }
   ]
 }
