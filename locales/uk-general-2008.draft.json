@@ -1,0 +1,714 @@
+{
+  "locale": "uk",
+  "language": "Українська",
+  "exam": "2008",
+  "track": "general",
+  "status": "complete-draft-not-reviewed-by-native-speaker",
+  "references": [
+    "https://www.uscis.gov/sites/default/files/document/questions-and-answers/OoC_100_Questions_2008_Civics_Test_Large_V1.pdf",
+    "https://usahello.org/wp-content/uploads/2025/05/Ukrainian-English-Ukrainian-English-100-civics-test-questions.pdf"
+  ],
+  "notes_es": "Traducción de apoyo original al ucraniano; utilizar el banco inglés como fuente única de preguntas oficiales y respuestas aceptadas. No activar públicamente hasta auditar todos los paquetes.",
+  "items": [
+    {
+      "n": 1,
+      "english_question": "What is the supreme law of the land?",
+      "english_official_answers": "the Constitution",
+      "ukrainian_question": "Який найвищий закон країни?",
+      "ukrainian_explanation": "Конституція США — найвищий закон держави."
+    },
+    {
+      "n": 2,
+      "english_question": "What does the Constitution do?",
+      "english_official_answers": "sets up the government; defines the government; protects basic rights of Americans",
+      "ukrainian_question": "Що встановлює Конституція?",
+      "ukrainian_explanation": "Вона визначає структуру й повноваження уряду та захищає основні права людей."
+    },
+    {
+      "n": 3,
+      "english_question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "english_official_answers": "We the People",
+      "ukrainian_question": "Ідея самоврядування міститься в перших трьох словах Конституції. Які це слова?",
+      "ukrainian_explanation": "«We the People» («Ми, народ») означає, що влада уряду походить від народу."
+    },
+    {
+      "n": 4,
+      "english_question": "What is an amendment?",
+      "english_official_answers": "a change to the Constitution; an addition to the Constitution",
+      "ukrainian_question": "Що таке поправка до Конституції?",
+      "ukrainian_explanation": "Поправка — це зміна або доповнення до Конституції."
+    },
+    {
+      "n": 5,
+      "english_question": "What do we call the first ten amendments to the Constitution?",
+      "english_official_answers": "the Bill of Rights",
+      "ukrainian_question": "Як називаються перші десять поправок до Конституції?",
+      "ukrainian_explanation": "Білль про права (Bill of Rights)."
+    },
+    {
+      "n": 6,
+      "english_question": "What is one right or freedom from the First Amendment?",
+      "english_official_answers": "speech; religion; assembly; press; petition the government",
+      "ukrainian_question": "Назвіть одне право або свободу, які гарантує Перша поправка.",
+      "ukrainian_explanation": "Свобода слова, релігії, зібрань, преси або право звертатися з петиціями до уряду."
+    },
+    {
+      "n": 7,
+      "english_question": "How many amendments does the Constitution have?",
+      "english_official_answers": "twenty-seven (27)",
+      "ukrainian_question": "Скільки поправок має Конституція?",
+      "ukrainian_explanation": "До Конституції США ратифіковано 27 поправок."
+    },
+    {
+      "n": 8,
+      "english_question": "What did the Declaration of Independence do?",
+      "english_official_answers": "announced our independence from Great Britain; declared our independence from Great Britain; said that the United States is free from Great Britain",
+      "ukrainian_question": "Що проголосила Декларація незалежності?",
+      "ukrainian_explanation": "Вона оголосила незалежність американських колоній від Великої Британії."
+    },
+    {
+      "n": 9,
+      "english_question": "What are two rights in the Declaration of Independence?",
+      "english_official_answers": "life; liberty; pursuit of happiness",
+      "ukrainian_question": "Назвіть два права, згадані в Декларації незалежності.",
+      "ukrainian_explanation": "Право на життя, свободу та прагнення до щастя. Назвіть два з них."
+    },
+    {
+      "n": 10,
+      "english_question": "What is freedom of religion?",
+      "english_official_answers": "You can practice any religion, or not practice a religion.",
+      "ukrainian_question": "Що означає свобода віросповідання?",
+      "ukrainian_explanation": "Люди можуть сповідувати будь-яку релігію або не сповідувати жодної."
+    },
+    {
+      "n": 11,
+      "english_question": "What is the economic system in the United States?",
+      "english_official_answers": "capitalist economy; market economy",
+      "ukrainian_question": "Яка економічна система діє у Сполучених Штатах?",
+      "ukrainian_explanation": "Капіталістична економіка або ринкова економіка."
+    },
+    {
+      "n": 12,
+      "english_question": "What is the “rule of law”?",
+      "english_official_answers": "Everyone must follow the law; Leaders must obey the law; Government must obey the law; No one is above the law",
+      "ukrainian_question": "Що означає «верховенство права»?",
+      "ukrainian_explanation": "Усі, зокрема керівники держави та уряд, повинні дотримуватися закону; ніхто не стоїть над ним."
+    },
+    {
+      "n": 13,
+      "english_question": "Name one branch or part of the government.",
+      "english_official_answers": "Congress; legislative; President; executive; the courts; judicial",
+      "ukrainian_question": "Назвіть одну гілку або частину уряду.",
+      "ukrainian_explanation": "Конгрес (законодавча гілка), Президент (виконавча гілка) або суди (судова гілка)."
+    },
+    {
+      "n": 14,
+      "english_question": "What stops one branch of government from becoming too powerful?",
+      "english_official_answers": "checks and balances; separation of powers",
+      "ukrainian_question": "Що не дозволяє одній гілці влади стати надто могутньою?",
+      "ukrainian_explanation": "Поділ влади та система стримувань і противаг."
+    },
+    {
+      "n": 15,
+      "english_question": "Who is in charge of the executive branch?",
+      "english_official_answers": "the President",
+      "ukrainian_question": "Хто очолює виконавчу гілку влади?",
+      "ukrainian_explanation": "Президент США."
+    },
+    {
+      "n": 16,
+      "english_question": "Who makes federal laws?",
+      "english_official_answers": "Congress; Senate and House of Representatives; U.S. legislature",
+      "ukrainian_question": "Хто ухвалює федеральні закони?",
+      "ukrainian_explanation": "Конгрес США, який складається із Сенату та Палати представників."
+    },
+    {
+      "n": 17,
+      "english_question": "What are the two parts of the U.S. Congress?",
+      "english_official_answers": "the Senate and House of Representatives",
+      "ukrainian_question": "З яких двох частин складається Конгрес США?",
+      "ukrainian_explanation": "Із Сенату та Палати представників."
+    },
+    {
+      "n": 18,
+      "english_question": "How many U.S. Senators are there?",
+      "english_official_answers": "one hundred (100)",
+      "ukrainian_question": "Скільки сенаторів США є в Конгресі?",
+      "ukrainian_explanation": "100 сенаторів: по два від кожного з 50 штатів."
+    },
+    {
+      "n": 19,
+      "english_question": "We elect a U.S. Senator for how many years?",
+      "english_official_answers": "six (6)",
+      "ukrainian_question": "На скільки років обирають сенатора США?",
+      "ukrainian_explanation": "На шість років."
+    },
+    {
+      "n": 20,
+      "english_question": "Who is one of your state’s U.S. Senators now?",
+      "english_official_answers": "Answers vary by state. Check the current U.S. Senate list.",
+      "ukrainian_question": "Назвіть одного з чинних сенаторів США від вашого штату.",
+      "ukrainian_explanation": "Відповідь залежить від штату. Перевірте чинних сенаторів; округ Колумбія й території США не мають федеральних сенаторів."
+    },
+    {
+      "n": 21,
+      "english_question": "The House of Representatives has how many voting members?",
+      "english_official_answers": "four hundred thirty-five (435)",
+      "ukrainian_question": "Скільки членів Палати представників мають право голосу?",
+      "ukrainian_explanation": "435 членів із правом голосу."
+    },
+    {
+      "n": 22,
+      "english_question": "We elect a U.S. Representative for how many years?",
+      "english_official_answers": "two (2)",
+      "ukrainian_question": "На скільки років обирають члена Палати представників США?",
+      "ukrainian_explanation": "На два роки."
+    },
+    {
+      "n": 23,
+      "english_question": "Name your U.S. Representative.",
+      "english_official_answers": "Answers vary by congressional district. Check the U.S. House of Representatives.",
+      "ukrainian_question": "Назвіть свого представника в Палаті представників США.",
+      "ukrainian_explanation": "Відповідь залежить від вашого виборчого округу. Перевірте ім’я чинного представника або відповідний виняток для території."
+    },
+    {
+      "n": 24,
+      "english_question": "Who does a U.S. Senator represent?",
+      "english_official_answers": "all people of the state",
+      "ukrainian_question": "Кого представляє сенатор США?",
+      "ukrainian_explanation": "Усіх жителів свого штату."
+    },
+    {
+      "n": 25,
+      "english_question": "Why do some states have more Representatives than other states?",
+      "english_official_answers": "because of the state's population; because they have more people; because some states have more people",
+      "ukrainian_question": "Чому деякі штати мають більше представників, ніж інші?",
+      "ukrainian_explanation": "Кількість представників залежить від населення штату."
+    },
+    {
+      "n": 26,
+      "english_question": "We elect a President for how many years?",
+      "english_official_answers": "four (4)",
+      "ukrainian_question": "На скільки років обирають Президента США?",
+      "ukrainian_explanation": "На чотири роки."
+    },
+    {
+      "n": 27,
+      "english_question": "In what month do we vote for President?",
+      "english_official_answers": "November",
+      "ukrainian_question": "У якому місяці ми голосуємо за Президента?",
+      "ukrainian_explanation": "У листопаді."
+    },
+    {
+      "n": 28,
+      "english_question": "What is the name of the President of the United States now?",
+      "english_official_answers": "Donald J. Trump; Donald Trump; Trump",
+      "ukrainian_question": "Як звати чинного Президента Сполучених Штатів?",
+      "ukrainian_explanation": "Ім’я Президента може змінюватися. Перевірте актуальну відповідь перед співбесідою."
+    },
+    {
+      "n": 29,
+      "english_question": "What is the name of the Vice President of the United States now?",
+      "english_official_answers": "JD Vance; Vance",
+      "ukrainian_question": "Як звати чинного Віцепрезидента Сполучених Штатів?",
+      "ukrainian_explanation": "Перевірте ім’я посадовця, який обіймає цю посаду на день співбесіди."
+    },
+    {
+      "n": 30,
+      "english_question": "If the President can no longer serve, who becomes President?",
+      "english_official_answers": "the Vice President",
+      "ukrainian_question": "Хто стає Президентом, якщо Президент більше не може виконувати свої обов’язки?",
+      "ukrainian_explanation": "Віцепрезидент."
+    },
+    {
+      "n": 31,
+      "english_question": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "english_official_answers": "the Speaker of the House",
+      "ukrainian_question": "Хто стає Президентом, якщо ні Президент, ні Віцепрезидент не можуть виконувати свої обов’язки?",
+      "ukrainian_explanation": "Спікер Палати представників."
+    },
+    {
+      "n": 32,
+      "english_question": "Who is the Commander in Chief of the military?",
+      "english_official_answers": "the President",
+      "ukrainian_question": "Хто є головнокомандувачем збройних сил?",
+      "ukrainian_explanation": "Президент США."
+    },
+    {
+      "n": 33,
+      "english_question": "Who signs bills to become laws?",
+      "english_official_answers": "the President",
+      "ukrainian_question": "Хто підписує законопроєкти, щоб вони стали законами?",
+      "ukrainian_explanation": "Президент."
+    },
+    {
+      "n": 34,
+      "english_question": "Who vetoes bills?",
+      "english_official_answers": "the President",
+      "ukrainian_question": "Хто накладає вето на законопроєкти?",
+      "ukrainian_explanation": "Президент може відхилити законопроєкт, наклавши вето."
+    },
+    {
+      "n": 35,
+      "english_question": "What does the President’s Cabinet do?",
+      "english_official_answers": "advises the President",
+      "ukrainian_question": "Що робить Кабінет Президента?",
+      "ukrainian_explanation": "Радить Президенту з питань роботи уряду."
+    },
+    {
+      "n": 36,
+      "english_question": "What are two Cabinet-level positions?",
+      "english_official_answers": "Secretary of Agriculture; Secretary of Commerce; Secretary of Defense; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Attorney General; Vice President",
+      "ukrainian_question": "Назвіть дві посади на рівні Кабінету Президента.",
+      "ukrainian_explanation": "Наприклад, Державний секретар і Міністр фінансів США."
+    },
+    {
+      "n": 37,
+      "english_question": "What does the judicial branch do?",
+      "english_official_answers": "reviews laws; explains laws; resolves disputes; decides if a law goes against the Constitution",
+      "ukrainian_question": "Що робить судова гілка влади?",
+      "ukrainian_explanation": "Тлумачить закони, розв’язує суперечки та перевіряє їх відповідність Конституції."
+    },
+    {
+      "n": 38,
+      "english_question": "What is the highest court in the United States?",
+      "english_official_answers": "the Supreme Court",
+      "ukrainian_question": "Який найвищий суд у Сполучених Штатах?",
+      "ukrainian_explanation": "Верховний суд США."
+    },
+    {
+      "n": 39,
+      "english_question": "How many justices are on the Supreme Court?",
+      "english_official_answers": "nine (9)",
+      "ukrainian_question": "Скільки суддів у Верховному суді США?",
+      "ukrainian_explanation": "Дев’ять суддів. Якщо склад Суду зміниться, перевірте актуальну інформацію."
+    },
+    {
+      "n": 40,
+      "english_question": "Who is the Chief Justice of the United States now?",
+      "english_official_answers": "John Roberts; John G. Roberts, Jr.",
+      "ukrainian_question": "Хто зараз є Головою Верховного суду США?",
+      "ukrainian_explanation": "Ім’я Голови може змінитися. Перевірте чинного посадовця перед співбесідою."
+    },
+    {
+      "n": 41,
+      "english_question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "english_official_answers": "to print money; to declare war; to create an army; to make treaties",
+      "ukrainian_question": "За Конституцією деякі повноваження належать федеральному уряду. Назвіть одне з них.",
+      "ukrainian_explanation": "Наприклад, оголошувати війну, карбувати гроші або укладати договори з іншими державами."
+    },
+    {
+      "n": 42,
+      "english_question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "english_official_answers": "provide schooling and education; provide protection (police); provide safety (fire departments); give a driver's license; approve zoning and land use",
+      "ukrainian_question": "За Конституцією деякі повноваження належать штатам. Назвіть одне з них.",
+      "ukrainian_explanation": "Наприклад, організовувати освіту, роботу поліції або видавати водійські посвідчення."
+    },
+    {
+      "n": 43,
+      "english_question": "Who is the Governor of your state now?",
+      "english_official_answers": "Answers vary by state. Check your state government.",
+      "ukrainian_question": "Хто зараз є губернатором вашого штату?",
+      "ukrainian_explanation": "Відповідь залежить від штату проживання. У Вашингтоні, округ Колумбія, немає губернатора штату."
+    },
+    {
+      "n": 44,
+      "english_question": "What is the capital of your state?",
+      "english_official_answers": "Answers vary by state. Check your state government.",
+      "ukrainian_question": "Яка столиця вашого штату?",
+      "ukrainian_explanation": "Назвіть столицю свого штату. Для округу Колумбія й територій діють особливі правила відповіді."
+    },
+    {
+      "n": 45,
+      "english_question": "What are the two major political parties in the United States?",
+      "english_official_answers": "Democratic and Republican",
+      "ukrainian_question": "Які дві головні політичні партії існують у США?",
+      "ukrainian_explanation": "Демократична та Республіканська партії."
+    },
+    {
+      "n": 46,
+      "english_question": "What is the political party of the President now?",
+      "english_official_answers": "Republican (Party)",
+      "ukrainian_question": "До якої політичної партії належить чинний Президент?",
+      "ukrainian_explanation": "Партія Президента може змінитися після виборів. Перевірте актуальні відомості."
+    },
+    {
+      "n": 47,
+      "english_question": "What is the name of the Speaker of the House of Representatives now?",
+      "english_official_answers": "Mike Johnson; Johnson; James Michael Johnson",
+      "ukrainian_question": "Як звати чинного Спікера Палати представників?",
+      "ukrainian_explanation": "Перевірте ім’я чинного Спікера перед співбесідою."
+    },
+    {
+      "n": 48,
+      "english_question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "english_official_answers": "Citizens eighteen (18) and older can vote; You don't have to pay a poll tax to vote; Any citizen can vote (women and men); A male citizen of any race can vote",
+      "ukrainian_question": "Чотири поправки до Конституції стосуються права голосу. Опишіть одну з них.",
+      "ukrainian_explanation": "Наприклад, громадяни віком від 18 років мають право голосувати; заборонено обмежувати виборче право за ознакою статі або раси."
+    },
+    {
+      "n": 49,
+      "english_question": "What is one responsibility that is only for United States citizens?",
+      "english_official_answers": "serve on a jury; vote in a federal election",
+      "ukrainian_question": "Назвіть один обов’язок, який мають лише громадяни США.",
+      "ukrainian_explanation": "Участь у суді присяжних або голосування на федеральних виборах."
+    },
+    {
+      "n": 50,
+      "english_question": "Name one right only for United States citizens.",
+      "english_official_answers": "vote in a federal election; run for federal office",
+      "ukrainian_question": "Назвіть одне право, яке мають лише громадяни США.",
+      "ukrainian_explanation": "Голосування на федеральних виборах або право балотуватися на певні федеральні посади."
+    },
+    {
+      "n": 51,
+      "english_question": "What are two rights of everyone living in the United States?",
+      "english_official_answers": "freedom of expression; freedom of speech; freedom of assembly; freedom to petition the government; freedom of religion; the right to bear arms",
+      "ukrainian_question": "Назвіть два права кожної людини, яка живе у США.",
+      "ukrainian_explanation": "Наприклад, свобода слова та свобода віросповідання. Назвіть два права."
+    },
+    {
+      "n": 52,
+      "english_question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "english_official_answers": "the United States; the flag",
+      "ukrainian_question": "Кому ми висловлюємо вірність, промовляючи Клятву вірності?",
+      "ukrainian_explanation": "Сполученим Штатам Америки або прапору США."
+    },
+    {
+      "n": 53,
+      "english_question": "What is one promise you make when you become a United States citizen?",
+      "english_official_answers": "give up loyalty to other countries; defend the Constitution and laws of the United States; obey the laws of the United States; serve in the U.S. military if needed; serve the nation if needed; be loyal to the United States",
+      "ukrainian_question": "Назвіть одну обіцянку, яку ви даєте, стаючи громадянином США.",
+      "ukrainian_explanation": "Наприклад, дотримуватися законів США або захищати Конституцію."
+    },
+    {
+      "n": 54,
+      "english_question": "How old do citizens have to be to vote for President?",
+      "english_official_answers": "eighteen (18) and older",
+      "ukrainian_question": "З якого віку громадяни можуть голосувати на виборах Президента?",
+      "ukrainian_explanation": "З 18 років."
+    },
+    {
+      "n": 55,
+      "english_question": "What are two ways that Americans can participate in their democracy?",
+      "english_official_answers": "vote; join a political party; help with a campaign; join a civic group; join a community group; give an elected official your opinion; call Senators and Representatives; publicly support or oppose an issue or policy; run for office; write to a newspaper",
+      "ukrainian_question": "Назвіть два способи, якими американці можуть брати участь у демократії.",
+      "ukrainian_explanation": "Наприклад, голосувати та звертатися до обраних представників."
+    },
+    {
+      "n": 56,
+      "english_question": "When is the last day you can send in federal income tax forms?",
+      "english_official_answers": "April 15",
+      "ukrainian_question": "Коли зазвичай останній день подання федеральної декларації про прибутковий податок?",
+      "ukrainian_explanation": "Навчальна відповідь — 15 квітня; фактичний податковий строк іноді може змінюватися."
+    },
+    {
+      "n": 57,
+      "english_question": "When must all men register for the Selective Service?",
+      "english_official_answers": "at age eighteen (18); between eighteen (18) and twenty-six (26)",
+      "ukrainian_question": "Коли чоловіки повинні реєструватися в Службі військового обліку Selective Service?",
+      "ukrainian_explanation": "За навчальним переліком USCIS: у 18 років або у віці від 18 до 26 років."
+    },
+    {
+      "n": 58,
+      "english_question": "What is one reason colonists came to America?",
+      "english_official_answers": "freedom; political liberty; religious freedom; economic opportunity; practice their religion; escape persecution",
+      "ukrainian_question": "Назвіть одну причину, чому колоністи прибули до Америки.",
+      "ukrainian_explanation": "Наприклад, релігійна чи політична свобода, економічні можливості або втеча від переслідувань."
+    },
+    {
+      "n": 59,
+      "english_question": "Who lived in America before the Europeans arrived?",
+      "english_official_answers": "American Indians; Native Americans",
+      "ukrainian_question": "Хто жив в Америці до прибуття європейців?",
+      "ukrainian_explanation": "Корінні народи Америки."
+    },
+    {
+      "n": 60,
+      "english_question": "What group of people was taken to America and sold as slaves?",
+      "english_official_answers": "Africans; people from Africa",
+      "ukrainian_question": "Яку групу людей привозили до Америки й продавали в рабство?",
+      "ukrainian_explanation": "Африканців, яких примусово перевозили та поневолювали."
+    },
+    {
+      "n": 61,
+      "english_question": "Why did the colonists fight the British?",
+      "english_official_answers": "because of high taxes (taxation without representation); because the British army stayed in their houses; because they didn't have self-government",
+      "ukrainian_question": "Чому колоністи боролися проти британців?",
+      "ukrainian_explanation": "Наприклад, через податки без представництва у владі або відсутність самоврядування."
+    },
+    {
+      "n": 62,
+      "english_question": "Who wrote the Declaration of Independence?",
+      "english_official_answers": "Thomas Jefferson",
+      "ukrainian_question": "Хто написав Декларацію незалежності?",
+      "ukrainian_explanation": "Томас Джефферсон був головним автором документа."
+    },
+    {
+      "n": 63,
+      "english_question": "When was the Declaration of Independence adopted?",
+      "english_official_answers": "July 4, 1776",
+      "ukrainian_question": "Коли ухвалили Декларацію незалежності?",
+      "ukrainian_explanation": "4 липня 1776 року."
+    },
+    {
+      "n": 64,
+      "english_question": "There were 13 original states. Name three.",
+      "english_official_answers": "New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia",
+      "ukrainian_question": "Спочатку було 13 штатів. Назвіть три з них.",
+      "ukrainian_explanation": "Наприклад, Нью-Йорк, Пенсильванія та Джорджія. Підійдуть будь-які три з початкових 13 штатів."
+    },
+    {
+      "n": 65,
+      "english_question": "What happened at the Constitutional Convention?",
+      "english_official_answers": "The Constitution was written; The Founding Fathers wrote the Constitution",
+      "ukrainian_question": "Що відбулося на Конституційному конвенті?",
+      "ukrainian_explanation": "На ньому підготували текст Конституції США."
+    },
+    {
+      "n": 66,
+      "english_question": "When was the Constitution written?",
+      "english_official_answers": "1787",
+      "ukrainian_question": "У якому році написали Конституцію?",
+      "ukrainian_explanation": "У 1787 році."
+    },
+    {
+      "n": 67,
+      "english_question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "english_official_answers": "James Madison; Alexander Hamilton; John Jay; Publius",
+      "ukrainian_question": "«Федералістські статті» підтримували ухвалення Конституції США. Назвіть одного з авторів.",
+      "ukrainian_explanation": "Джеймс Медісон, Александр Гамільтон або Джон Джей."
+    },
+    {
+      "n": 68,
+      "english_question": "What is one thing Benjamin Franklin is famous for?",
+      "english_official_answers": "U.S. diplomat; oldest member of the Constitutional Convention; first Postmaster General of the United States; writer of Poor Richard's Almanac; started the first free libraries",
+      "ukrainian_question": "Назвіть одну річ, якою відомий Бенджамін Франклін.",
+      "ukrainian_explanation": "Наприклад, дипломатичною діяльністю, письменництвом або заснуванням громадських бібліотек."
+    },
+    {
+      "n": 69,
+      "english_question": "Who is the “Father of Our Country”?",
+      "english_official_answers": "George Washington",
+      "ukrainian_question": "Кого називають «Батьком нашої країни»?",
+      "ukrainian_explanation": "Джорджа Вашингтона."
+    },
+    {
+      "n": 70,
+      "english_question": "Who was the first President?",
+      "english_official_answers": "George Washington",
+      "ukrainian_question": "Хто був першим Президентом США?",
+      "ukrainian_explanation": "Джордж Вашингтон."
+    },
+    {
+      "n": 71,
+      "english_question": "What territory did the United States buy from France in 1803?",
+      "english_official_answers": "the Louisiana Territory; Louisiana",
+      "ukrainian_question": "Яку територію США придбали у Франції в 1803 році?",
+      "ukrainian_explanation": "Луїзіанську територію."
+    },
+    {
+      "n": 72,
+      "english_question": "Name one war fought by the United States in the 1800s.",
+      "english_official_answers": "War of 1812; Mexican-American War; Civil War; Spanish-American War",
+      "ukrainian_question": "Назвіть одну війну, у якій США брали участь у XIX столітті.",
+      "ukrainian_explanation": "Наприклад, війну 1812 року або Громадянську війну в США."
+    },
+    {
+      "n": 73,
+      "english_question": "Name the U.S. war between the North and the South.",
+      "english_official_answers": "the Civil War; the War between the States",
+      "ukrainian_question": "Як називається війна у США між Північчю та Півднем?",
+      "ukrainian_explanation": "Громадянська війна в США."
+    },
+    {
+      "n": 74,
+      "english_question": "Name one problem that led to the Civil War.",
+      "english_official_answers": "slavery; economic reasons; states' rights",
+      "ukrainian_question": "Назвіть одну проблему, що призвела до Громадянської війни.",
+      "ukrainian_explanation": "Наприклад, рабство, права штатів або економічні причини."
+    },
+    {
+      "n": 75,
+      "english_question": "What was one important thing that Abraham Lincoln did?",
+      "english_official_answers": "freed the slaves (Emancipation Proclamation); saved or preserved the Union; led the United States during the Civil War",
+      "ukrainian_question": "Назвіть одну важливу справу Авраама Лінкольна.",
+      "ukrainian_explanation": "Звільнення поневолених людей, збереження Союзу або керівництво державою під час Громадянської війни."
+    },
+    {
+      "n": 76,
+      "english_question": "What did the Emancipation Proclamation do?",
+      "english_official_answers": "freed the slaves; freed slaves in the Confederacy; freed slaves in the Confederate states; freed slaves in most Southern states",
+      "ukrainian_question": "Що проголосила Прокламація про звільнення рабів?",
+      "ukrainian_explanation": "Вона оголосила свободу поневоленим людям у районах Конфедерації, що повстали; це не означало негайного скасування рабства в усій країні."
+    },
+    {
+      "n": 77,
+      "english_question": "What did Susan B. Anthony do?",
+      "english_official_answers": "fought for women's rights; fought for civil rights",
+      "ukrainian_question": "Що зробила Сьюзен Б. Ентоні?",
+      "ukrainian_explanation": "Боролася за права жінок, зокрема за виборче право."
+    },
+    {
+      "n": 78,
+      "english_question": "Name one war fought by the United States in the 1900s.",
+      "english_official_answers": "World War I; World War II; Korean War; Vietnam War; Persian Gulf War",
+      "ukrainian_question": "Назвіть одну війну, у якій США брали участь у XX столітті.",
+      "ukrainian_explanation": "Наприклад, Першу світову, Другу світову, Корейську, В’єтнамську або війну в Перській затоці."
+    },
+    {
+      "n": 79,
+      "english_question": "Who was President during World War I?",
+      "english_official_answers": "Woodrow Wilson",
+      "ukrainian_question": "Хто був Президентом під час Першої світової війни?",
+      "ukrainian_explanation": "Вудро Вільсон."
+    },
+    {
+      "n": 80,
+      "english_question": "Who was President during the Great Depression and World War II?",
+      "english_official_answers": "Franklin Roosevelt",
+      "ukrainian_question": "Хто був Президентом під час Великої депресії та Другої світової війни?",
+      "ukrainian_explanation": "Франклін Д. Рузвельт."
+    },
+    {
+      "n": 81,
+      "english_question": "Who did the United States fight in World War II?",
+      "english_official_answers": "Japan, Germany, and Italy",
+      "ukrainian_question": "З ким воювали Сполучені Штати під час Другої світової війни?",
+      "ukrainian_explanation": "З Японією, Німеччиною та Італією."
+    },
+    {
+      "n": 82,
+      "english_question": "Before he was President, Eisenhower was a general. What war was he in?",
+      "english_official_answers": "World War II",
+      "ukrainian_question": "До президентства Ейзенхауер був генералом. У якій війні він брав участь?",
+      "ukrainian_explanation": "У Другій світовій війні."
+    },
+    {
+      "n": 83,
+      "english_question": "During the Cold War, what was the main concern of the United States?",
+      "english_official_answers": "Communism",
+      "ukrainian_question": "Що найбільше турбувало США під час Холодної війни?",
+      "ukrainian_explanation": "Комунізм."
+    },
+    {
+      "n": 84,
+      "english_question": "What movement tried to end racial discrimination?",
+      "english_official_answers": "civil rights movement",
+      "ukrainian_question": "Який рух намагався покласти край расовій дискримінації?",
+      "ukrainian_explanation": "Рух за громадянські права."
+    },
+    {
+      "n": 85,
+      "english_question": "What did Martin Luther King, Jr. do?",
+      "english_official_answers": "fought for civil rights; worked for equality for all Americans",
+      "ukrainian_question": "Що зробив Мартін Лютер Кінг-молодший?",
+      "ukrainian_explanation": "Боровся за громадянські права та рівність усіх американців."
+    },
+    {
+      "n": 86,
+      "english_question": "What major event happened on September 11, 2001, in the United States?",
+      "english_official_answers": "Terrorists attacked the United States",
+      "ukrainian_question": "Яка важлива подія сталася у США 11 вересня 2001 року?",
+      "ukrainian_explanation": "Терористичні напади на Сполучені Штати."
+    },
+    {
+      "n": 87,
+      "english_question": "Name one American Indian tribe in the United States.",
+      "english_official_answers": "Cherokee; Navajo; Sioux; Chippewa; Choctaw; Pueblo; Apache; Iroquois; Creek; Blackfeet; Seminole; Cheyenne; Arawak; Shawnee; Mohegan; Huron; Oneida; Lakota; Crow; Teton; Hopi; Inuit",
+      "ukrainian_question": "Назвіть одне плем’я корінних американців у США.",
+      "ukrainian_explanation": "Наприклад, черокі або навахо. Достатньо назвати одне плем’я."
+    },
+    {
+      "n": 88,
+      "english_question": "Name one of the two longest rivers in the United States.",
+      "english_official_answers": "Missouri River; Mississippi River",
+      "ukrainian_question": "Назвіть одну з двох найдовших річок США.",
+      "ukrainian_explanation": "Міссісіпі або Міссурі."
+    },
+    {
+      "n": 89,
+      "english_question": "What ocean is on the West Coast of the United States?",
+      "english_official_answers": "Pacific Ocean",
+      "ukrainian_question": "Який океан омиває західне узбережжя США?",
+      "ukrainian_explanation": "Тихий океан."
+    },
+    {
+      "n": 90,
+      "english_question": "What ocean is on the East Coast of the United States?",
+      "english_official_answers": "Atlantic Ocean",
+      "ukrainian_question": "Який океан омиває східне узбережжя США?",
+      "ukrainian_explanation": "Атлантичний океан."
+    },
+    {
+      "n": 91,
+      "english_question": "Name one U.S. territory.",
+      "english_official_answers": "Puerto Rico; U.S. Virgin Islands; American Samoa; Northern Mariana Islands; Guam",
+      "ukrainian_question": "Назвіть одну територію США.",
+      "ukrainian_explanation": "Наприклад, Пуерто-Рико, Гуам або Американські Віргінські острови."
+    },
+    {
+      "n": 92,
+      "english_question": "Name one state that borders Canada.",
+      "english_official_answers": "Maine; New Hampshire; Vermont; New York; Pennsylvania; Ohio; Michigan; Minnesota; North Dakota; Montana; Idaho; Washington; Alaska",
+      "ukrainian_question": "Назвіть один штат, який межує з Канадою.",
+      "ukrainian_explanation": "Наприклад, Нью-Йорк, Мічиган або Аляска."
+    },
+    {
+      "n": 93,
+      "english_question": "Name one state that borders Mexico.",
+      "english_official_answers": "California; Arizona; New Mexico; Texas",
+      "ukrainian_question": "Назвіть один штат, який межує з Мексикою.",
+      "ukrainian_explanation": "Каліфорнія, Аризона, Нью-Мексико або Техас."
+    },
+    {
+      "n": 94,
+      "english_question": "What is the capital of the United States?",
+      "english_official_answers": "Washington, D.C.",
+      "ukrainian_question": "Яка столиця Сполучених Штатів?",
+      "ukrainian_explanation": "Вашингтон, округ Колумбія."
+    },
+    {
+      "n": 95,
+      "english_question": "Where is the Statue of Liberty?",
+      "english_official_answers": "New York Harbor; Liberty Island; New Jersey; near New York City; Hudson River",
+      "ukrainian_question": "Де розташована Статуя Свободи?",
+      "ukrainian_explanation": "На острові Свободи в Нью-Йоркській гавані; USCIS приймає також деякі інші описи місця."
+    },
+    {
+      "n": 96,
+      "english_question": "Why does the flag have 13 stripes?",
+      "english_official_answers": "because there were 13 original colonies; because the stripes represent the original colonies",
+      "ukrainian_question": "Чому на прапорі США 13 смуг?",
+      "ukrainian_explanation": "Вони символізують початкові 13 колоній."
+    },
+    {
+      "n": 97,
+      "english_question": "Why does the flag have 50 stars?",
+      "english_official_answers": "because there is one star for each state; because each star represents a state; because there are 50 states",
+      "ukrainian_question": "Чому на прапорі США 50 зірок?",
+      "ukrainian_explanation": "По одній зірці на кожний із 50 штатів."
+    },
+    {
+      "n": 98,
+      "english_question": "What is the name of the national anthem?",
+      "english_official_answers": "The Star-Spangled Banner",
+      "ukrainian_question": "Як називається державний гімн США?",
+      "ukrainian_explanation": "«The Star-Spangled Banner»."
+    },
+    {
+      "n": 99,
+      "english_question": "When do we celebrate Independence Day?",
+      "english_official_answers": "July 4",
+      "ukrainian_question": "Коли святкують День незалежності США?",
+      "ukrainian_explanation": "4 липня."
+    },
+    {
+      "n": 100,
+      "english_question": "Name two national U.S. holidays.",
+      "english_official_answers": "New Year's Day; Martin Luther King, Jr. Day; Presidents' Day; Memorial Day; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving; Christmas",
+      "ukrainian_question": "Назвіть два федеральні свята США.",
+      "ukrainian_explanation": "Наприклад, Новий рік і День незалежності. Назвіть два свята з офіційного переліку."
+    }
+  ]
+}
