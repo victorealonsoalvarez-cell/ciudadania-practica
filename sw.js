@@ -1,4 +1,4 @@
-const CACHE='ciudadania-practica-v8-20261118-vietnamese-release';
+const CACHE='ciudadania-practica-v9-20261122-ukrainian-announcement';
 const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./locales/vi-packs.js','./locales/vi-ui.js'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
