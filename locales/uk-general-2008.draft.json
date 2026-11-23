@@ -49,7 +49,7 @@
       "n": 6,
       "english_question": "What is one right or freedom from the First Amendment?",
       "english_official_answers": "speech; religion; assembly; press; petition the government",
-      "ukrainian_question": "Назвіть одне право або свободу, які гарантує Перша поправка.",
+      "ukrainian_question": "Назвіть одне право або одну свободу, гарантовану Першою поправкою.",
       "ukrainian_explanation": "Свобода слова, релігії, зібрань, преси або право звертатися з петиціями до уряду."
     },
     {
@@ -407,7 +407,7 @@
       "english_question": "When must all men register for the Selective Service?",
       "english_official_answers": "at age eighteen (18); between eighteen (18) and twenty-six (26)",
       "ukrainian_question": "Коли чоловіки повинні реєструватися в Службі військового обліку Selective Service?",
-      "ukrainian_explanation": "За навчальним переліком USCIS: у 18 років або у віці від 18 до 26 років."
+      "ukrainian_explanation": "USCIS приймає відповіді: «у 18 років» або «від 18 до 26 років». Перевірте правила реєстрації, якщо вони стосуються вашої ситуації."
     },
     {
       "n": 58,
