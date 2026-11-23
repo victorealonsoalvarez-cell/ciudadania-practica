@@ -2,7 +2,7 @@
   "project": "Ciudadanía Práctica",
   "locale": "uk",
   "language": "Українська",
-  "status": "full-draft-staged-private-preview-not-public",
+  "status": "editorial-and-static-audit-completed-preview-awaiting-functional-tests",
   "date": "2026-11-21",
   "principle": "Reuse canonical English USCIS questions and answers, current officeholder and location rules, English audio, existing application logic; add support translations separately.",
   "packages": [
@@ -80,7 +80,10 @@
     "preview_js_syntax": "passed",
     "browser_functional_testing": "not-run",
     "independent_native_language_review": "not-done",
-    "site_publication": "not-authorized"
+    "site_publication": "not-authorized",
+    "language_editorial_audit": "completed_with_caveats",
+    "native_ukrainian_review": "not-done",
+    "public_release": "not-authorized"
   },
   "releaseGates": [
     "Cross-check Ukrainian translation and educational notes question by question; prefer USCIS English if any third-party reference differs.",
@@ -89,5 +92,34 @@
     "Verify Spanish/Vietnamese regression after integration; keep original storage and PWA analytics.",
     "Publish all three packages in one release only after approval; mark beta where independent language validation is incomplete."
   ],
-  "notes": "Free public repository: this preview is accessible to anyone with the URL even though noindex. Do not include it in sitemap or announce it before verification."
+  "notes": "Free public repository: this preview is accessible to anyone with the URL even though noindex. Do not include it in sitemap or announce it before verification.",
+  "audit": {
+    "date": "2026-11-22",
+    "report": "docs/AUDITORIA_UCRANIANO_2026-11-22.md",
+    "checks": {
+      "general_2008": "100/100",
+      "general_2025": "128/128",
+      "special_2008": "20/20",
+      "special_2025": "20/20",
+      "missing_translation": 0,
+      "source_mapping": "passed",
+      "javascript_syntax": "passed",
+      "pilot_storage_isolation": "passed",
+      "public_release": "not enabled"
+    },
+    "corrections": {
+      "2008": [
+        6,
+        57
+      ],
+      "2025": [
+        29,
+        70,
+        72
+      ]
+    },
+    "native_ukrainian_review": "pending",
+    "real_browser_regression": "pending",
+    "publication_authorized": false
+  }
 }
