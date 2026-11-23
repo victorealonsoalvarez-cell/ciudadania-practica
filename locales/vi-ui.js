@@ -147,9 +147,9 @@
    if(!explicit&&browser.startsWith('en'))language='en';
   }
   const available={
-   es:{label:'ACTUALIZACIÓN',message:'Ahora disponible en vietnamita 🇻🇳 · Ayúdanos a mejorar con tus aportaciones y reportes de problemas',link:'Enviar sugerencias o reportar problemas ↗',region:'Actualización del proyecto'},
-   en:{label:'UPDATE',message:'Now available in Vietnamese 🇻🇳 · Help improve the tool with feedback or issue reports',link:'Send feedback or report an issue ↗',region:'Project update'},
-   vi:{label:'CẬP NHẬT',message:'Đã có phiên bản tiếng Việt 🇻🇳 · Hãy góp ý hoặc báo lỗi để giúp chúng tôi cải thiện',link:'Gửi góp ý hoặc báo lỗi ↗',region:'Cập nhật dự án'}
+   es:{label:'EN DESARROLLO',message:'Soporte en ucraniano en desarrollo 🇺🇦 · Comparte sugerencias o reporta problemas',link:'Enviar sugerencias o reportar problemas ↗',region:'Actualización del proyecto'},
+   en:{label:'IN DEVELOPMENT',message:'Ukrainian language support in development 🇺🇦 · Share feedback or report issues',link:'Send feedback or report an issue ↗',region:'Project update'},
+   vi:{label:'ĐANG PHÁT TRIỂN',message:'Đang phát triển hỗ trợ tiếng Ukraina 🇺🇦 · Góp ý hoặc báo lỗi',link:'Gửi góp ý hoặc báo lỗi ↗',region:'Cập nhật dự án'}
   };
   const copy=available[language];
   for(const [id,value] of [['projectUpdateLabel',copy.label],['projectUpdateMessage',copy.message],['projectUpdateRepeat',copy.message],['projectUpdateFeedback',copy.link]]){
