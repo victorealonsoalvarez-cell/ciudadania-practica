@@ -210,7 +210,7 @@
   const sum=$el('summary');
   if(sum)sum.textContent=sum.textContent.replace('Progreso:','Tiến độ:').replace(' incorrectas pendientes',' câu sai cần ôn').replace('Correctas:','Đúng:').replace('Incorrectas:','Sai:');
   const review=$el('reviewQuestions');
-  if(review)review.title=review.disabled?'Hãy đánh dấu tất cả câu trả lời trước':'Ôn lại các câu sai';
+  if(review)review.title='Ôn lại các câu sai';
   if(chosenTrack==='special')showMilestoneIfReached(false);
  };
  const originalEndReview=endReviewRound;
@@ -238,23 +238,7 @@
   originalNavigate(delta);
   if(isVi()&&wasNotRated)$el('summary').textContent='Trước tiên hãy đánh dấu câu trả lời đúng hoặc sai để tiếp tục.';
  };
- function showMilestoneIfReached(byClick){
-  const el=$el('milestone65');
-  if(!el||!isVi()||chosenTrack!=='special'||reviewOnly||roundFinished||!Array.isArray(practiceOrder)||practiceOrder.length!==20)return;
-  if(el.dataset.shown==='1'&&!byClick)return;
-  const firstTen=practiceOrder.slice(0,10);
-  const correct=firstTen.filter(i=>marks[i]==='correct').length;
-  const rated=firstTen.filter(i=>marks[i]==='correct'||marks[i]==='wrong').length;
-  if(correct>=6){
-   el.dataset.shown='1';el.classList.remove('hidden');
-   el.style.background='#eaf8ed';el.style.borderColor='#7ab68b';el.style.color='#205b34';
-   el.textContent='🎉 Chúc mừng! Bạn đã trả lời đúng ít nhất 6 trong 10 câu luyện tập đầu tiên — đạt mốc tham khảo diện 65/20. Đây chỉ là luyện tập, không phải kết quả thi chính thức. Hãy tiếp tục học!';
-  }else if(rated===10){
-   el.dataset.shown='1';el.classList.remove('hidden');
-   el.style.background='#fff5e7';el.style.borderColor='#dfb56f';el.style.color='#754b17';
-   el.textContent='Bạn đã hoàn thành 10 câu đầu với '+correct+'/10 câu đúng. Mục tiêu 65/20 là 6/10. Hãy tiếp tục học và ôn các câu khó.';
-  }
- }
+ function showMilestoneIfReached(byClick){}
  [...document.querySelectorAll('[data-mark]')].forEach(b=>b.addEventListener('click',()=>{
   if(!isVi()||mode!=='practice')return;
   showMilestoneIfReached(true);
@@ -272,17 +256,9 @@
   if(el){el.dataset.shown='';el.classList.add('hidden')}
  });
  function applyLanguage(next){
-  if(next!=='vi'&&next!=='es')return;
-  window.CP_UI_LANG=next;
+  if(!['es','vi','uk'].includes(next))return;
   try{localStorage.setItem(localeKey,next)}catch(e){}
-  const banner=$el('milestone65');
-  if(banner){banner.dataset.shown='';banner.classList.add('hidden')}
-  if(chosenBank&&!$el('study').classList.contains('hidden')){
-   // Reopen the selected bank with the other language's own marks and order.
-   if(!startStudy(false))return;
-  }
-  localizeStatic();
-  if(chosenBank&&!$el('study').classList.contains('hidden'))render();
+  location.reload();
  }
  const selector=$el('supportLanguage');
  if(selector){selector.value=window.CP_UI_LANG;selector.addEventListener('change',()=>applyLanguage(selector.value))}
