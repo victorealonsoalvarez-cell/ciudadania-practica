@@ -1,5 +1,5 @@
-const CACHE='ciudadania-practica-v9-20261122-ukrainian-announcement';
-const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./locales/vi-packs.js','./locales/vi-ui.js'];
+const CACHE='ciudadania-practica-v10-20261126-ukrainian';
+const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./locales/vi-packs.js','./locales/vi-ui.js','./locales/uk-packs.preview.js','./locales/uk-ui.js'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
 });
